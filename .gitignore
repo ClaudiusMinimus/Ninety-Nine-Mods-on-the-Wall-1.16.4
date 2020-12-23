@@ -7,6 +7,7 @@ minecraft/backups/*
 minecraft/config/*
 minecraft/crash-reports/*
 minecraft/ct_dumps/*
+minecraft/dumps/*
 minecraft/local/*
 minecraft/logs/*
 minecraft/mods*/*
