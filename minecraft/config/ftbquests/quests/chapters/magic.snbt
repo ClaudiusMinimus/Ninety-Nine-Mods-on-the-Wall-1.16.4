@@ -1,0 +1,326 @@
+{
+	id: 1404,
+	filename: "magic",
+	order_index: 9,
+	title: "Magic",
+	icon: {
+		id: "botania:pixie_ring",
+		Count: true,
+		tag: {
+			baubleUUIDMost: 7996151965223632990L,
+			baubleUUIDLeast: -8226548531356194201L
+		}
+	},
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			shape: "diamond",
+			size: 1.5d,
+			id: 1412,
+			tasks: [{
+				id: 1413,
+				type: "item",
+				item: "botania:lexicon"
+			}],
+			rewards: [{
+				id: 1546,
+				type: "item",
+				item: "botania:fertilizer",
+				count: 16
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -2.0d,
+			dependencies: [I;1412],
+			id: 1414,
+			tasks: [{
+				id: 1415,
+				type: "item",
+				item: "botania:apothecary_default"
+			}],
+			rewards: [{
+				id: 1536,
+				type: "item",
+				item: "minecraft:bucket"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -3.5d,
+			dependencies: [I;1414],
+			id: 1416,
+			tasks: [{
+				id: 1417,
+				type: "item",
+				item: "botania:pure_daisy",
+				count: 2L
+			}],
+			rewards: [{
+				id: 1537,
+				type: "item",
+				item: "botania:floating_pure_daisy",
+				count: 2
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -5.0d,
+			dependencies: [I;1416],
+			id: 1418,
+			tasks: [{
+				id: 1419,
+				type: "item",
+				item: "botania:livingwood",
+				count: 16L
+			}],
+			rewards: [
+				{
+					id: 1542,
+					type: "item",
+					item: "botania:incense_plate"
+				},
+				{
+					id: 1543,
+					type: "item",
+					item: {
+						id: "botania:incense_stick",
+						Count: true,
+						tag: {
+							brewKey: "botania:night_vision"
+						}
+					}
+				},
+				{
+					id: 1544,
+					type: "item",
+					item: {
+						id: "minecraft:flint_and_steel",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 1.0d,
+			y: -5.0d,
+			dependencies: [I;1416],
+			id: 1420,
+			tasks: [{
+				id: 1421,
+				type: "item",
+				item: "botania:livingrock",
+				count: 16L
+			}],
+			rewards: [{
+				id: 1538,
+				type: "item",
+				item: "apotheosis:obsidian_arrow",
+				count: 4
+			}]
+		},
+		{
+			x: -2.5d,
+			y: -5.0d,
+			dependencies: [I;1418],
+			id: 1422,
+			tasks: [{
+				id: 1423,
+				type: "item",
+				item: "botania:mana_spreader"
+			}],
+			rewards: [{
+				id: 1547,
+				type: "item",
+				item: "botania:mana_spreader"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -8.0d,
+			dependencies: [I;1426],
+			id: 1424,
+			tasks: [{
+				id: 1425,
+				type: "item",
+				item: "botania:mana_distributor"
+			}],
+			rewards: [{
+				id: 1540,
+				type: "item",
+				item: "botania:thorn_chakram",
+				count: 6
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -6.5d,
+			dependencies: [I;1420],
+			id: 1426,
+			tasks: [{
+				id: 1427,
+				type: "item",
+				item: "botania:mana_pool"
+			}],
+			rewards: [
+				{
+					id: 1539,
+					type: "item",
+					item: "botania:mana_pool",
+					count: 3
+				},
+				{
+					id: 1545,
+					type: "item",
+					item: "botania:black_lotus",
+					count: 16
+				}
+			]
+		},
+		{
+			x: -2.0d,
+			y: -1.5d,
+			dependencies: [I;1412],
+			id: 1430,
+			tasks: [{
+				id: 1431,
+				type: "item",
+				item: "botania:flower_bag"
+			}],
+			rewards: [{
+				id: 1535,
+				type: "item",
+				item: {
+					id: "silentgems:chaos_meter",
+					Count: true,
+					tag: {}
+				}
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -6.5d,
+			dependencies: [I;1418],
+			id: 1432,
+			tasks: [{
+				id: 1433,
+				type: "item",
+				item: {
+					id: "botania:twig_wand",
+					Count: true,
+					tag: {
+						color1: 6,
+						color2: 2,
+						boundTileZ: 0,
+						boundTileX: 0,
+						boundTileY: -1,
+						bindMode: 1
+					}
+				}
+			}],
+			rewards: [{
+				id: 1548,
+				type: "item",
+				item: "botania:hopperhock"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -2.0d,
+			dependencies: [I;1414],
+			id: 1436,
+			tasks: [{
+				id: 1437,
+				type: "item",
+				item: "botania:endoflame",
+				count: 4L
+			}],
+			rewards: [{
+				id: 1438,
+				type: "item",
+				item: "botania:endoflame",
+				count: 4
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -7.5d,
+			dependencies: [I;1426],
+			id: 1549,
+			tasks: [{
+				id: 1550,
+				type: "item",
+				item: "botania:manasteel_ingot"
+			}],
+			rewards: [{
+				id: 1639,
+				type: "item",
+				item: {
+					id: "silentgems:soul_urn",
+					Count: true,
+					tag: {
+						BlockEntityTag: {
+							Gem: "tanzanite"
+						}
+					}
+				}
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -8.5d,
+			dependencies: [I;1549],
+			id: 1552,
+			tasks: [{
+				id: 1553,
+				type: "item",
+				item: {
+					id: "botania:magnet_ring",
+					Count: true,
+					tag: {}
+				}
+			}],
+			rewards: [{
+				id: 1554,
+				type: "item",
+				item: "botania:floating_solegnolia"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 1.5d,
+			shape: "diamond",
+			size: 1.5d,
+			id: 1640,
+			tasks: [{
+				id: 1641,
+				type: "item",
+				item: {
+					id: "patchouli:guide_book",
+					Count: true,
+					tag: {
+						"patchouli:book": "naturesaura:book"
+					}
+				}
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 1.5d,
+			shape: "diamond",
+			description: ["YouTube video links is in the Survival in Chaos book"],
+			size: 1.5d,
+			id: 1642,
+			tasks: [{
+				id: 1643,
+				type: "item",
+				item: "mahoutsukai:guidebook"
+			}]
+		}
+	]
+}
