@@ -1,0 +1,152 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  renderorder = foreground
+}
+
+customization {
+  path = config/fancymenu/images/background.png
+  action = texturizebackground
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = top-left
+  x = 15
+  action = movebutton
+  y = 105
+}
+
+customization {
+  identifier = %id=400322%
+  width = 215
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=604382%
+  orientation = top-left
+  x = 65
+  action = movebutton
+  y = 205
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = top-left
+  x = 15
+  action = movebutton
+  y = 155
+}
+
+customization {
+  identifier = %id=400382%
+  width = 105
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = top-left
+  x = 125
+  action = movebutton
+  y = 155
+}
+
+customization {
+  identifier = %id=502382%
+  width = 105
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = top-left
+  x = 40
+  action = movebutton
+  y = 205
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = top-left
+  x = 15
+  action = movebutton
+  y = 80
+}
+
+customization {
+  identifier = %id=400298%
+  width = 215
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = top-left
+  x = 15
+  action = movebutton
+  y = 130
+}
+
+customization {
+  identifier = %id=400346%
+  width = 105
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=376346%
+  orientation = top-left
+  x = 15
+  action = movebutton
+  y = 205
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  buttonaction = openlink
+  x = 125
+  width = 105
+  action = addbutton
+  y = 130
+  label = Discord
+  value = https://discord.gg/jXrx4Tu
+  height = 20
+}
+
+customization {
+  orientation = bottom-left
+  shadow = true
+  centered = false
+  x = 5
+  action = addtext
+  y = -13
+  scale = 1.0
+  value = Survival in Chaos v.1.16.4-0.16.0
+}
+
+customization {
+  orientation = top-left
+  hoverlabel = Use code 'minimus' for 25% off 1st month
+  buttonaction = openlink
+  x = 15
+  width = 215
+  action = addbutton
+  y = 180
+  label = Need a server to play with friends?
+  value = 
+  height = 20
+}
+
