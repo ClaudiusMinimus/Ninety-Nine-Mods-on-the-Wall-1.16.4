@@ -8,6 +8,7 @@ minecraft/config/*
 minecraft/crash-reports/*
 minecraft/ct_dumps/*
 minecraft/dumps/*
+minecraft/ESM/*
 minecraft/local/*
 minecraft/logs/*
 minecraft/mods*/*
