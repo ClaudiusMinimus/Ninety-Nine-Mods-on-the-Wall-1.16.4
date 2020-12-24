@@ -26,11 +26,44 @@ customization {
 }
 
 customization {
+  identifier = %id=400322%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/images/buttons/rollover/multiplayer.png
+  backgroundnormal = config/fancymenu/images/buttons/multiplayer.png
+}
+
+customization {
   identifier = %id=604382%
   orientation = top-left
-  x = 100
+  x = 143
   action = movebutton
   y = 165
+}
+
+customization {
+  identifier = %id=604382%
+  width = 37
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=604382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=604382%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/images/buttons/rollover/accessability.png
+  backgroundnormal = config/fancymenu/images/buttons/accessability.png
 }
 
 customization {
@@ -49,6 +82,19 @@ customization {
 }
 
 customization {
+  identifier = %id=400382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/images/buttons/rollover/options.png
+  backgroundnormal = config/fancymenu/images/buttons/options.png
+}
+
+customization {
   identifier = %id=502382%
   orientation = top-left
   x = 50
@@ -64,11 +110,44 @@ customization {
 }
 
 customization {
+  identifier = %id=502382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=502382%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/images/buttons/rollover/quit.png
+  backgroundnormal = config/fancymenu/images/buttons/quit.png
+}
+
+customization {
   identifier = %id=376382%
   orientation = top-left
-  x = 75
+  x = 97
   action = movebutton
   y = 165
+}
+
+customization {
+  identifier = %id=376382%
+  width = 43
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=376382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=376382%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/images/buttons/rollover/abc.png
+  backgroundnormal = config/fancymenu/images/buttons/abc.png
 }
 
 customization {
@@ -87,6 +166,19 @@ customization {
 }
 
 customization {
+  identifier = %id=400298%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400298%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/images/buttons/rollover/singleplayer.png
+  backgroundnormal = config/fancymenu/images/buttons/singleplayer.png
+}
+
+customization {
   identifier = %id=400346%
   orientation = top-left
   x = 50
@@ -102,11 +194,44 @@ customization {
 }
 
 customization {
+  identifier = %id=400346%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400346%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/images/buttons/rollover/mods.png
+  backgroundnormal = config/fancymenu/images/buttons/mods.png
+}
+
+customization {
   identifier = %id=376346%
   orientation = top-left
   x = 50
   action = movebutton
   y = 165
+}
+
+customization {
+  identifier = %id=376346%
+  width = 44
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=376346%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=376346%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/images/buttons/rollover/quark.png
+  backgroundnormal = config/fancymenu/images/buttons/quark.png
 }
 
 customization {
@@ -121,7 +246,10 @@ customization {
   width = 130
   action = addbutton
   y = 115
-  label = Discord
+  backgroundhovered = config/fancymenu/images/buttons/rollover/discord.png
+  description = Please come join our discord server&ncommunity for fun and support!
+  label = 
+  backgroundnormal = config/fancymenu/images/buttons/discord.png
   value = https://discord.gg/jXrx4Tu
   height = 20
 }
@@ -139,13 +267,16 @@ customization {
 
 customization {
   orientation = top-left
-  hoverlabel = Use code 'minimus' for 25% off 1st month
   buttonaction = openlink
+  backgroundhovered = config/fancymenu/images/buttons/rollover/server.png
+  description = Use code 'minimus' for 25% off 1st month
+  label = 
+  hoverlabel = 
   x = 50
   width = 130
   action = addbutton
   y = 190
-  label = Need a server?
+  backgroundnormal = config/fancymenu/images/buttons/server.png
   value = 
   height = 20
 }
