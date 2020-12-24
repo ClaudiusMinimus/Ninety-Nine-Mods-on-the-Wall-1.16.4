@@ -36,7 +36,7 @@ key_of.key.zoom:key.keyboard.c:NONE
 key_key.dismount:key.keyboard.left.shift:NONE
 key_key.narrator:key.keyboard.unknown:NONE
 key_key.ftbultimine:key.keyboard.grave.accent:NONE
-key_key.ftbchunks.map:key.keyboard.m:NONE
+key_key.ftbchunks.map:key.keyboard.unknown:NONE
 key_Reload Menu | CTRL + :key.keyboard.r:NONE
 key_Toggle Customization Overlay | CTRL + :key.keyboard.keypad.1:CONTROL
 key_key.toggleLiquids:key.keyboard.unknown:NONE
@@ -52,19 +52,23 @@ key_key.silentgear.openItem:key.keyboard.x:NONE
 key_key.curios.open.desc:key.keyboard.g:NONE
 key_key.moreoverlays.lightoverlay.desc:key.keyboard.f7:NONE
 key_key.moreoverlays.chunkbounds.desc:key.keyboard.f9:NONE
+key_key.clienttweaks.hideOffhandItem:key.keyboard.unknown:NONE
+key_key.clienttweaks.disableStepAssist:key.keyboard.unknown:NONE
 key_key.refinedstorage.focusSearchBar:key.keyboard.tab:NONE
 key_key.refinedstorage.clearGridCraftingMatrix:key.keyboard.x:CONTROL
 key_key.refinedstorage.openWirelessGrid:key.keyboard.unknown:NONE
 key_key.refinedstorage.openWirelessFluidGrid:key.keyboard.unknown:NONE
 key_key.refinedstorage.openWirelessCraftingMonitor:key.keyboard.unknown:NONE
 key_key.refinedstorage.openPortableGrid:key.keyboard.unknown:NONE
-key_key.clienttweaks.hideOffhandItem:key.keyboard.unknown:NONE
-key_key.clienttweaks.disableStepAssist:key.keyboard.unknown:NONE
-key_key.ftbquests.quests:key.keyboard.period:NONE
 key_key.toastcontrol.clear:key.keyboard.j:NONE
-key_quark.keybind.back:key.mouse.4:NONE
+key_key.ftbquests.quests:key.keyboard.period:NONE
 key_key.easy_villagers.pick_up:key.keyboard.v:NONE
+key_quark.keybind.camera_mode:key.keyboard.f12:NONE
+key_quark.keybind.lock_rotation:key.keyboard.k:NONE
+key_quark.keybind.sort_player:key.keyboard.unknown:NONE
+key_quark.keybind.sort_container:key.keyboard.unknown:NONE
 key_quark.keybind.change_hotbar:key.keyboard.z:NONE
+key_quark.keybind.back:key.mouse.4:NONE
 key_quark.emote.no:key.keyboard.unknown:NONE
 key_quark.emote.yes:key.keyboard.unknown:NONE
 key_quark.emote.wave:key.keyboard.unknown:NONE
@@ -83,15 +87,11 @@ key_quark.keybind.patreon_emote.dab:key.keyboard.unknown:NONE
 key_quark.keybind.patreon_emote.jet:key.keyboard.unknown:NONE
 key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown:NONE
 key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown:NONE
-key_quark.keybind.lock_rotation:key.keyboard.k:NONE
-key_quark.keybind.sort_player:key.keyboard.unknown:NONE
-key_quark.keybind.sort_container:key.keyboard.unknown:NONE
-key_quark.keybind.camera_mode:key.keyboard.f12:NONE
-key_key.craftingcraft.portable_crafting:key.keyboard.unknown:NONE
-key_key.craftingcraft.back_to_inventory:key.keyboard.unknown:NONE
-key_Open sound muffle screen:key.keyboard.unknown:NONE
 key_quark.keybind.transfer_insert:key.keyboard.unknown:NONE
 key_quark.keybind.transfer_extract:key.keyboard.unknown:NONE
+key_Open sound muffle screen:key.keyboard.unknown:NONE
+key_key.craftingcraft.portable_crafting:key.keyboard.unknown:NONE
+key_key.craftingcraft.back_to_inventory:key.keyboard.unknown:NONE
 key_create.keyinfo.toolmenu:key.keyboard.left.alt:NONE
 key_gui.xaero_switch_waypoint_set:key.keyboard.unknown:NONE
 key_gui.xaero_instant_waypoint:key.keyboard.keypad.add:NONE
@@ -108,6 +108,11 @@ key_gui.xaero_new_waypoint:key.keyboard.b:NONE
 key_gui.xaero_display_all_sets:key.keyboard.unknown:NONE
 key_gui.xaero_toggle_light_overlay:key.keyboard.unknown:NONE
 key_gui.xaero_minimap_settings:key.keyboard.y:NONE
+key_gui.xaero_open_map:key.keyboard.m:NONE
+key_gui.xaero_open_settings:key.keyboard.right.bracket:NONE
+key_gui.xaero_map_zoom_in:key.keyboard.unknown:NONE
+key_gui.xaero_map_zoom_out:key.keyboard.unknown:NONE
+key_gui.xaero_quick_confirm:key.keyboard.right.shift:NONE
 key_keybind.xreliquary.fortune_coin:key.keyboard.unknown:NONE
 key_key.trashslot.toggle:key.keyboard.t:NONE
 key_key.trashslot.delete:key.keyboard.delete:NONE
