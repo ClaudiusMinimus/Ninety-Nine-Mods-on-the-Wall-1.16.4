@@ -1,9 +1,8 @@
 {
 	id: 228,
 	filename: "tech",
-	order_index: 7,
-	title: "Tech",
-	icon: "titanium:iron_gear",
+	order_index: 8,
+	title: "Powah!",
 	default_quest_shape: "",
 	quests: [
 		{
@@ -18,14 +17,7 @@
 			}],
 			rewards: [{
 				id: 1284,
-				type: "item",
-				item: {
-					id: "engineerstools:redia_tool",
-					Count: true,
-					tag: {
-						Damage: 0
-					}
-				}
+				type: "item"
 			}]
 		},
 		{
@@ -59,40 +51,6 @@
 				id: 1455,
 				type: "xp",
 				xp: 20
-			}]
-		},
-		{
-			x: -9.5d,
-			y: -1.0d,
-			dependencies: [I;243],
-			id: 235,
-			tasks: [{
-				id: 236,
-				type: "item",
-				item: "silents_mechanisms:basic_alloy_smelter"
-			}],
-			rewards: [{
-				id: 1631,
-				type: "item",
-				item: "silents_mechanisms:bismuth_brass_ingot",
-				count: 8
-			}]
-		},
-		{
-			x: -9.5d,
-			y: -2.5d,
-			dependencies: [I;235],
-			id: 237,
-			tasks: [{
-				id: 238,
-				type: "item",
-				item: "silents_mechanisms:alloy_smelter"
-			}],
-			rewards: [{
-				id: 1624,
-				type: "item",
-				item: "silents_mechanisms:redstone_alloy_ingot",
-				count: 10
 			}]
 		},
 		{
@@ -137,79 +95,6 @@
 			}]
 		},
 		{
-			title: "Silent's Mechanisms",
-			x: -8.0d,
-			y: 1.0d,
-			shape: "diamond",
-			size: 1.5d,
-			id: 243,
-			tasks: [{
-				id: 244,
-				type: "item",
-				item: "silents_mechanisms:stone_machine_frame"
-			}],
-			rewards: [{
-				id: 528,
-				type: "item",
-				item: {
-					id: "cyclic:charm_fire",
-					Count: true,
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		},
-		{
-			x: -6.5d,
-			y: -1.0d,
-			dependencies: [I;243],
-			id: 247,
-			tasks: [{
-				id: 248,
-				type: "item",
-				item: "silents_mechanisms:basic_crusher"
-			}],
-			rewards: [{
-				id: 1626,
-				type: "item",
-				item: "rats:charged_creeper_chunk"
-			}]
-		},
-		{
-			x: -6.5d,
-			y: -2.5d,
-			dependencies: [I;247],
-			id: 249,
-			tasks: [{
-				id: 250,
-				type: "item",
-				item: "silents_mechanisms:crusher"
-			}],
-			rewards: [{
-				id: 1627,
-				type: "item",
-				item: "immersiveengineering:alu_scaffolding_grate_top",
-				count: 16
-			}]
-		},
-		{
-			x: -8.0d,
-			y: -1.0d,
-			dependencies: [I;243],
-			id: 251,
-			tasks: [{
-				id: 252,
-				type: "item",
-				item: "silents_mechanisms:electric_furnace"
-			}],
-			rewards: [{
-				id: 1625,
-				type: "item",
-				item: "minecraft:slime_spawn_egg"
-			}]
-		},
-		{
 			x: 0.5d,
 			y: 6.0d,
 			dependencies: [I;320],
@@ -231,56 +116,6 @@
 				id: 1462,
 				type: "xp",
 				xp: 100
-			}]
-		},
-		{
-			x: -6.5d,
-			y: 3.0d,
-			dependencies: [I;243],
-			id: 255,
-			tasks: [{
-				id: 256,
-				type: "item",
-				item: "silents_mechanisms:processing_speed_upgrade"
-			}],
-			rewards: [{
-				id: 1630,
-				type: "item",
-				item: "silents_mechanisms:processing_speed_upgrade"
-			}]
-		},
-		{
-			x: -8.0d,
-			y: 3.0d,
-			dependencies: [I;243],
-			id: 257,
-			tasks: [{
-				id: 258,
-				type: "item",
-				item: "silents_mechanisms:output_chance_upgrade"
-			}],
-			rewards: [{
-				id: 1629,
-				type: "item",
-				item: "silentgems:gilded_string",
-				count: 3
-			}]
-		},
-		{
-			x: -9.5d,
-			y: 3.0d,
-			dependencies: [I;243],
-			id: 259,
-			tasks: [{
-				id: 260,
-				type: "item",
-				item: "silents_mechanisms:energy_efficiency_upgrade"
-			}],
-			rewards: [{
-				id: 1628,
-				type: "item",
-				item: "silents_mechanisms:plastic_sheet",
-				count: 16
 			}]
 		},
 		{
@@ -317,8 +152,7 @@
 			}],
 			rewards: [{
 				id: 1323,
-				type: "item",
-				item: "mysticalagradditions:insanium_coal_block"
+				type: "item"
 			}]
 		},
 		{
@@ -355,8 +189,7 @@
 			}],
 			rewards: [{
 				id: 1320,
-				type: "item",
-				item: "mysticalagradditions:insanium_coal_block"
+				type: "item"
 			}]
 		},
 		{
@@ -394,22 +227,7 @@
 			}],
 			rewards: [{
 				id: 1322,
-				type: "item",
-				item: {
-					id: "mekanism:flamethrower",
-					Count: true,
-					tag: {
-						mekData: {
-							GasTanks: [{
-								Tank: 0,
-								stored: {
-									gasName: "mekanism:hydrogen",
-									amount: 24000
-								}
-							}]
-						}
-					}
-				}
+				type: "item"
 			}]
 		},
 		{
@@ -489,13 +307,11 @@
 			rewards: [
 				{
 					id: 1285,
-					type: "item",
-					item: "engineerstools:musli_bar_press"
+					type: "item"
 				},
 				{
 					id: 1286,
 					type: "item",
-					item: "engineerstools:musli_bar",
 					count: 8
 				}
 			]
@@ -875,8 +691,7 @@
 			}],
 			rewards: [{
 				id: 1468,
-				type: "item",
-				item: "cyclic:heart"
+				type: "item"
 			}]
 		},
 		{
@@ -978,190 +793,6 @@
 			}]
 		},
 		{
-			x: -3.5d,
-			y: 1.0d,
-			shape: "diamond",
-			size: 1.5d,
-			id: 344,
-			tasks: [{
-				id: 345,
-				type: "item",
-				item: "solarflux:sp_1"
-			}],
-			rewards: [{
-				id: 1475,
-				type: "item",
-				item: "minecraft:glass",
-				count: 64
-			}]
-		},
-		{
-			x: -3.5d,
-			y: -1.0d,
-			dependencies: [I;344],
-			id: 346,
-			tasks: [{
-				id: 347,
-				type: "item",
-				item: "solarflux:sp_2"
-			}],
-			rewards: [{
-				id: 1476,
-				type: "item",
-				item: "minecraft:piston",
-				count: 4
-			}]
-		},
-		{
-			x: -3.5d,
-			y: -2.5d,
-			dependencies: [I;346],
-			id: 348,
-			tasks: [{
-				id: 349,
-				type: "item",
-				item: "solarflux:sp_3"
-			}],
-			rewards: [{
-				id: 1619,
-				type: "item",
-				item: "rats:rat_upgrade_basic"
-			}]
-		},
-		{
-			x: -3.5d,
-			y: -4.0d,
-			dependencies: [I;348],
-			id: 350,
-			tasks: [{
-				id: 351,
-				type: "item",
-				item: "solarflux:sp_4"
-			}]
-		},
-		{
-			x: -3.5d,
-			y: -5.5d,
-			dependencies: [I;350],
-			id: 352,
-			tasks: [{
-				id: 353,
-				type: "item",
-				item: "solarflux:sp_5"
-			}],
-			rewards: [{
-				id: 1620,
-				type: "item",
-				item: "solarflux:efficiency_upgrade",
-				count: 20
-			}]
-		},
-		{
-			x: -3.5d,
-			y: -7.0d,
-			dependencies: [I;352],
-			id: 354,
-			tasks: [{
-				id: 355,
-				type: "item",
-				item: "solarflux:sp_6"
-			}],
-			rewards: [{
-				id: 1621,
-				type: "item",
-				item: "solarflux:sp_6"
-			}]
-		},
-		{
-			x: -3.5d,
-			y: -8.5d,
-			dependencies: [I;354],
-			id: 356,
-			tasks: [{
-				id: 357,
-				type: "item",
-				item: "solarflux:sp_7"
-			}],
-			rewards: [{
-				id: 1622,
-				type: "item",
-				item: "solarflux:sp_7"
-			}]
-		},
-		{
-			x: -3.5d,
-			y: -10.0d,
-			dependencies: [I;356],
-			id: 358,
-			tasks: [{
-				id: 359,
-				type: "item",
-				item: "solarflux:sp_8"
-			}],
-			rewards: [{
-				id: 1623,
-				type: "item",
-				item: "solarflux:sp_8"
-			}]
-		},
-		{
-			x: -3.5d,
-			y: 3.0d,
-			dependencies: [I;344],
-			id: 360,
-			tasks: [{
-				id: 361,
-				type: "item",
-				item: "solarflux:capacity_upgrade"
-			}],
-			rewards: [{
-				id: 1478,
-				type: "xp",
-				xp: 100
-			}]
-		},
-		{
-			x: -5.0d,
-			y: 2.0d,
-			dependencies: [I;344],
-			id: 362,
-			tasks: [{
-				id: 363,
-				type: "item",
-				item: "solarflux:transfer_rate_upgrade"
-			}],
-			rewards: [{
-				id: 1479,
-				type: "item",
-				item: {
-					id: "silentgems:enchantment_token",
-					Count: true,
-					tag: {
-						TokenEnchantments: [{
-							lvl: 1s,
-							id: "minecraft:depth_strider"
-						}]
-					}
-				}
-			}]
-		},
-		{
-			x: -2.0d,
-			y: 2.0d,
-			dependencies: [I;344],
-			id: 364,
-			tasks: [{
-				id: 365,
-				type: "item",
-				item: "solarflux:efficiency_upgrade"
-			}],
-			rewards: [{
-				id: 1477,
-				type: "xp",
-				xp: 100
-			}]
-		},
-		{
 			x: 3.5d,
 			y: 3.0d,
 			dependencies: [I;380],
@@ -1205,8 +836,7 @@
 			}],
 			rewards: [{
 				id: 1486,
-				type: "item",
-				item: "cyclic:heart"
+				type: "item"
 			}]
 		},
 		{
@@ -1278,343 +908,6 @@
 			}]
 		},
 		{
-			x: 8.5d,
-			y: 1.0d,
-			shape: "diamond",
-			size: 1.5d,
-			id: 382,
-			tasks: [
-				{
-					id: 383,
-					type: "item",
-					title: "Any forge:ingots/osmium",
-					item: {
-						id: "itemfilters:tag",
-						Count: true,
-						tag: {
-							value: "forge:ingots/osmium"
-						}
-					},
-					count: 16L
-				},
-				{
-					id: 400,
-					type: "item",
-					item: "mekanism:metallurgic_infuser"
-				}
-			],
-			rewards: [
-				{
-					id: 1391,
-					type: "item",
-					item: "mekanism:basic_tier_installer"
-				},
-				{
-					id: 1392,
-					type: "item",
-					item: "mekanism:upgrade_energy",
-					count: 2
-				}
-			]
-		},
-		{
-			x: 10.5d,
-			y: 1.0d,
-			dependencies: [I;382],
-			id: 384,
-			tasks: [
-				{
-					id: 385,
-					type: "item",
-					item: "mekanism:alloy_infused",
-					count: 8L
-				},
-				{
-					id: 403,
-					type: "item",
-					item: "mekanism:basic_control_circuit",
-					count: 8L
-				}
-			],
-			rewards: [
-				{
-					id: 420,
-					type: "item",
-					item: "mekanism:configurator"
-				},
-				{
-					id: 1873,
-					type: "item",
-					item: "mekanism:enriched_carbon",
-					count: 8
-				},
-				{
-					id: 1874,
-					type: "item",
-					item: "mekanism:enriched_redstone",
-					count: 8
-				}
-			]
-		},
-		{
-			x: 9.0d,
-			y: -2.0d,
-			dependencies: [I;392],
-			id: 388,
-			tasks: [{
-				id: 389,
-				type: "item",
-				item: "mekanismgenerators:solar_generator"
-			}],
-			rewards: [{
-				id: 1402,
-				type: "item",
-				item: {
-					id: "silentgems:enchantment_token",
-					Count: true,
-					tag: {
-						TokenEnchantments: [{
-							lvl: 1s,
-							id: "cyclic:step"
-						}]
-					}
-				}
-			}]
-		},
-		{
-			x: 9.0d,
-			y: -3.5d,
-			dependencies: [I;388],
-			id: 390,
-			tasks: [{
-				id: 391,
-				type: "item",
-				item: "mekanismgenerators:advanced_solar_generator"
-			}],
-			rewards: [{
-				id: 1403,
-				type: "item",
-				item: "mekanism:elite_tier_installer"
-			}]
-		},
-		{
-			x: 9.0d,
-			y: -0.5d,
-			dependencies: [I;384],
-			id: 392,
-			tasks: [{
-				id: 393,
-				type: "item",
-				item: "mekanismgenerators:wind_generator"
-			}],
-			rewards: [{
-				id: 1396,
-				type: "item",
-				item: "cyclic:heart"
-			}]
-		},
-		{
-			x: 10.5d,
-			y: 4.0d,
-			dependencies: [I;401],
-			id: 394,
-			tasks: [{
-				id: 395,
-				type: "item",
-				item: "mekanismgenerators:bio_generator"
-			}],
-			rewards: [{
-				id: 1400,
-				type: "item",
-				item: "mekanism:alloy_reinforced",
-				count: 4
-			}]
-		},
-		{
-			x: 12.0d,
-			y: 2.5d,
-			dependencies: [I;384],
-			id: 398,
-			tasks: [{
-				id: 399,
-				type: "item",
-				item: "mekanism:precision_sawmill"
-			}],
-			rewards: [{
-				id: 423,
-				type: "item",
-				item: "mekanism:cardboard_box",
-				count: 8
-			}]
-		},
-		{
-			x: 10.5d,
-			y: 2.5d,
-			dependencies: [I;384],
-			id: 401,
-			tasks: [{
-				id: 402,
-				type: "item",
-				item: "mekanism:crusher"
-			}],
-			rewards: [{
-				id: 1442,
-				type: "item",
-				item: "mekanism:upgrade_energy",
-				count: 4
-			}]
-		},
-		{
-			x: 12.0d,
-			y: -0.5d,
-			dependencies: [I;384],
-			id: 404,
-			tasks: [{
-				id: 405,
-				type: "item",
-				item: "mekanism:energized_smelter"
-			}],
-			rewards: [{
-				id: 1397,
-				type: "item",
-				item: "mekanism:upgrade_muffling",
-				count: 4
-			}]
-		},
-		{
-			x: 12.0d,
-			y: -2.0d,
-			dependencies: [I;404],
-			id: 406,
-			tasks: [{
-				id: 407,
-				type: "item",
-				item: "mekanism:enrichment_chamber"
-			}],
-			rewards: [{
-				id: 1395,
-				type: "item",
-				item: "mekanism:dust_osmium",
-				count: 10
-			}]
-		},
-		{
-			x: 12.0d,
-			y: -3.5d,
-			dependencies: [I;406],
-			id: 408,
-			tasks: [{
-				id: 409,
-				type: "item",
-				item: "mekanism:purification_chamber"
-			}],
-			rewards: [{
-				id: 1398,
-				type: "item",
-				item: "mekanism:upgrade_speed",
-				count: 4
-			}]
-		},
-		{
-			x: 12.0d,
-			y: -5.0d,
-			dependencies: [I;408],
-			id: 410,
-			tasks: [{
-				id: 411,
-				type: "item",
-				item: "mekanism:electrolytic_separator"
-			}],
-			rewards: [{
-				id: 1399,
-				type: "item",
-				item: {
-					id: "mekanism:basic_energy_cube",
-					Count: true,
-					tag: {
-						mekData: {
-							EnergyContainers: [{
-								Container: false,
-								stored: "4000000"
-							}]
-						}
-					}
-				}
-			}]
-		},
-		{
-			x: 9.0d,
-			y: 2.5d,
-			dependencies: [I;384],
-			id: 412,
-			tasks: [{
-				id: 413,
-				type: "item",
-				item: "mekanism:electric_pump"
-			}],
-			rewards: [{
-				id: 1401,
-				type: "item",
-				item: {
-					id: "silentgems:enchantment_token",
-					Count: true,
-					tag: {
-						TokenEnchantments: [{
-							lvl: 1s,
-							id: "apotheosis:true_infinity"
-						}]
-					}
-				}
-			}]
-		},
-		{
-			x: 13.5d,
-			y: -0.5d,
-			id: 414,
-			tasks: [{
-				id: 415,
-				type: "item",
-				item: "mekanism:basic_mechanical_pipe"
-			}],
-			rewards: [{
-				id: 1393,
-				type: "item",
-				item: "mekanism:basic_mechanical_pipe",
-				count: 8
-			}]
-		},
-		{
-			x: 15.0d,
-			y: -0.5d,
-			id: 416,
-			tasks: [{
-				id: 417,
-				type: "item",
-				item: "mekanism:basic_universal_cable"
-			}],
-			rewards: [{
-				id: 1394,
-				type: "item",
-				item: "mekanism:basic_universal_cable",
-				count: 8
-			}]
-		},
-		{
-			x: 16.5d,
-			y: -0.5d,
-			id: 421,
-			tasks: [{
-				id: 422,
-				type: "item",
-				item: "mekanism:basic_logistical_transporter"
-			}],
-			rewards: [{
-				id: 1390,
-				type: "item",
-				item: "mekanism:logistical_sorter"
-			}]
-		},
-		{
 			x: 3.5d,
 			y: -1.0d,
 			dependencies: [I;299],
@@ -1626,14 +919,7 @@
 			}],
 			rewards: [{
 				id: 1287,
-				type: "item",
-				item: {
-					id: "engineerstools:diving_capsule",
-					Count: true,
-					tag: {
-						Damage: 0
-					}
-				}
+				type: "item"
 			}]
 		},
 		{
@@ -1665,8 +951,7 @@
 			}],
 			rewards: [{
 				id: 1332,
-				type: "item",
-				item: "mekanism:logistical_sorter"
+				type: "item"
 			}]
 		},
 		{
@@ -1705,22 +990,7 @@
 				},
 				{
 					id: 1335,
-					type: "item",
-					item: {
-						id: "mekanism:jetpack_armored",
-						Count: true,
-						tag: {
-							mekData: {
-								GasTanks: [{
-									Tank: 0,
-									stored: {
-										gasName: "mekanism:hydrogen",
-										amount: 24000
-									}
-								}]
-							}
-						}
-					}
+					type: "item"
 				}
 			]
 		},
@@ -1740,7 +1010,6 @@
 			rewards: [{
 				id: 1336,
 				type: "item",
-				item: "mekanism:upgrade_muffling",
 				count: 4
 			}]
 		},
@@ -1763,369 +1032,9 @@
 				},
 				{
 					id: 1338,
-					type: "item",
-					item: {
-						id: "mekanism:scuba_tank",
-						Count: true,
-						tag: {
-							HideFlags: 2,
-							mekData: {
-								GasTanks: [{
-									Tank: 0,
-									stored: {
-										gasName: "mekanism:oxygen",
-										amount: 24000
-									}
-								}]
-							}
-						}
-					}
+					type: "item"
 				}
 			]
-		},
-		{
-			x: 8.0d,
-			y: 3.5d,
-			description: ["When you have completed this, see if you can make an obsidian generator."],
-			dependencies: [I;412],
-			id: 1150,
-			tasks: [{
-				id: 1151,
-				type: "item",
-				item: {
-					id: "mekanism:fluidic_plenisher",
-					Count: true,
-					tag: {
-						mekData: {
-							FluidTanks: [],
-							ownerLeast: -4715755658393386747L,
-							controlType: 0,
-							EnergyContainers: [],
-							securityMode: 0,
-							Items: [],
-							ownerMost: 5396186238822598410L,
-							componentUpgrade: {
-								upgrades: []
-							}
-						}
-					}
-				}
-			}],
-			rewards: [{
-				id: 1153,
-				type: "item",
-				item: {
-					id: "mekanism:flamethrower",
-					Count: true,
-					tag: {
-						mekData: {
-							GasTanks: [{
-								Tank: 0,
-								stored: {
-									gasName: "mekanism:hydrogen",
-									amount: 24000
-								}
-							}]
-						}
-					}
-				}
-			}]
-		},
-		{
-			x: 12.0d,
-			y: 1.0d,
-			dependencies: [I;384],
-			id: 1869,
-			tasks: [{
-				id: 1870,
-				type: "item",
-				item: "mekanism:alloy_reinforced"
-			}],
-			rewards: [{
-				id: 1875,
-				type: "item",
-				item: "mekanism:enriched_diamond",
-				count: 8
-			}]
-		},
-		{
-			x: 13.5d,
-			y: 1.0d,
-			dependencies: [I;1869],
-			id: 1871,
-			tasks: [{
-				id: 1872,
-				type: "item",
-				item: "mekanism:alloy_atomic"
-			}],
-			rewards: [{
-				id: 1876,
-				type: "item",
-				item: "mekanism:enriched_refined_obsidian",
-				count: 8
-			}]
-		},
-		{
-			x: 13.5d,
-			y: -2.0d,
-			dependencies: [I;414],
-			id: 1877,
-			tasks: [{
-				id: 1878,
-				type: "item",
-				item: "mekanism:advanced_mechanical_pipe",
-				count: 8L
-			}],
-			rewards: [{
-				id: 1879,
-				type: "item",
-				item: "mekanism:advanced_mechanical_pipe",
-				count: 8
-			}]
-		},
-		{
-			x: 13.5d,
-			y: -3.5d,
-			dependencies: [I;1877],
-			id: 1880,
-			tasks: [{
-				id: 1881,
-				type: "item",
-				item: "mekanism:elite_mechanical_pipe",
-				count: 8L
-			}],
-			rewards: [{
-				id: 1882,
-				type: "item",
-				item: "mekanism:elite_mechanical_pipe",
-				count: 8
-			}]
-		},
-		{
-			x: 13.5d,
-			y: -5.0d,
-			dependencies: [I;1880],
-			id: 1883,
-			tasks: [{
-				id: 1884,
-				type: "item",
-				item: "mekanism:ultimate_mechanical_pipe",
-				count: 8L
-			}],
-			rewards: [{
-				id: 1885,
-				type: "item",
-				item: "mekanism:ultimate_mechanical_pipe",
-				count: 8
-			}]
-		},
-		{
-			x: 18.0d,
-			y: -0.5d,
-			id: 1886,
-			tasks: [{
-				id: 1887,
-				type: "item",
-				item: "mekanism:basic_pressurized_tube",
-				count: 8L
-			}],
-			rewards: [{
-				id: 1888,
-				type: "item",
-				item: "mekanism:basic_pressurized_tube",
-				count: 8
-			}]
-		},
-		{
-			x: 18.0d,
-			y: -2.0d,
-			dependencies: [I;1886],
-			id: 1889,
-			tasks: [{
-				id: 1890,
-				type: "item",
-				item: "mekanism:advanced_pressurized_tube",
-				count: 8L
-			}],
-			rewards: [{
-				id: 1891,
-				type: "item",
-				item: "mekanism:advanced_pressurized_tube",
-				count: 8
-			}]
-		},
-		{
-			x: 18.0d,
-			y: -3.5d,
-			dependencies: [I;1889],
-			id: 1892,
-			tasks: [{
-				id: 1893,
-				type: "item",
-				item: "mekanism:elite_pressurized_tube",
-				count: 8L
-			}]
-		},
-		{
-			x: 18.0d,
-			y: -5.0d,
-			dependencies: [I;1892],
-			id: 1894,
-			tasks: [{
-				id: 1895,
-				type: "item",
-				item: "mekanism:ultimate_pressurized_tube",
-				count: 8L
-			}],
-			rewards: [{
-				id: 1896,
-				type: "item",
-				item: "mekanism:ultimate_pressurized_tube",
-				count: 8
-			}]
-		},
-		{
-			x: 15.0d,
-			y: -2.0d,
-			dependencies: [I;416],
-			id: 1897,
-			tasks: [{
-				id: 1898,
-				type: "item",
-				item: "mekanism:advanced_universal_cable",
-				count: 8L
-			}],
-			rewards: [{
-				id: 1899,
-				type: "item",
-				item: "mekanism:advanced_universal_cable",
-				count: 8
-			}]
-		},
-		{
-			x: 15.0d,
-			y: -3.5d,
-			dependencies: [I;1897],
-			id: 1900,
-			tasks: [{
-				id: 1901,
-				type: "item",
-				item: "mekanism:elite_universal_cable",
-				count: 8L
-			}]
-		},
-		{
-			x: 15.0d,
-			y: -5.0d,
-			dependencies: [I;1900],
-			id: 1902,
-			tasks: [{
-				id: 1903,
-				type: "item",
-				item: "mekanism:ultimate_universal_cable",
-				count: 8L
-			}]
-		},
-		{
-			x: 16.5d,
-			y: -2.0d,
-			dependencies: [I;421],
-			id: 1904,
-			tasks: [{
-				id: 1905,
-				type: "item",
-				item: "mekanism:advanced_logistical_transporter",
-				count: 8L
-			}],
-			rewards: [{
-				id: 1906,
-				type: "item",
-				item: "mekanism:advanced_logistical_transporter",
-				count: 8
-			}]
-		},
-		{
-			x: 16.5d,
-			y: -3.5d,
-			dependencies: [I;1904],
-			id: 1907,
-			tasks: [{
-				id: 1908,
-				type: "item",
-				item: "mekanism:elite_logistical_transporter",
-				count: 8L
-			}]
-		},
-		{
-			x: 16.5d,
-			y: -5.0d,
-			dependencies: [I;1907],
-			id: 1909,
-			tasks: [{
-				id: 1910,
-				type: "item",
-				item: "mekanism:ultimate_logistical_transporter",
-				count: 8L
-			}],
-			rewards: [{
-				id: 1911,
-				type: "item",
-				item: "mekanism:ultimate_logistical_transporter",
-				count: 8
-			}]
-		},
-		{
-			x: 13.5d,
-			y: 2.5d,
-			id: 1912,
-			tasks: [{
-				id: 1913,
-				type: "item",
-				item: "mekanism:basic_fluid_tank"
-			}]
-		},
-		{
-			x: 15.0d,
-			y: 2.5d,
-			id: 1914,
-			tasks: [{
-				id: 1915,
-				type: "item",
-				item: "mekanism:basic_chemical_tank"
-			}]
-		},
-		{
-			x: 10.5d,
-			y: -0.5d,
-			dependencies: [I;384],
-			id: 1916,
-			tasks: [{
-				id: 1917,
-				type: "item",
-				item: "mekanismgenerators:heat_generator"
-			}]
-		},
-		{
-			x: 10.5d,
-			y: -2.0d,
-			dependencies: [I;1916],
-			id: 1918,
-			tasks: [{
-				id: 1919,
-				type: "item",
-				item: "mekanismgenerators:bio_generator"
-			}]
-		},
-		{
-			x: 10.5d,
-			y: -3.5d,
-			dependencies: [I;1918],
-			id: 1920,
-			tasks: [{
-				id: 1921,
-				type: "item",
-				item: "mekanismgenerators:gas_burning_generator"
-			}]
 		}
 	]
 }

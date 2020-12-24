@@ -1,7 +1,7 @@
 {
 	id: 261,
 	filename: "storage",
-	order_index: 6,
+	order_index: 7,
 	title: "Storage",
 	icon: "minecraft:barrel",
 	default_quest_shape: "",
@@ -21,17 +21,11 @@
 				{
 					id: 555,
 					type: "item",
-					item: "cyclic:item_pipe",
 					count: 8
 				},
 				{
 					id: 556,
-					type: "item",
-					item: {
-						id: "cyclic:cable_wrench",
-						Count: true,
-						tag: {}
-					}
+					type: "item"
 				}
 			]
 		},
@@ -105,14 +99,7 @@
 			}],
 			rewards: [{
 				id: 1140,
-				type: "item",
-				item: {
-					id: "cyclic:spell_ice",
-					Count: true,
-					tag: {
-						Damage: 0
-					}
-				}
+				type: "item"
 			}]
 		},
 		{
@@ -253,8 +240,7 @@
 			}],
 			rewards: [{
 				id: 1373,
-				type: "item",
-				item: "cyclic:heart"
+				type: "item"
 			}]
 		},
 		{
@@ -319,8 +305,7 @@
 			}],
 			rewards: [{
 				id: 1255,
-				type: "item",
-				item: "botanypots:hopper_botany_pot"
+				type: "item"
 			}]
 		},
 		{
@@ -636,14 +621,7 @@
 				},
 				{
 					id: 1146,
-					type: "item",
-					item: {
-						id: "cyclic:charm_ultimate",
-						Count: true,
-						tag: {
-							Damage: 0
-						}
-					}
+					type: "item"
 				}
 			]
 		},
@@ -659,14 +637,7 @@
 			}],
 			rewards: [{
 				id: 1147,
-				type: "item",
-				item: {
-					id: "cyclic:spell_water",
-					Count: true,
-					tag: {
-						Damage: 0
-					}
-				}
+				type: "item"
 			}]
 		},
 		{
@@ -681,14 +652,7 @@
 			}],
 			rewards: [{
 				id: 1145,
-				type: "item",
-				item: {
-					id: "cyclic:charm_home",
-					Count: true,
-					tag: {
-						Damage: 0
-					}
-				}
+				type: "item"
 			}]
 		},
 		{
@@ -758,8 +722,7 @@
 			}],
 			rewards: [{
 				id: 1266,
-				type: "item",
-				item: "rftoolsbuilder:builder"
+				type: "item"
 			}]
 		},
 		{
@@ -822,14 +785,7 @@
 			}],
 			rewards: [{
 				id: 1269,
-				type: "item",
-				item: {
-					id: "rats:ghost_pirat_cutlass",
-					Count: true,
-					tag: {
-						Damage: 0
-					}
-				}
+				type: "item"
 			}]
 		},
 		{
@@ -1210,12 +1166,7 @@
 			}],
 			rewards: [{
 				id: 1216,
-				type: "item",
-				item: {
-					id: "botania:cacophonium",
-					Count: true,
-					tag: {}
-				}
+				type: "item"
 			}]
 		},
 		{
@@ -1405,8 +1356,7 @@
 			],
 			rewards: [{
 				id: 1381,
-				type: "item",
-				item: "cyclic:heart"
+				type: "item"
 			}]
 		},
 		{
@@ -1450,8 +1400,7 @@
 			tasks: [
 				{
 					id: 1244,
-					type: "item",
-					item: "refinedstorageaddons:wireless_crafting_grid"
+					type: "item"
 				},
 				{
 					id: 1245,

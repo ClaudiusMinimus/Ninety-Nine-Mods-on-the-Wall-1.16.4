@@ -1,7 +1,7 @@
 {
 	id: 53,
 	filename: "silentgear",
-	order_index: 2,
+	order_index: 3,
 	title: "Armor, Tools and Weapons",
 	icon: {
 		id: "gobber2:gobber2_paxel_end",
@@ -711,24 +711,13 @@
 					}
 				}
 			],
-			rewards: [
-				{
-					id: 168,
-					type: "item",
-					item: {
-						id: "cyclic:glove_climb",
-						Count: true,
-						tag: {}
-					}
-				},
-				{
-					id: 169,
-					type: "item",
-					auto: "disabled",
-					item: "simplefarming:pizza",
-					count: 8
-				}
-			]
+			rewards: [{
+				id: 169,
+				type: "item",
+				auto: "disabled",
+				item: "simplefarming:pizza",
+				count: 8
+			}]
 		},
 		{
 			title: "The Mighty",
@@ -1266,14 +1255,7 @@
 				},
 				{
 					id: 1298,
-					type: "item",
-					item: {
-						id: "mysticalagriculture:soulium_dagger",
-						Count: true,
-						tag: {
-							Damage: 0
-						}
-					}
+					type: "item"
 				}
 			]
 		},
@@ -1544,19 +1526,11 @@
 					}
 				}
 			],
-			rewards: [
-				{
-					id: 1339,
-					type: "item",
-					item: "forbidden_arcanus:stellarite_piece"
-				},
-				{
-					id: 1340,
-					type: "item",
-					item: "solarflux:efficiency_upgrade",
-					count: 8
-				}
-			]
+			rewards: [{
+				id: 1339,
+				type: "item",
+				item: "forbidden_arcanus:stellarite_piece"
+			}]
 		},
 		{
 			title: "Any Crude Dagger",
@@ -1968,7 +1942,8 @@
 			rewards: [{
 				id: 1601,
 				type: "item",
-				item: "essentials:fertile_soil_carrot"
+				item: "minecraft:leather",
+				count: 6
 			}]
 		},
 		{
@@ -2383,9 +2358,15 @@
 				item: "gobber2:gobber2_ingot_nether"
 			}],
 			rewards: [{
-				id: 1867,
+				id: 1923,
 				type: "item",
-				item: "mysticalagriculture:supremium_block"
+				item: {
+					id: "minecraft:potion",
+					Count: true,
+					tag: {
+						Potion: "alexsmobs:long_knockback_resistance"
+					}
+				}
 			}]
 		},
 		{
@@ -2545,9 +2526,9 @@
 				}
 			}],
 			rewards: [{
-				id: 1825,
+				id: 1926,
 				type: "item",
-				item: "cyclic:spikes_iron",
+				item: "apotheosis:heart_seashelf",
 				count: 4
 			}]
 		},
@@ -2600,8 +2581,7 @@
 			}],
 			rewards: [{
 				id: 1842,
-				type: "item",
-				item: "cyclic:heart"
+				type: "item"
 			}]
 		},
 		{
@@ -2621,12 +2601,14 @@
 				}
 			}],
 			rewards: [{
-				id: 1822,
+				id: 1922,
 				type: "item",
 				item: {
-					id: "cyclic:flippers",
+					id: "minecraft:potion",
 					Count: true,
-					tag: {}
+					tag: {
+						Potion: "minecraft:long_fire_resistance"
+					}
 				}
 			}]
 		},
@@ -2649,7 +2631,7 @@
 			rewards: [{
 				id: 1823,
 				type: "item",
-				item: "cyclic:heart"
+				item: "forbidden_arcanus:stellarite_piece"
 			}]
 		},
 		{
@@ -2702,8 +2684,7 @@
 			rewards: [{
 				id: 1841,
 				type: "item",
-				item: "biggerreactors:graphite_ingot",
-				count: 64
+				item: "rats:rat_upgrade_speed"
 			}]
 		},
 		{
@@ -2717,9 +2698,18 @@
 				item: "gobber2:gobber2_ingot_end"
 			}],
 			rewards: [{
-				id: 1868,
+				id: 1924,
 				type: "item",
-				item: "mysticalagradditions:insanium_block"
+				item: {
+					id: "silentgems:enchantment_token",
+					Count: true,
+					tag: {
+						TokenEnchantments: [{
+							lvl: 1s,
+							id: "apotheosis:knowledge"
+						}]
+					}
+				}
 			}]
 		},
 		{
@@ -3010,23 +3000,12 @@
 				type: "item",
 				item: "gobber2:gobber2_ring_return"
 			}],
-			rewards: [
-				{
-					id: 1834,
-					type: "item",
-					item: {
-						id: "mobcatcher:net_launcher",
-						Count: true,
-						tag: {}
-					}
-				},
-				{
-					id: 1835,
-					type: "item",
-					item: "mobcatcher:net",
-					count: 4
-				}
-			]
+			rewards: [{
+				id: 1835,
+				type: "item",
+				item: "mobcatcher:net",
+				count: 4
+			}]
 		},
 		{
 			x: -6.5d,
@@ -3072,9 +3051,9 @@
 				item: "gobber2:gobber2_ring_swiftness"
 			}],
 			rewards: [{
-				id: 1833,
+				id: 1927,
 				type: "item",
-				item: "fluxnetworks:basic_flux_storage"
+				item: "silentgems:transmutation_altar"
 			}]
 		},
 		{
@@ -3087,20 +3066,21 @@
 				type: "item",
 				item: "gobber2:gobber2_ring_ascent"
 			}],
-			rewards: [
-				{
-					id: 1838,
-					type: "item",
-					item: "glassential:glass_dark_ethereal",
-					count: 8
-				},
-				{
-					id: 1839,
-					type: "item",
-					item: "glassential:glass_dark_ethereal_reverse",
-					count: 4
+			rewards: [{
+				id: 1925,
+				type: "item",
+				item: {
+					id: "forbidden_arcanus:slimec_pickaxe",
+					Count: true,
+					tag: {
+						Damage: 0,
+						Enchantments: [{
+							lvl: 1s,
+							id: "minecraft:silk_touch"
+						}]
+					}
 				}
-			]
+			}]
 		},
 		{
 			x: -12.0d,
@@ -3251,7 +3231,16 @@
 			rewards: [{
 				id: 1845,
 				type: "item",
-				item: "cyclic:collector_fluid"
+				item: {
+					id: "silentgems:enchantment_token",
+					Count: true,
+					tag: {
+						TokenEnchantments: [{
+							lvl: 1s,
+							id: "minecraft:silk_touch"
+						}]
+					}
+				}
 			}]
 		},
 		{
@@ -3277,24 +3266,6 @@
 						}]
 					}
 				}
-			}]
-		},
-		{
-			x: 2.0d,
-			y: -0.5d,
-			description: ["Want a jump & speed boost? Make some refined iron and then make some armor from it."],
-			dependencies: [I;1275],
-			id: 1854,
-			tasks: [{
-				id: 1855,
-				type: "item",
-				item: "silents_mechanisms:refined_iron_ingot",
-				count: 24L
-			}],
-			rewards: [{
-				id: 1856,
-				type: "item",
-				item: "minecraft:beacon"
 			}]
 		}
 	]
