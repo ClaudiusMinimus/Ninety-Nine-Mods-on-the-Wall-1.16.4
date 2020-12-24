@@ -17,7 +17,8 @@
 			}],
 			rewards: [{
 				id: 1284,
-				type: "item"
+				type: "item",
+				item: "silentgear:saw_blueprint"
 			}]
 		},
 		{
@@ -91,7 +92,14 @@
 			}],
 			rewards: [{
 				id: 1308,
-				type: "item"
+				type: "item",
+				item: {
+					id: "pickletweaks:diamond_paxel",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		},
 		{
@@ -152,7 +160,14 @@
 			}],
 			rewards: [{
 				id: 1323,
-				type: "item"
+				type: "item",
+				item: {
+					id: "easy_steel:titanium_hammer",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		},
 		{
@@ -189,7 +204,8 @@
 			}],
 			rewards: [{
 				id: 1320,
-				type: "item"
+				type: "item",
+				item: "metalbarrels:netherite_barrel"
 			}]
 		},
 		{
@@ -227,7 +243,17 @@
 			}],
 			rewards: [{
 				id: 1322,
-				type: "item"
+				type: "item",
+				item: {
+					id: "quark:ancient_tome",
+					Count: true,
+					tag: {
+						StoredEnchantments: [{
+							lvl: 4s,
+							id: "minecraft:feather_falling"
+						}]
+					}
+				}
 			}]
 		},
 		{
@@ -258,7 +284,14 @@
 			}],
 			rewards: [{
 				id: 1309,
-				type: "item"
+				type: "item",
+				item: {
+					id: "rats:plague_scythe",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		},
 		{
@@ -304,17 +337,19 @@
 				type: "item",
 				item: "powah:magmator_starter"
 			}],
-			rewards: [
-				{
-					id: 1285,
-					type: "item"
-				},
-				{
-					id: 1286,
-					type: "item",
-					count: 8
+			rewards: [{
+				id: 1285,
+				type: "item",
+				item: {
+					id: "forbidden_arcanus:edelwood_lava_bucket",
+					Count: true,
+					tag: {
+						EdelwoodBucket: {
+							Fullness: 1
+						}
+					}
 				}
-			]
+			}]
 		},
 		{
 			x: 2.0d,
@@ -328,7 +363,14 @@
 			}],
 			rewards: [{
 				id: 1324,
-				type: "item"
+				type: "item",
+				item: {
+					id: "pickletweaks:emerald_sword",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		},
 		{
@@ -415,12 +457,19 @@
 				type: "item",
 				item: "powah:magmator_niotic"
 			}],
-			rewards: [{
-				id: 1327,
-				type: "item",
-				item: "simplefarming:lasagna",
-				count: 8
-			}]
+			rewards: [
+				{
+					id: 1327,
+					type: "item",
+					item: "simplefarming:lasagna",
+					count: 8
+				},
+				{
+					id: 1928,
+					type: "item",
+					item: "rats:auto_curdler"
+				}
+			]
 		},
 		{
 			title: "Powah - Getting Started",
@@ -501,7 +550,8 @@
 			}],
 			rewards: [{
 				id: 1457,
-				type: "item"
+				type: "item",
+				item: "forbidden_arcanus:orb_of_temporary_flight"
 			}]
 		},
 		{
@@ -554,6 +604,19 @@
 				id: 315,
 				type: "item",
 				item: "powah:energy_cable_spirited"
+			}],
+			rewards: [{
+				id: 1933,
+				type: "item",
+				item: {
+					id: "usefulbackpacks:backpack_large",
+					Count: true,
+					tag: {
+						display: {
+							color: 8991416
+						}
+					}
+				}
 			}]
 		},
 		{
@@ -565,6 +628,20 @@
 				id: 317,
 				type: "item",
 				item: "powah:energy_cable_nitro"
+			}],
+			rewards: [{
+				id: 1932,
+				type: "item",
+				item: {
+					id: "quark:ancient_tome",
+					Count: true,
+					tag: {
+						StoredEnchantments: [{
+							lvl: 5s,
+							id: "minecraft:power"
+						}]
+					}
+				}
 			}]
 		},
 		{
@@ -611,7 +688,17 @@
 			}],
 			rewards: [{
 				id: 1463,
-				type: "item"
+				type: "item",
+				item: {
+					id: "silentgems:enchantment_token",
+					Count: true,
+					tag: {
+						TokenEnchantments: [{
+							lvl: 1s,
+							id: "silentgems:gravity"
+						}]
+					}
+				}
 			}]
 		},
 		{
@@ -660,7 +747,8 @@
 			}],
 			rewards: [{
 				id: 1466,
-				type: "item"
+				type: "item",
+				item: "fluidtank:tank_emerald"
 			}]
 		},
 		{
@@ -691,7 +779,8 @@
 			}],
 			rewards: [{
 				id: 1468,
-				type: "item"
+				type: "item",
+				item: "waystones:mossy_waystone"
 			}]
 		},
 		{
@@ -706,7 +795,9 @@
 			}],
 			rewards: [{
 				id: 1469,
-				type: "item"
+				type: "item",
+				item: "forbidden_arcanus:draco_arcanus_arrow",
+				count: 4
 			}]
 		},
 		{
@@ -821,7 +912,8 @@
 			}],
 			rewards: [{
 				id: 1485,
-				type: "item"
+				type: "item",
+				item: "minecraft:spawner"
 			}]
 		},
 		{
@@ -836,7 +928,14 @@
 			}],
 			rewards: [{
 				id: 1486,
-				type: "item"
+				type: "item",
+				item: {
+					id: "forbidden_arcanus:arcane_gold_helmet",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		},
 		{
@@ -868,6 +967,12 @@
 				id: 375,
 				type: "item",
 				item: "powah:energizing_rod_niotic"
+			}],
+			rewards: [{
+				id: 1929,
+				type: "item",
+				item: "xreliquary:rib_bone",
+				count: 4
 			}]
 		},
 		{
@@ -879,6 +984,11 @@
 				id: 377,
 				type: "item",
 				item: "powah:energizing_rod_spirited"
+			}],
+			rewards: [{
+				id: 1930,
+				type: "item",
+				item: "enderstorage:ender_chest"
 			}]
 		},
 		{
@@ -890,6 +1000,20 @@
 				id: 379,
 				type: "item",
 				item: "powah:energizing_rod_nitro"
+			}],
+			rewards: [{
+				id: 1931,
+				type: "item",
+				item: {
+					id: "silentgems:enchantment_token",
+					Count: true,
+					tag: {
+						TokenEnchantments: [{
+							lvl: 1s,
+							id: "silentgems:supercharged"
+						}]
+					}
+				}
 			}]
 		},
 		{
@@ -904,7 +1028,8 @@
 			}],
 			rewards: [{
 				id: 1483,
-				type: "item"
+				type: "item",
+				item: "refinedstorage:stack_upgrade"
 			}]
 		},
 		{
@@ -919,7 +1044,9 @@
 			}],
 			rewards: [{
 				id: 1287,
-				type: "item"
+				type: "item",
+				item: "simplefarming:egg_sandwich",
+				count: 4
 			}]
 		},
 		{
@@ -951,7 +1078,9 @@
 			}],
 			rewards: [{
 				id: 1332,
-				type: "item"
+				type: "item",
+				item: "darkutils:filter_player",
+				count: 4
 			}]
 		},
 		{
@@ -990,7 +1119,14 @@
 				},
 				{
 					id: 1335,
-					type: "item"
+					type: "item",
+					item: {
+						id: "alexsmobs:roadrunner_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 			]
 		},
@@ -1010,6 +1146,7 @@
 			rewards: [{
 				id: 1336,
 				type: "item",
+				item: "pickletweaks:emerald_apple",
 				count: 4
 			}]
 		},
@@ -1032,7 +1169,8 @@
 				},
 				{
 					id: 1338,
-					type: "item"
+					type: "item",
+					item: "silentgems:alexandrite_block"
 				}
 			]
 		}

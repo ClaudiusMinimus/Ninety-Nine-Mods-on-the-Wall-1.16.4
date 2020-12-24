@@ -17,17 +17,11 @@
 				type: "item",
 				item: "minecraft:barrel"
 			}],
-			rewards: [
-				{
-					id: 555,
-					type: "item",
-					count: 8
-				},
-				{
-					id: 556,
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: 556,
+				type: "item",
+				item: "minecraft:hopper"
+			}]
 		},
 		{
 			x: 1.0d,
@@ -99,7 +93,14 @@
 			}],
 			rewards: [{
 				id: 1140,
-				type: "item"
+				type: "item",
+				item: {
+					id: "minecraft:diamond_boots",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		},
 		{
@@ -240,7 +241,8 @@
 			}],
 			rewards: [{
 				id: 1373,
-				type: "item"
+				type: "item",
+				item: "darkutils:charm_portal"
 			}]
 		},
 		{
@@ -305,7 +307,9 @@
 			}],
 			rewards: [{
 				id: 1255,
-				type: "item"
+				type: "item",
+				item: "silentgems:meaty_stew",
+				count: 4
 			}]
 		},
 		{
@@ -621,7 +625,17 @@
 				},
 				{
 					id: 1146,
-					type: "item"
+					type: "item",
+					item: {
+						id: "quark:ancient_tome",
+						Count: true,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s,
+								id: "minecraft:sweeping"
+							}]
+						}
+					}
 				}
 			]
 		},
@@ -637,7 +651,9 @@
 			}],
 			rewards: [{
 				id: 1147,
-				type: "item"
+				type: "item",
+				item: "forbidden_arcanus:boom_arrow",
+				count: 4
 			}]
 		},
 		{
@@ -652,7 +668,8 @@
 			}],
 			rewards: [{
 				id: 1145,
-				type: "item"
+				type: "item",
+				item: "silentgems:summon_puppy"
 			}]
 		},
 		{
@@ -722,7 +739,8 @@
 			}],
 			rewards: [{
 				id: 1266,
-				type: "item"
+				type: "item",
+				item: "rats:rat_upgrade_armor"
 			}]
 		},
 		{
@@ -754,7 +772,8 @@
 			}],
 			rewards: [{
 				id: 1270,
-				type: "item"
+				type: "item",
+				item: "solcarrot:food_book"
 			}]
 		},
 		{
@@ -785,7 +804,15 @@
 			}],
 			rewards: [{
 				id: 1269,
-				type: "item"
+				type: "item",
+				item: {
+					id: "apotheosis:potion_charm",
+					Count: true,
+					tag: {
+						Damage: 0,
+						Potion: "minecraft:water_breathing"
+					}
+				}
 			}]
 		},
 		{
@@ -1166,7 +1193,9 @@
 			}],
 			rewards: [{
 				id: 1216,
-				type: "item"
+				type: "item",
+				item: "apotheosis:obsidian_arrow",
+				count: 4
 			}]
 		},
 		{
@@ -1356,7 +1385,14 @@
 			],
 			rewards: [{
 				id: 1381,
-				type: "item"
+				type: "item",
+				item: {
+					id: "pickletweaks:night_vision_goggles",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		},
 		{
@@ -1400,7 +1436,8 @@
 			tasks: [
 				{
 					id: 1244,
-					type: "item"
+					type: "item",
+					item: "refinedstorage:wireless_grid"
 				},
 				{
 					id: 1245,

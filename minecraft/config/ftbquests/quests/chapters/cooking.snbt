@@ -431,7 +431,8 @@
 			}],
 			rewards: [{
 				id: 1509,
-				type: "item"
+				type: "item",
+				item: "gobber2:gobber2_ring_farmer"
 			}]
 		}
 	]

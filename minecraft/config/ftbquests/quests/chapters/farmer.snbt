@@ -907,7 +907,7 @@
 			rewards: [{
 				id: 1692,
 				type: "item",
-				count: 5
+				item: "gobber2:dragon_star"
 			}]
 		}
 	]
