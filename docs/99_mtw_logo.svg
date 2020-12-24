@@ -17,9 +17,9 @@
    id="svg3740"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="99_mtw_logo.svg"
-   inkscape:export-filename="/home/helaman/.local/share/multimc/instances/Ninety-Nine-Mods-on-the-Wall-1.16.4/docs/server-icon.png"
-   inkscape:export-xdpi="5.8514285"
-   inkscape:export-ydpi="5.8514285">
+   inkscape:export-filename="/home/helaman/.local/share/multimc/instances/Ninety-Nine-Mods-on-the-Wall-1.16.4/docs/logo.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
   <defs
      id="defs3734" />
   <sodipodi:namedview
@@ -30,8 +30,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.47840193"
-     inkscape:cx="678.35513"
-     inkscape:cy="679.47197"
+     inkscape:cx="-94.007978"
+     inkscape:cy="675.29138"
      inkscape:document-units="mm"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -62,7 +62,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -152,7 +152,9 @@
              width="204.08392"
              id="rect3796" /></flowRegion><flowPara
            style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:semi-condensed;font-size:64px;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif, Bold Italic Semi-Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
-           id="flowPara3798">MTW</flowPara></flowRoot>      <flowRoot
+           id="flowPara3798">M<flowSpan
+   style="letter-spacing:3.55312498px"
+   id="flowSpan833">TW</flowSpan></flowPara></flowRoot>      <flowRoot
          transform="matrix(0.26458333,0,0,0.26458333,0.55909927,0)"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333588px;line-height:1.25;font-family:C059;-inkscape-font-specification:'C059, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffff00;fill-opacity:1;stroke:none"
          id="flowRoot3804"

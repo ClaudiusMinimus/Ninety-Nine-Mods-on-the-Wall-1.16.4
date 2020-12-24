@@ -41,7 +41,7 @@ customization {
 customization {
   identifier = %id=604382%
   orientation = top-left
-  x = 143
+  x = 123
   action = movebutton
   y = 165
 }
@@ -125,7 +125,7 @@ customization {
 customization {
   identifier = %id=376382%
   orientation = top-left
-  x = 97
+  x = 75
   action = movebutton
   y = 165
 }
@@ -208,30 +208,7 @@ customization {
 
 customization {
   identifier = %id=376346%
-  orientation = top-left
-  x = 50
-  action = movebutton
-  y = 165
-}
-
-customization {
-  identifier = %id=376346%
-  width = 44
-  action = resizebutton
-  height = 20
-}
-
-customization {
-  identifier = %id=376346%
-  action = setbuttonlabel
-  value = 
-}
-
-customization {
-  identifier = %id=376346%
-  action = setbuttontexture
-  backgroundhovered = config/fancymenu/images/buttons/rollover/quark.png
-  backgroundnormal = config/fancymenu/images/buttons/quark.png
+  action = hidebutton
 }
 
 customization {
