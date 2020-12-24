@@ -13,14 +13,14 @@ customization {
 customization {
   identifier = %id=400322%
   orientation = top-left
-  x = 15
+  x = 50
   action = movebutton
-  y = 105
+  y = 40
 }
 
 customization {
   identifier = %id=400322%
-  width = 215
+  width = 130
   action = resizebutton
   height = 20
 }
@@ -28,22 +28,22 @@ customization {
 customization {
   identifier = %id=604382%
   orientation = top-left
-  x = 65
+  x = 100
   action = movebutton
-  y = 205
+  y = 165
 }
 
 customization {
   identifier = %id=400382%
   orientation = top-left
-  x = 15
+  x = 50
   action = movebutton
-  y = 155
+  y = 90
 }
 
 customization {
   identifier = %id=400382%
-  width = 105
+  width = 130
   action = resizebutton
   height = 20
 }
@@ -51,14 +51,14 @@ customization {
 customization {
   identifier = %id=502382%
   orientation = top-left
-  x = 125
+  x = 50
   action = movebutton
-  y = 155
+  y = 140
 }
 
 customization {
   identifier = %id=502382%
-  width = 105
+  width = 130
   action = resizebutton
   height = 20
 }
@@ -66,22 +66,22 @@ customization {
 customization {
   identifier = %id=376382%
   orientation = top-left
-  x = 40
+  x = 75
   action = movebutton
-  y = 205
+  y = 165
 }
 
 customization {
   identifier = %id=400298%
   orientation = top-left
-  x = 15
+  x = 50
   action = movebutton
-  y = 80
+  y = 15
 }
 
 customization {
   identifier = %id=400298%
-  width = 215
+  width = 130
   action = resizebutton
   height = 20
 }
@@ -89,14 +89,14 @@ customization {
 customization {
   identifier = %id=400346%
   orientation = top-left
-  x = 15
+  x = 50
   action = movebutton
-  y = 130
+  y = 65
 }
 
 customization {
   identifier = %id=400346%
-  width = 105
+  width = 130
   action = resizebutton
   height = 20
 }
@@ -104,9 +104,9 @@ customization {
 customization {
   identifier = %id=376346%
   orientation = top-left
-  x = 15
+  x = 50
   action = movebutton
-  y = 205
+  y = 165
 }
 
 customization {
@@ -117,10 +117,10 @@ customization {
 customization {
   orientation = top-left
   buttonaction = openlink
-  x = 125
-  width = 105
+  x = 50
+  width = 130
   action = addbutton
-  y = 130
+  y = 115
   label = Discord
   value = https://discord.gg/jXrx4Tu
   height = 20
@@ -134,18 +134,18 @@ customization {
   action = addtext
   y = -13
   scale = 1.0
-  value = Survival in Chaos v.1.16.4-0.16.0
+  value = 99 Mods on the Wall v.1.16.4-1.1.0
 }
 
 customization {
   orientation = top-left
   hoverlabel = Use code 'minimus' for 25% off 1st month
   buttonaction = openlink
-  x = 15
-  width = 215
+  x = 50
+  width = 130
   action = addbutton
-  y = 180
-  label = Need a server to play with friends?
+  y = 190
+  label = Need a server?
   value = 
   height = 20
 }
