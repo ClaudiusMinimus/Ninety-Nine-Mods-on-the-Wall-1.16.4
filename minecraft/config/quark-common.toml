@@ -101,8 +101,8 @@
 	"Quilted Wool" = true
 	"Compressed Blocks" = true
 	Thatch = true
-	"Variant Chests" = true
-	"Variant Ladders" = true
+	"Variant Chests" = false
+	"Variant Ladders" = false
 	"Vertical Slabs" = true
 	Shingles = true
 	"Nether Brick Fence Gate" = true
