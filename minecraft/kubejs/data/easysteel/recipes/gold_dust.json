@@ -5,11 +5,11 @@
             "item": "easy_steel:crack_hammer"
         },
         {
-            "tag": "forge:ores/nickel"
+            "tag": "forge:ores/gold"
         }
     ],
     "result": {
-        "item": "alltheores:nickel_dust",
+        "item": "create:crushed_gold_ore",
         "count": 2
     }
 }

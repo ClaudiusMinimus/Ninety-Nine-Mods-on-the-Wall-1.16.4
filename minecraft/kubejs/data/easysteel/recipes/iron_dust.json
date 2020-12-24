@@ -5,11 +5,11 @@
             "item": "easy_steel:crack_hammer"
         },
         {
-            "tag": "forge:ores/cobalt"
+            "tag": "forge:ores/iron"
         }
     ],
     "result": {
-        "item": "wtbw_machines:cobalt_dust",
+        "item": "create:crushed_iron_ore",
         "count": 2
     }
 }

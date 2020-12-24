@@ -5,11 +5,11 @@
             "item": "easy_steel:crack_hammer"
         },
         {
-            "tag": "forge:ores/platinum"
+            "tag": "forge:ores/copper"
         }
     ],
     "result": {
-        "item": "alltheores:platinum_dust",
+        "item": "create:crushed_copper_ore",
         "count": 2
     }
 }

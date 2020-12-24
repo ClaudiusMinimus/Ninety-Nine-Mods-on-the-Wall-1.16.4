@@ -5,11 +5,11 @@
             "item": "easy_steel:crack_hammer"
         },
         {
-            "tag": "forge:ores/uranium"
+            "tag": "forge:ores/tin"
         }
     ],
     "result": {
-        "item": "alltheores:uranium_dust",
+        "item": "create:crushed_tin_ore",
         "count": 2
     }
 }
