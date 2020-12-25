@@ -1,0 +1,439 @@
+{
+	id: 4,
+	filename: "fromthedarkness",
+	order_index: 1,
+	title: "From the Darkness",
+	icon: "minecraft:campfire",
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "Think like a Hobbit",
+			x: 0.0d,
+			y: 0.0d,
+			shape: "diamond",
+			description: [
+				"Hobbits really are amazing creatures. Well now it is time to dig like a hobbit and get safe. Dig 10 dirt blocks, so you can make a temp shelter. We will provide a door.",
+				"",
+				"Be sure to read Suvival in Chaos"
+			],
+			dependency_requirement: "one_completed",
+			size: 1.5d,
+			id: 5,
+			tasks: [{
+				id: 6,
+				type: "item",
+				item: "minecraft:dirt",
+				count: 10L
+			}],
+			rewards: [
+				{
+					id: 8,
+					type: "item",
+					item: "minecraft:oak_door"
+				},
+				{
+					id: 453,
+					type: "item",
+					item: "waystones:waystone"
+				},
+				{
+					id: 454,
+					type: "item",
+					item: {
+						id: "waystones:warp_stone",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Don't Punch a Tree",
+			x: 1.5d,
+			y: 0.0d,
+			description: [
+				"Use you axe and save your knuckles",
+				"Now chop down 16 logs."
+			],
+			dependencies: [I;5],
+			id: 13,
+			tasks: [{
+				id: 14,
+				type: "item",
+				title: "Any minecraft:logs",
+				item: {
+					id: "itemfilters:tag",
+					Count: true,
+					tag: {
+						value: "minecraft:logs"
+					}
+				},
+				count: 16L
+			}],
+			rewards: [{
+				id: 15,
+				type: "item",
+				item: "ceramics:unfired_clay_bucket"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 0.0d,
+			dependencies: [I;13],
+			id: 16,
+			tasks: [{
+				id: 17,
+				type: "item",
+				item: "craftingstation:crafting_station"
+			}],
+			rewards: [
+				{
+					id: 19,
+					type: "xp",
+					xp: 10
+				},
+				{
+					id: 72,
+					type: "item",
+					item: "simplefarming:pulled_pork_sandwich",
+					count: 8
+				}
+			]
+		},
+		{
+			title: "Any Minecraft Bed",
+			x: 3.0d,
+			y: -1.5d,
+			dependencies: [I;16],
+			id: 20,
+			tasks: [{
+				id: 21,
+				type: "item",
+				title: "Any minecraft:beds",
+				item: {
+					id: "itemfilters:tag",
+					Count: true,
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 22,
+					type: "xp",
+					xp: 10
+				},
+				{
+					id: 26,
+					type: "item",
+					item: "minecraft:barrel"
+				},
+				{
+					id: 891,
+					type: "item",
+					item: "torchmaster:megatorch"
+				}
+			]
+		},
+		{
+			title: "Don't Throw it Out!",
+			x: 3.0d,
+			y: 1.5d,
+			description: ["Make a Composter so you can recycle a lot of your plant based organic leftovers."],
+			dependencies: [I;16],
+			id: 27,
+			tasks: [{
+				id: 28,
+				type: "item",
+				item: "minecraft:composter"
+			}],
+			rewards: [{
+				id: 29,
+				type: "item",
+				item: "minecraft:bone_meal",
+				count: 64
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 3.0d,
+			description: ["Let's go get some iron!"],
+			dependencies: [I;33],
+			id: 30,
+			tasks: [{
+				id: 31,
+				type: "item",
+				item: "minecraft:iron_ore",
+				count: 12L
+			}],
+			rewards: [
+				{
+					id: 32,
+					type: "item",
+					item: "minecraft:blast_furnace"
+				},
+				{
+					id: 73,
+					type: "item",
+					item: "simplefarming:italian_beef",
+					count: 8
+				},
+				{
+					id: 1282,
+					type: "item",
+					item: {
+						id: "easy_steel:crack_hammer",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: 1.5d,
+			dependencies: [I;5],
+			id: 33,
+			tasks: [{
+				id: 34,
+				type: "item",
+				item: "mining_dimension:teleporter"
+			}],
+			rewards: [
+				{
+					id: 36,
+					type: "item",
+					item: "dankstorage:dank_1"
+				},
+				{
+					id: 1611,
+					type: "item",
+					item: "dankstorage:dock"
+				}
+			]
+		},
+		{
+			title: "Over an Open Fire",
+			disable_toast: true,
+			x: 4.5d,
+			y: 0.0d,
+			description: [
+				"There is nothing quite like cooking over an open campfire, as long as it isn't me.",
+				"",
+				"Make a campfire and enjoy the meats!"
+			],
+			dependencies: [I;16],
+			id: 37,
+			tasks: [{
+				id: 38,
+				type: "item",
+				item: "minecraft:campfire"
+			}],
+			rewards: [
+				{
+					id: 39,
+					type: "item",
+					item: "minecraft:beef",
+					count: 4
+				},
+				{
+					id: 40,
+					type: "item",
+					item: "minecraft:porkchop",
+					count: 4
+				},
+				{
+					id: 1300,
+					type: "item",
+					item: "minecraft:rotten_flesh",
+					count: 4
+				}
+			]
+		},
+		{
+			x: 1.5d,
+			y: -1.5d,
+			description: ["If you will make me two stacks of torches, then I'll trade them for an awesome refillable torch launcher!"],
+			dependencies: [I;5],
+			id: 46,
+			tasks: [{
+				id: 47,
+				type: "item",
+				item: "minecraft:torch",
+				count: 128L
+			}],
+			rewards: [{
+				id: 49,
+				type: "item",
+				item: "xreliquary:interdiction_torch"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 0.0d,
+			description: ["The allusive bamboo. We have found they can be crafted if you look in JEI"],
+			dependencies: [I;5],
+			id: 193,
+			tasks: [{
+				id: 194,
+				type: "item",
+				item: "minecraft:bamboo"
+			}],
+			rewards: [{
+				id: 197,
+				type: "xp",
+				xp: 25
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 0.0d,
+			description: ["Scaffolding - what a wonderful invention! With it, you can scurry up on top of something. You can make a simple platform and it all comes tumbling down with a simple punch,"],
+			dependencies: [I;193],
+			id: 195,
+			tasks: [{
+				id: 196,
+				type: "item",
+				item: "minecraft:scaffolding",
+				count: 18L
+			}],
+			rewards: [
+				{
+					id: 198,
+					type: "xp",
+					xp: 50
+				},
+				{
+					id: 566,
+					type: "item",
+					item: "darkutils:charm_gluttony"
+				}
+			]
+		},
+		{
+			x: -1.0d,
+			y: 2.5d,
+			dependencies: [I;33],
+			id: 199,
+			tasks: [{
+				id: 200,
+				type: "item",
+				item: "minecraft:cobblestone",
+				count: 64L
+			}],
+			rewards: [{
+				id: 227,
+				type: "item",
+				item: "mcwbridges:stone_brick_bridge",
+				count: 10
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 3.5d,
+			dependencies: [I;199],
+			id: 201,
+			tasks: [{
+				id: 202,
+				type: "item",
+				item: "minecraft:stone",
+				count: 64L
+			}],
+			rewards: [{
+				id: 226,
+				type: "item",
+				item: "minecraft:phantom_membrane",
+				count: 6
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 4.5d,
+			dependencies: [I;
+				199,
+				201
+			],
+			id: 203,
+			tasks: [{
+				id: 204,
+				type: "item",
+				item: "minecraft:smooth_stone",
+				count: 64L
+			}],
+			rewards: [{
+				id: 1290,
+				type: "item",
+				item: "create:zinc_ingot",
+				count: 16
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -1.5d,
+			dependencies: [I;16],
+			id: 1311,
+			tasks: [{
+				id: 1312,
+				type: "item",
+				item: "craftingcraft:portable_crafting"
+			}],
+			rewards: [{
+				id: 1533,
+				type: "item",
+				item: "simplefarming:hamburger",
+				count: 8
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 4.5d,
+			dependencies: [I;30],
+			id: 1480,
+			tasks: [{
+				id: 1481,
+				type: "item",
+				item: "minecraft:iron_ingot",
+				count: 24L
+			}],
+			rewards: [{
+				id: 1482,
+				type: "item",
+				item: "minecraft:iron_block"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 1.5d,
+			description: ["Have you ever wanted to capture a mod? With this device you can catch many!"],
+			dependencies: [I;16],
+			id: 1859,
+			tasks: [
+				{
+					id: 1860,
+					type: "item",
+					item: {
+						id: "mobcatcher:net_launcher",
+						Count: true,
+						tag: {}
+					}
+				},
+				{
+					id: 1861,
+					type: "item",
+					item: "mobcatcher:net"
+				}
+			],
+			rewards: [{
+				id: 1862,
+				type: "item",
+				item: "mobcatcher:net",
+				count: 4
+			}]
+		}
+	]
+}

@@ -1,0 +1,1178 @@
+{
+	id: 228,
+	filename: "tech",
+	order_index: 8,
+	title: "Powah!",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.5d,
+			y: -1.0d,
+			dependencies: [I;299],
+			id: 229,
+			tasks: [{
+				id: 230,
+				type: "item",
+				item: "powah:furnator_starter"
+			}],
+			rewards: [{
+				id: 1284,
+				type: "item",
+				item: "silentgear:saw_blueprint"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -1.0d,
+			dependencies: [I;299],
+			id: 231,
+			tasks: [{
+				id: 232,
+				type: "item",
+				item: "powah:thermo_generator_starter"
+			}],
+			rewards: [{
+				id: 1148,
+				type: "item",
+				item: "xreliquary:infernal_chalice"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 3.0d,
+			dependencies: [I;299],
+			id: 233,
+			tasks: [{
+				id: 234,
+				type: "item",
+				item: "powah:energy_cable_starter",
+				count: 8L
+			}],
+			rewards: [{
+				id: 1455,
+				type: "xp",
+				xp: 20
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -2.5d,
+			dependencies: [I;231],
+			id: 239,
+			tasks: [{
+				id: 240,
+				type: "item",
+				item: "powah:thermo_generator_basic"
+			}],
+			rewards: [{
+				id: 1307,
+				type: "item",
+				item: {
+					id: "forbidden_arcanus:slimec_pickaxe",
+					Count: true,
+					tag: {
+						Damage: 0,
+						Enchantments: [{
+							lvl: 1,
+							id: "minecraft:silk_touch"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -4.0d,
+			dependencies: [I;239],
+			id: 241,
+			tasks: [{
+				id: 242,
+				type: "item",
+				item: "powah:thermo_generator_hardened"
+			}],
+			rewards: [{
+				id: 1308,
+				type: "item",
+				item: {
+					id: "pickletweaks:diamond_paxel",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 6.0d,
+			dependencies: [I;320],
+			id: 253,
+			tasks: [{
+				id: 254,
+				type: "item",
+				item: {
+					id: "powah:energy_cell_hardened",
+					Count: true,
+					tag: {
+						lollipopTileStorableNBT: {
+							StoredEnergy: 4000000
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: 1462,
+				type: "xp",
+				xp: 100
+			}]
+		},
+		{
+			x: 0.5d,
+			y: -2.5d,
+			dependencies: [I;229],
+			id: 265,
+			tasks: [{
+				id: 266,
+				type: "item",
+				item: "powah:furnator_basic"
+			}],
+			rewards: [{
+				id: 1310,
+				type: "item",
+				item: {
+					id: "forbidden_arcanus:draco_arcanus_helmet",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 0.5d,
+			y: -4.0d,
+			dependencies: [I;265],
+			id: 267,
+			tasks: [{
+				id: 268,
+				type: "item",
+				item: "powah:furnator_hardened"
+			}],
+			rewards: [{
+				id: 1323,
+				type: "item",
+				item: {
+					id: "easy_steel:titanium_hammer",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 0.5d,
+			y: -5.5d,
+			dependencies: [I;267],
+			id: 269,
+			tasks: [{
+				id: 270,
+				type: "item",
+				item: "powah:furnator_blazing"
+			}],
+			rewards: [{
+				id: 1319,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_chestplate",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 0.5d,
+			y: -7.0d,
+			dependencies: [I;269],
+			id: 271,
+			tasks: [{
+				id: 272,
+				type: "item",
+				item: "powah:furnator_niotic"
+			}],
+			rewards: [{
+				id: 1320,
+				type: "item",
+				item: "metalbarrels:netherite_barrel"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: -8.5d,
+			dependencies: [I;271],
+			id: 273,
+			tasks: [{
+				id: 274,
+				type: "item",
+				item: "powah:furnator_spirited"
+			}],
+			rewards: [{
+				id: 1321,
+				type: "item",
+				item: {
+					id: "xreliquary:mob_charm",
+					Count: true,
+					tag: {
+						Damage: 0,
+						entity: "minecraft:ghast"
+					}
+				}
+			}]
+		},
+		{
+			x: 0.5d,
+			y: -10.0d,
+			dependencies: [I;273],
+			id: 275,
+			tasks: [{
+				id: 276,
+				type: "item",
+				item: "powah:furnator_nitro"
+			}],
+			rewards: [{
+				id: 1322,
+				type: "item",
+				item: {
+					id: "quark:ancient_tome",
+					Count: true,
+					tag: {
+						StoredEnchantments: [{
+							lvl: 4s,
+							id: "minecraft:feather_falling"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -5.5d,
+			dependencies: [I;241],
+			id: 277,
+			tasks: [{
+				id: 278,
+				type: "item",
+				item: "powah:thermo_generator_blazing"
+			}],
+			rewards: [{
+				id: 1317,
+				type: "item",
+				item: "xreliquary:alkahestry_altar"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -7.0d,
+			dependencies: [I;277],
+			id: 279,
+			tasks: [{
+				id: 280,
+				type: "item",
+				item: "powah:thermo_generator_niotic"
+			}],
+			rewards: [{
+				id: 1309,
+				type: "item",
+				item: {
+					id: "rats:plague_scythe",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -10.0d,
+			dependencies: [I;283],
+			id: 281,
+			tasks: [{
+				id: 282,
+				type: "item",
+				item: "powah:thermo_generator_nitro"
+			}],
+			rewards: [{
+				id: 1306,
+				type: "item",
+				item: "forbidden_arcanus:mundabitur_dust",
+				count: 24
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -8.5d,
+			dependencies: [I;279],
+			id: 283,
+			tasks: [{
+				id: 284,
+				type: "item",
+				item: "powah:thermo_generator_spirited"
+			}],
+			rewards: [{
+				id: 1318,
+				type: "item",
+				item: "gobber2:gobber2_medallion_exp"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -1.0d,
+			dependencies: [I;299],
+			id: 285,
+			tasks: [{
+				id: 286,
+				type: "item",
+				item: "powah:magmator_starter"
+			}],
+			rewards: [{
+				id: 1285,
+				type: "item",
+				item: {
+					id: "forbidden_arcanus:edelwood_lava_bucket",
+					Count: true,
+					tag: {
+						EdelwoodBucket: {
+							Fullness: 1
+						}
+					}
+				}
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -2.5d,
+			dependencies: [I;285],
+			id: 287,
+			tasks: [{
+				id: 288,
+				type: "item",
+				item: "powah:magmator_basic"
+			}],
+			rewards: [{
+				id: 1324,
+				type: "item",
+				item: {
+					id: "pickletweaks:emerald_sword",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -4.0d,
+			dependencies: [I;287],
+			id: 289,
+			tasks: [{
+				id: 290,
+				type: "item",
+				item: "powah:magmator_hardened"
+			}],
+			rewards: [{
+				id: 1326,
+				type: "item",
+				item: "silentgear:crimson_steel_ingot",
+				count: 8
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -5.5d,
+			dependencies: [I;289],
+			id: 291,
+			tasks: [{
+				id: 292,
+				type: "item",
+				item: "powah:magmator_blazing"
+			}],
+			rewards: [{
+				id: 1325,
+				type: "item",
+				item: "minecraft:redstone_block",
+				count: 8
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -8.5d,
+			dependencies: [I;297],
+			id: 293,
+			tasks: [{
+				id: 294,
+				type: "item",
+				item: "powah:magmator_spirited"
+			}],
+			rewards: [
+				{
+					id: 1328,
+					type: "item",
+					item: "simplefarming:cheese_block",
+					count: 8
+				},
+				{
+					id: 1330,
+					type: "item",
+					item: "darkutils:anchor_plate"
+				}
+			]
+		},
+		{
+			x: 2.0d,
+			y: -10.0d,
+			dependencies: [I;293],
+			id: 295,
+			tasks: [{
+				id: 296,
+				type: "item",
+				item: "powah:magmator_nitro"
+			}],
+			rewards: [{
+				id: 1329,
+				type: "item",
+				item: "xreliquary:apothecary_mortar"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -7.0d,
+			dependencies: [I;291],
+			id: 297,
+			tasks: [{
+				id: 298,
+				type: "item",
+				item: "powah:magmator_niotic"
+			}],
+			rewards: [
+				{
+					id: 1327,
+					type: "item",
+					item: "simplefarming:lasagna",
+					count: 8
+				},
+				{
+					id: 1928,
+					type: "item",
+					item: "rats:auto_curdler"
+				}
+			]
+		},
+		{
+			title: "Powah - Getting Started",
+			x: 0.5d,
+			y: 1.0d,
+			shape: "diamond",
+			size: 1.5d,
+			id: 299,
+			tasks: [
+				{
+					id: 300,
+					type: "item",
+					item: "powah:dielectric_paste",
+					count: 24L
+				},
+				{
+					id: 301,
+					type: "item",
+					item: "powah:dielectric_rod",
+					count: 8L
+				},
+				{
+					id: 302,
+					type: "item",
+					item: "powah:dielectric_casing"
+				},
+				{
+					id: 303,
+					type: "item",
+					item: "powah:capacitor_basic",
+					count: 4L
+				}
+			],
+			rewards: [
+				{
+					id: 304,
+					type: "item",
+					item: "powah:book"
+				},
+				{
+					id: 305,
+					type: "item",
+					item: {
+						id: "powah:wrench",
+						Count: true,
+						tag: {
+							PowahWrenchNBT: {}
+						}
+					}
+				}
+			]
+		},
+		{
+			x: -1.0d,
+			y: 4.5d,
+			dependencies: [I;233],
+			id: 306,
+			tasks: [{
+				id: 307,
+				type: "item",
+				item: "powah:energy_cable_basic"
+			}],
+			rewards: [{
+				id: 1456,
+				type: "xp",
+				xp: 40
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 6.0d,
+			dependencies: [I;306],
+			id: 308,
+			tasks: [{
+				id: 309,
+				type: "item",
+				item: "powah:energy_cable_hardened"
+			}],
+			rewards: [{
+				id: 1457,
+				type: "item",
+				item: "forbidden_arcanus:orb_of_temporary_flight"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 7.5d,
+			dependencies: [I;308],
+			id: 310,
+			tasks: [{
+				id: 311,
+				type: "item",
+				item: "powah:energy_cable_blazing"
+			}],
+			rewards: [{
+				id: 1458,
+				type: "item",
+				item: "apotheosis:prismatic_web"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 9.0d,
+			dependencies: [I;310],
+			id: 312,
+			tasks: [{
+				id: 313,
+				type: "item",
+				item: "powah:energy_cable_niotic"
+			}],
+			rewards: [{
+				id: 1459,
+				type: "item",
+				item: {
+					id: "minecraft:enchanted_book",
+					Count: true,
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3,
+							id: "apotheosis:mounted_strike"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 10.5d,
+			dependencies: [I;312],
+			id: 314,
+			tasks: [{
+				id: 315,
+				type: "item",
+				item: "powah:energy_cable_spirited"
+			}],
+			rewards: [{
+				id: 1933,
+				type: "item",
+				item: {
+					id: "usefulbackpacks:backpack_large",
+					Count: true,
+					tag: {
+						display: {
+							color: 8991416
+						}
+					}
+				}
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 12.0d,
+			dependencies: [I;314],
+			id: 316,
+			tasks: [{
+				id: 317,
+				type: "item",
+				item: "powah:energy_cable_nitro"
+			}],
+			rewards: [{
+				id: 1932,
+				type: "item",
+				item: {
+					id: "quark:ancient_tome",
+					Count: true,
+					tag: {
+						StoredEnchantments: [{
+							lvl: 5s,
+							id: "minecraft:power"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 3.0d,
+			dependencies: [I;299],
+			id: 318,
+			tasks: [{
+				id: 319,
+				type: "item",
+				item: "powah:energy_cell_starter"
+			}],
+			rewards: [{
+				id: 1460,
+				type: "xp",
+				xp: 50
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 4.5d,
+			dependencies: [I;318],
+			id: 320,
+			tasks: [{
+				id: 321,
+				type: "item",
+				item: "powah:energy_cell_basic"
+			}],
+			rewards: [{
+				id: 1461,
+				type: "item",
+				item: "xreliquary:salamander_eye"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 7.5d,
+			dependencies: [I;253],
+			id: 322,
+			tasks: [{
+				id: 323,
+				type: "item",
+				item: "powah:energy_cell_blazing"
+			}],
+			rewards: [{
+				id: 1463,
+				type: "item",
+				item: {
+					id: "silentgems:enchantment_token",
+					Count: true,
+					tag: {
+						TokenEnchantments: [{
+							lvl: 1s,
+							id: "silentgems:gravity"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 9.0d,
+			dependencies: [I;322],
+			id: 324,
+			tasks: [{
+				id: 325,
+				type: "item",
+				item: "powah:energy_cell_niotic"
+			}],
+			rewards: [{
+				id: 1464,
+				type: "item",
+				item: "xreliquary:squid_beak",
+				count: 4
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 10.5d,
+			dependencies: [I;324],
+			id: 326,
+			tasks: [{
+				id: 327,
+				type: "item",
+				item: "powah:energy_cell_spirited"
+			}],
+			rewards: [{
+				id: 1465,
+				type: "item",
+				item: "apotheosis:hellshelf",
+				count: 4
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 12.0d,
+			dependencies: [I;326],
+			id: 328,
+			tasks: [{
+				id: 329,
+				type: "item",
+				item: "powah:energy_cell_nitro"
+			}],
+			rewards: [{
+				id: 1466,
+				type: "item",
+				item: "fluidtank:tank_emerald"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 3.0d,
+			dependencies: [I;299],
+			id: 330,
+			tasks: [{
+				id: 331,
+				type: "item",
+				item: "powah:ender_cell_starter"
+			}],
+			rewards: [{
+				id: 1467,
+				type: "xp",
+				xp: 50
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 4.5d,
+			dependencies: [I;330],
+			id: 332,
+			tasks: [{
+				id: 333,
+				type: "item",
+				item: "powah:ender_cell_basic"
+			}],
+			rewards: [{
+				id: 1468,
+				type: "item",
+				item: "waystones:mossy_waystone"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 6.0d,
+			dependencies: [I;332],
+			id: 334,
+			tasks: [{
+				id: 335,
+				type: "item",
+				item: "powah:ender_cell_hardened"
+			}],
+			rewards: [{
+				id: 1469,
+				type: "item",
+				item: "forbidden_arcanus:draco_arcanus_arrow",
+				count: 4
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 7.5d,
+			dependencies: [I;334],
+			id: 336,
+			tasks: [{
+				id: 337,
+				type: "item",
+				item: "powah:ender_cell_blazing"
+			}],
+			rewards: [{
+				id: 1470,
+				type: "item",
+				item: "xreliquary:molten_core",
+				count: 4
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 9.0d,
+			dependencies: [I;336],
+			id: 338,
+			tasks: [{
+				id: 339,
+				type: "item",
+				item: "powah:ender_cell_niotic"
+			}],
+			rewards: [{
+				id: 1471,
+				type: "item",
+				item: {
+					id: "minecraft:enchanted_book",
+					Count: true,
+					tag: {
+						StoredEnchantments: [{
+							lvl: 5,
+							id: "apotheosis:depth_miner"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 10.5d,
+			dependencies: [I;338],
+			id: 340,
+			tasks: [{
+				id: 341,
+				type: "item",
+				item: "powah:ender_cell_spirited"
+			}],
+			rewards: [
+				{
+					id: 1472,
+					type: "item",
+					item: "xreliquary:slime_pearl",
+					count: 4
+				},
+				{
+					id: 1473,
+					type: "item",
+					item: "xreliquary:frozen_core"
+				}
+			]
+		},
+		{
+			x: 2.0d,
+			y: 12.0d,
+			dependencies: [I;340],
+			id: 342,
+			tasks: [{
+				id: 343,
+				type: "item",
+				item: "powah:ender_cell_nitro"
+			}],
+			rewards: [{
+				id: 1474,
+				type: "item",
+				item: "xreliquary:interdiction_torch",
+				count: 4
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 3.0d,
+			dependencies: [I;380],
+			id: 366,
+			tasks: [{
+				id: 367,
+				type: "item",
+				item: "powah:energizing_rod_starter"
+			}],
+			rewards: [{
+				id: 1484,
+				type: "item",
+				item: "xreliquary:catalyzing_gland",
+				count: 4
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 4.5d,
+			dependencies: [I;366],
+			id: 368,
+			tasks: [{
+				id: 369,
+				type: "item",
+				item: "powah:energizing_rod_basic"
+			}],
+			rewards: [{
+				id: 1485,
+				type: "item",
+				item: "minecraft:spawner"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 6.0d,
+			dependencies: [I;368],
+			id: 370,
+			tasks: [{
+				id: 371,
+				type: "item",
+				item: "powah:energizing_rod_hardened"
+			}],
+			rewards: [{
+				id: 1486,
+				type: "item",
+				item: {
+					id: "forbidden_arcanus:arcane_gold_helmet",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 7.5d,
+			dependencies: [I;370],
+			id: 372,
+			tasks: [{
+				id: 373,
+				type: "item",
+				item: "powah:energizing_rod_blazing"
+			}],
+			rewards: [{
+				id: 1487,
+				type: "item",
+				item: "xreliquary:nebulous_heart",
+				count: 4
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 9.0d,
+			dependencies: [I;
+				370,
+				372
+			],
+			id: 374,
+			tasks: [{
+				id: 375,
+				type: "item",
+				item: "powah:energizing_rod_niotic"
+			}],
+			rewards: [{
+				id: 1929,
+				type: "item",
+				item: "xreliquary:rib_bone",
+				count: 4
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 10.5d,
+			dependencies: [I;374],
+			id: 376,
+			tasks: [{
+				id: 377,
+				type: "item",
+				item: "powah:energizing_rod_spirited"
+			}],
+			rewards: [{
+				id: 1930,
+				type: "item",
+				item: "enderstorage:ender_chest"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 12.0d,
+			dependencies: [I;376],
+			id: 378,
+			tasks: [{
+				id: 379,
+				type: "item",
+				item: "powah:energizing_rod_nitro"
+			}],
+			rewards: [{
+				id: 1931,
+				type: "item",
+				item: {
+					id: "silentgems:enchantment_token",
+					Count: true,
+					tag: {
+						TokenEnchantments: [{
+							lvl: 1s,
+							id: "silentgems:supercharged"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 1.0d,
+			dependencies: [I;299],
+			id: 380,
+			tasks: [{
+				id: 381,
+				type: "item",
+				item: "powah:energizing_orb"
+			}],
+			rewards: [{
+				id: 1483,
+				type: "item",
+				item: "refinedstorage:stack_upgrade"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: -1.0d,
+			dependencies: [I;299],
+			id: 424,
+			tasks: [{
+				id: 425,
+				type: "item",
+				item: "powah:solar_panel_starter"
+			}],
+			rewards: [{
+				id: 1287,
+				type: "item",
+				item: "simplefarming:egg_sandwich",
+				count: 4
+			}]
+		},
+		{
+			x: 3.5d,
+			y: -2.5d,
+			dependencies: [I;424],
+			id: 426,
+			tasks: [{
+				id: 427,
+				type: "item",
+				item: "powah:solar_panel_basic"
+			}],
+			rewards: [{
+				id: 1331,
+				type: "item",
+				item: "simplefarming:peanut_butter_cookie",
+				count: 16
+			}]
+		},
+		{
+			x: 3.5d,
+			y: -4.0d,
+			dependencies: [I;426],
+			id: 428,
+			tasks: [{
+				id: 429,
+				type: "item",
+				item: "powah:solar_panel_hardened"
+			}],
+			rewards: [{
+				id: 1332,
+				type: "item",
+				item: "darkutils:filter_player",
+				count: 4
+			}]
+		},
+		{
+			x: 3.5d,
+			y: -5.5d,
+			dependencies: [I;428],
+			id: 430,
+			tasks: [{
+				id: 431,
+				type: "item",
+				item: "powah:solar_panel_blazing"
+			}],
+			rewards: [{
+				id: 1333,
+				type: "item",
+				item: "mcwbridges:bamboo_bridge",
+				count: 10
+			}]
+		},
+		{
+			x: 3.5d,
+			y: -7.0d,
+			dependencies: [I;430],
+			id: 432,
+			tasks: [{
+				id: 433,
+				type: "item",
+				item: "powah:solar_panel_niotic"
+			}],
+			rewards: [
+				{
+					id: 1334,
+					type: "item",
+					item: "simplefarming:mutton_curry",
+					count: 8
+				},
+				{
+					id: 1335,
+					type: "item",
+					item: {
+						id: "alexsmobs:roadrunner_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 3.5d,
+			y: -8.5d,
+			dependencies: [I;
+				430,
+				432
+			],
+			id: 434,
+			tasks: [{
+				id: 435,
+				type: "item",
+				item: "powah:solar_panel_spirited"
+			}],
+			rewards: [{
+				id: 1336,
+				type: "item",
+				item: "pickletweaks:emerald_apple",
+				count: 4
+			}]
+		},
+		{
+			x: 3.5d,
+			y: -10.0d,
+			dependencies: [I;434],
+			id: 436,
+			tasks: [{
+				id: 437,
+				type: "item",
+				item: "powah:solar_panel_nitro"
+			}],
+			rewards: [
+				{
+					id: 1337,
+					type: "item",
+					item: "simplefarming:cornbread",
+					count: 8
+				},
+				{
+					id: 1338,
+					type: "item",
+					item: "silentgems:alexandrite_block"
+				}
+			]
+		}
+	]
+}
