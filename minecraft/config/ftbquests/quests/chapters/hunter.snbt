@@ -274,8 +274,8 @@
 						Count: true,
 						tag: {
 							TokenEnchantments: [{
-								lvl: 1,
-								id: "cyclic:quickshot"
+								lvl: 1s,
+								id: "minecraft:looting"
 							}]
 						}
 					}
@@ -295,26 +295,21 @@
 				entity: "minecraft:spider",
 				value: 100L
 			}],
-			rewards: [
-				{
-					id: 106,
-					type: "item"
-				},
-				{
-					id: 1615,
-					type: "item",
-					item: {
-						id: "silentgems:enchantment_token",
-						Count: true,
-						tag: {
-							TokenEnchantments: [{
-								lvl: 1s,
-								id: "minecraft:protection"
-							}]
-						}
+			rewards: [{
+				id: 1615,
+				type: "item",
+				item: {
+					id: "silentgems:enchantment_token",
+					Count: true,
+					tag: {
+						TokenEnchantments: [{
+							lvl: 1s,
+							id: "minecraft:protection"
+						}]
 					}
-				}
-			]
+				},
+				count: 4
+			}]
 		},
 		{
 			x: 3.0d,
@@ -485,8 +480,8 @@
 					Count: true,
 					tag: {
 						TokenEnchantments: [{
-							lvl: 1,
-							id: "cyclic:quickshot"
+							lvl: 1s,
+							id: "apotheosis:hell_infusion"
 						}]
 					}
 				}

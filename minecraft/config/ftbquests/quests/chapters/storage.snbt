@@ -206,8 +206,8 @@
 					Count: true,
 					tag: {
 						TokenEnchantments: [{
-							lvl: 1,
-							id: "cyclic:beheading"
+							lvl: 1s,
+							id: "minecraft:looting"
 						}]
 					}
 				}
