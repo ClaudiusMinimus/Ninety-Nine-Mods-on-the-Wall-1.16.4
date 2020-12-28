@@ -89,7 +89,7 @@
 			x: 0.0d,
 			y: 7.5d,
 			description: [
-				"The Mechanical Press is a workhorse you will use a lot. To use without a conveyor belt, you will need to activate with a redstone signal, like a lever or button.",
+				"The Mechanical Press is a workhorse which you will use a lot. To use, you will need to activate with a Redstone signal, like a lever or button.",
 				"",
 				"To use, just an iron, brass, copper, gold, or lapis ingot under the press."
 			],
