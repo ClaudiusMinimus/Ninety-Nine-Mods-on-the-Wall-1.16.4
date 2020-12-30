@@ -97,6 +97,7 @@ modlist.html
 !minecraft/config/ftbultimine-common.toml
 !minecraft/config/gobber-general.toml
 !minecraft/config/quark-common.toml
+!minecraft/config/randompatches.toml
 !minecraft/config/theoneprobe-client.toml
 !minecraft/config/waystones-*.toml
 !minecraft/config/xaerominimap.txt
