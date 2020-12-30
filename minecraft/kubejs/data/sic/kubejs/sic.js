@@ -40,4 +40,9 @@ events.listen('recipes', function (event) {
 
     // Add shapeless recipe for Survival in Chaos book
     event.shapeless(item.of('patchouli:guide_book', { 'patchouli:book': 'patchouli:chaos' }), ['minecraft:book', 'minecraft:dirt'])
+
+    // Add shapeless recipe for making sticks from logs
+    event.shapeless(item.of('minecraft:stick', 16), [
+        '#minecraft:logs','#minecraft:logs'
+    ])
 })
