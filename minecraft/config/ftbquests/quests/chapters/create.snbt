@@ -295,7 +295,9 @@
 			description: [
 				"Encased Fans work great for Bulk Smelting, Try setting up an automated washing system using one or more of the following: ",
 				"",
-				"Gravel, Sand, Soul Sand, any Crushed ore, or anything listed in JEI under Bulk Smelting, Smoking, or Washing. "
+				"Gravel, Sand, Soul Sand, any Crushed ore, or anything listed in JEI under Bulk Smelting, Smoking, or Washing. ",
+				"",
+				"Fans also are a great early game power source. Place a heat source underneath and activate with redstone."
 			],
 			dependencies: [I;1953],
 			id: 1976,
@@ -303,6 +305,134 @@
 				id: 1977,
 				type: "item",
 				item: "create:encased_fan"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 1.5d,
+			description: ["The Millstone is used for grinding all kinds of items. Be sure to check JEI for what it can do. You can even make a needed material for crafting slime balls."],
+			dependencies: [I;1935],
+			id: 1979,
+			tasks: [{
+				id: 1980,
+				type: "item",
+				item: "create:millstone"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -2.5d,
+			dependencies: [I;1580],
+			id: 1981,
+			tasks: [{
+				id: 1982,
+				type: "item",
+				item: "create:fluid_pipe",
+				count: 7L
+			}]
+		},
+		{
+			x: -1.5d,
+			y: -2.5d,
+			dependencies: [I;1981],
+			id: 1983,
+			tasks: [{
+				id: 1984,
+				type: "item",
+				item: "create:mechanical_pump"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: -4.0d,
+			dependencies: [I;1981],
+			id: 1985,
+			tasks: [{
+				id: 1986,
+				type: "item",
+				item: "create:fluid_valve"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -2.5d,
+			dependencies: [I;1981],
+			id: 1989,
+			tasks: [{
+				id: 1990,
+				type: "item",
+				item: "create:smart_fluid_pipe"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -5.5d,
+			dependencies: [I;1997],
+			id: 1991,
+			tasks: [{
+				id: 1992,
+				type: "item",
+				item: "create:spout"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 6.0d,
+			description: ["The Mechanical Saw can be used for cutting trees or for stonecutter recipes. With the Saw in hand, press the Shift key for more information."],
+			dependencies: [I;1945],
+			id: 1993,
+			tasks: [{
+				id: 1994,
+				type: "item",
+				item: "create:mechanical_saw"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 4.5d,
+			description: ["The Mechanical Drill can be used for mining, but in early game can be used as part of a stationary cobble generator"],
+			dependencies: [I;1945],
+			id: 1995,
+			tasks: [{
+				id: 1996,
+				type: "item",
+				item: "create:mechanical_drill"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -4.0d,
+			dependencies: [I;1981],
+			id: 1997,
+			tasks: [{
+				id: 1998,
+				type: "item",
+				item: "create:fluid_tank",
+				count: 4L
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 3.0d,
+			description: ["The Gearbox allows for changing direction horizontally."],
+			dependencies: [I;1945],
+			id: 1999,
+			tasks: [{
+				id: 2000,
+				type: "item",
+				item: "create:gearbox"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 3.0d,
+			description: ["The Vertical Gearbox allows for changing direction vertically."],
+			dependencies: [I;1999],
+			id: 2001,
+			tasks: [{
+				id: 2002,
+				type: "item",
+				item: "create:vertical_gearbox"
 			}]
 		}
 	]
