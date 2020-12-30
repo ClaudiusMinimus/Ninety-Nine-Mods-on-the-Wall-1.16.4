@@ -6,6 +6,7 @@
     - Grapple Hooks-1.2.2-32
     - Jasons Disenchantment 1.1.0
     - Kotlin Libraries-1.0-5
+    - Patchouli 1.16.4-48
 - Mods Updated
     - Alexs Mobs 1.3.0
     - Architectury 1.2.64-forge
@@ -33,6 +34,7 @@
     - Added Create questline
     - Updated quests
     - Added recipes for ores to work better with Create 
+    - Added some QOL recipes
 
 ## Version 1.1.3
 - Added Create washing recipes for Silver, Azure Silver, and Crimson Iron
