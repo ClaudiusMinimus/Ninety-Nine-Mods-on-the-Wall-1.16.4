@@ -322,18 +322,20 @@
 		{
 			x: 0.0d,
 			y: -2.5d,
+			description: ["The Fluid Pipe for all your liquid needs. Well, not exactly, you still need a pump to actally move any fluids."],
 			dependencies: [I;1580],
 			id: 1981,
 			tasks: [{
 				id: 1982,
 				type: "item",
 				item: "create:fluid_pipe",
-				count: 7L
+				count: 8L
 			}]
 		},
 		{
 			x: -1.5d,
 			y: -2.5d,
+			description: ["The Mechanical Pump when connected to a fluid source and a pipe will transfer liquids. The pump is directional and requires Rotational Force to work."],
 			dependencies: [I;1981],
 			id: 1983,
 			tasks: [{
@@ -345,6 +347,7 @@
 		{
 			x: -1.5d,
 			y: -4.0d,
+			description: ["The Fluid Value restricts the flow of liquids. It uses Rotational Force to open and close. Use your shift key while in your inventory or in JEI to learn more how to do this."],
 			dependencies: [I;1981],
 			id: 1985,
 			tasks: [{
@@ -356,6 +359,7 @@
 		{
 			x: 1.5d,
 			y: -2.5d,
+			description: ["The Smart Fluid Pipe is well... smart! Think of it as a way to filter what fluids are transfered."],
 			dependencies: [I;1981],
 			id: 1989,
 			tasks: [{
@@ -402,6 +406,7 @@
 		{
 			x: 0.0d,
 			y: -4.0d,
+			description: ["The Fluid Tank can be a single block or a multi-block structure."],
 			dependencies: [I;1981],
 			id: 1997,
 			tasks: [{
