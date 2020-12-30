@@ -8,5 +8,6 @@ onEvent('recipes', event => {
     }
 
     multiSmelt('silentgems:silver_ingot', 'create:crushed_silver_ore')
+    multiSmelt('#forge:ingots/tin', 'create:crushed_tin_ore')
 
 })
