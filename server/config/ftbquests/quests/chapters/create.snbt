@@ -3,18 +3,442 @@
 	filename: "create",
 	order_index: 2,
 	title: "Create",
-	icon: "minecraft:beacon",
+	icon: {
+		id: "create:large_cogwheel",
+		Count: 2b
+	},
 	subtitle: ["Build amazing things with Create!"],
 	default_quest_shape: "",
-	quests: [{
-		x: 0.0d,
-		y: 1.5d,
-		description: ["A questline for Create is in process"],
-		id: 1580,
-		tasks: [{
-			id: 1581,
-			type: "checkmark",
-			title: "Create Coming Soon!"
-		}]
-	}]
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.75d,
+			shape: "diamond",
+			description: [
+				"Create is your primary way to automate just about anything. You can also build just about whatever you can imagine.",
+				"",
+				"Holding the shift or Ctrl keys while hovering a kinetic block in your inventory or in JEI will show detailed information.",
+				"",
+				"Expect this questline to expand! Check back with each new version. Also rewards will be added, but for now this questline is a good starting point for using Create."
+			],
+			size: 1.5d,
+			id: 1580,
+			tasks: [{
+				id: 1581,
+				type: "checkmark",
+				title: "Create"
+			}],
+			rewards: [{
+				id: 1934,
+				type: "item",
+				item: "pamhc2foodcore:applesmoothieitem",
+				count: 8
+			}]
+		},
+		{
+			title: "No Trashy Andesite!",
+			x: 0.0d,
+			y: 3.0d,
+			description: ["Andesite Alloy is a primary ingredient for much of Create. Don't throw out your Andesite anymore!"],
+			dependencies: [I;1580],
+			id: 1935,
+			tasks: [{
+				id: 1936,
+				type: "item",
+				item: "create:andesite_alloy",
+				count: 8L
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 1.5d,
+			dependencies: [I;1935],
+			id: 1937,
+			tasks: [{
+				id: 1938,
+				type: "item",
+				item: "create:cogwheel",
+				count: 8L
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 3.0d,
+			dependencies: [I;1935],
+			id: 1939,
+			tasks: [{
+				id: 1940,
+				type: "item",
+				item: "create:large_cogwheel",
+				count: 2L
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 3.0d,
+			dependencies: [I;1939],
+			id: 1941,
+			tasks: [{
+				id: 1942,
+				type: "item",
+				item: "create:shaft",
+				count: 8L
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 7.5d,
+			description: [
+				"The Mechanical Press is a workhorse which you will use a lot. To use, you will need to activate with a Redstone signal, like a lever or button.",
+				"",
+				"To use, just an iron, brass, copper, gold, or lapis ingot under the press."
+			],
+			dependencies: [I;1945],
+			id: 1943,
+			tasks: [{
+				id: 1944,
+				type: "item",
+				item: "create:mechanical_press"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 4.5d,
+			dependencies: [I;1935],
+			id: 1945,
+			tasks: [{
+				id: 1946,
+				type: "item",
+				item: "create:andesite_casing",
+				count: 4L
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 1.5d,
+			dependencies: [I;1941],
+			id: 1947,
+			tasks: [{
+				id: 1948,
+				type: "item",
+				item: "create:belt_connector",
+				count: 8L
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 6.0d,
+			dependencies: [I;1959],
+			id: 1949,
+			tasks: [{
+				id: 1950,
+				type: "item",
+				item: "create:goggles"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 7.5d,
+			description: [
+				"The wrench has several uses:",
+				"1. Rotate kinetic blocks when you right click them. If the block will not rotate, then try a different surface plane.",
+				"2. Adjust many kinetic block settings when using the mouse wheel.",
+				"3. Break kinetic blocks using shift + right-click."
+			],
+			dependencies: [I;1959],
+			id: 1951,
+			tasks: [{
+				id: 1952,
+				type: "item",
+				item: "create:wrench"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 7.5d,
+			dependencies: [I;1943],
+			id: 1953,
+			tasks: [{
+				id: 1954,
+				type: "item",
+				item: "create:iron_sheet",
+				count: 64L
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 9.0d,
+			dependencies: [I;1943],
+			id: 1955,
+			tasks: [{
+				id: 1956,
+				type: "item",
+				item: "create:copper_sheet"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 9.0d,
+			dependencies: [I;1943],
+			id: 1957,
+			tasks: [{
+				id: 1958,
+				type: "item",
+				item: "create:brass_sheet"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 7.5d,
+			dependencies: [I;1943],
+			id: 1959,
+			tasks: [{
+				id: 1960,
+				type: "item",
+				item: "create:golden_sheet"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 9.0d,
+			dependencies: [I;1943],
+			id: 1961,
+			tasks: [{
+				id: 1962,
+				type: "item",
+				item: "create:lapis_sheet"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 3.0d,
+			description: [
+				"A water wheel is great for early game Rotational Force.",
+				"",
+				"Your reward is a Stressometer--this useful tool shows you the kinetic stress at that point in the system. Each kinetic block adds stress to the system. Therefore, if your system stops or slows down you may need additional rotational force."
+			],
+			dependencies: [I;1941],
+			id: 1963,
+			tasks: [{
+				id: 1964,
+				type: "item",
+				item: "create:water_wheel"
+			}],
+			rewards: [{
+				id: 1965,
+				type: "item",
+				item: "create:stressometer"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 4.5d,
+			dependencies: [I;1970],
+			id: 1966,
+			tasks: [{
+				id: 1967,
+				type: "item",
+				item: "create:sail_frame",
+				count: 8L
+			}],
+			rewards: [{
+				id: 1975,
+				type: "item",
+				item: "minecraft:white_wool"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 4.5d,
+			description: ["Attach a log to a Windmill Bearing and then attach the Sails to the log to create a functional windmill."],
+			dependencies: [I;1966],
+			id: 1968,
+			tasks: [{
+				id: 1969,
+				type: "item",
+				item: "create:white_sail",
+				count: 8L
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 4.5d,
+			description: ["To turn on your windmill, attach either a Radial Chasis and wool blocks, or sails surrounding a log to the Windmill Bearing, then right-click on the Windmill Bearing to start the windmill rotating."],
+			dependencies: [I;1945],
+			id: 1970,
+			tasks: [{
+				id: 1971,
+				type: "item",
+				item: "create:windmill_bearing"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 6.0d,
+			description: ["You need to put slime on the four contact surfaces for a windmill to rotate. Double click the slime to attach to all four sides at once."],
+			dependencies: [I;1970],
+			id: 1972,
+			tasks: [{
+				id: 1973,
+				type: "item",
+				item: "create:radial_chassis"
+			}],
+			rewards: [{
+				id: 1974,
+				type: "item",
+				item: "minecraft:slime_ball"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 7.5d,
+			description: [
+				"Encased Fans work great for Bulk Smelting, Try setting up an automated washing system using one or more of the following: ",
+				"",
+				"Gravel, Sand, Soul Sand, any Crushed ore, or anything listed in JEI under Bulk Smelting, Smoking, or Washing. ",
+				"",
+				"Fans also are a great early game power source. Place a heat source underneath and activate with redstone."
+			],
+			dependencies: [I;1953],
+			id: 1976,
+			tasks: [{
+				id: 1977,
+				type: "item",
+				item: "create:encased_fan"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 1.5d,
+			description: ["The Millstone is used for grinding all kinds of items. Be sure to check JEI for what it can do. You can even make a needed material for crafting slime balls."],
+			dependencies: [I;1935],
+			id: 1979,
+			tasks: [{
+				id: 1980,
+				type: "item",
+				item: "create:millstone"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -2.5d,
+			description: ["The Fluid Pipe for all your liquid needs. Well, not exactly, you still need a pump to actally move any fluids."],
+			dependencies: [I;1580],
+			id: 1981,
+			tasks: [{
+				id: 1982,
+				type: "item",
+				item: "create:fluid_pipe",
+				count: 8L
+			}]
+		},
+		{
+			x: -1.5d,
+			y: -2.5d,
+			description: ["The Mechanical Pump when connected to a fluid source and a pipe will transfer liquids. The pump is directional and requires Rotational Force to work."],
+			dependencies: [I;1981],
+			id: 1983,
+			tasks: [{
+				id: 1984,
+				type: "item",
+				item: "create:mechanical_pump"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: -4.0d,
+			description: ["The Fluid Value restricts the flow of liquids. It uses Rotational Force to open and close. Use your shift key while in your inventory or in JEI to learn more how to do this."],
+			dependencies: [I;1981],
+			id: 1985,
+			tasks: [{
+				id: 1986,
+				type: "item",
+				item: "create:fluid_valve"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -2.5d,
+			description: ["The Smart Fluid Pipe is well... smart! Think of it as a way to filter what fluids are transfered."],
+			dependencies: [I;1981],
+			id: 1989,
+			tasks: [{
+				id: 1990,
+				type: "item",
+				item: "create:smart_fluid_pipe"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -5.5d,
+			dependencies: [I;1997],
+			id: 1991,
+			tasks: [{
+				id: 1992,
+				type: "item",
+				item: "create:spout"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 6.0d,
+			description: ["The Mechanical Saw can be used for cutting trees or for stonecutter recipes. With the Saw in hand, press the Shift key for more information."],
+			dependencies: [I;1945],
+			id: 1993,
+			tasks: [{
+				id: 1994,
+				type: "item",
+				item: "create:mechanical_saw"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 4.5d,
+			description: ["The Mechanical Drill can be used for mining, but in early game can be used as part of a stationary cobble generator"],
+			dependencies: [I;1945],
+			id: 1995,
+			tasks: [{
+				id: 1996,
+				type: "item",
+				item: "create:mechanical_drill"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -4.0d,
+			description: ["The Fluid Tank can be a single block or a multi-block structure."],
+			dependencies: [I;1981],
+			id: 1997,
+			tasks: [{
+				id: 1998,
+				type: "item",
+				item: "create:fluid_tank",
+				count: 4L
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 3.0d,
+			description: ["The Gearbox allows for changing direction horizontally."],
+			dependencies: [I;1945],
+			id: 1999,
+			tasks: [{
+				id: 2000,
+				type: "item",
+				item: "create:gearbox"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 3.0d,
+			description: ["The Vertical Gearbox allows for changing direction vertically."],
+			dependencies: [I;1999],
+			id: 2001,
+			tasks: [{
+				id: 2002,
+				type: "item",
+				item: "create:vertical_gearbox"
+			}]
+		}
+	]
 }

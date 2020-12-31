@@ -1,7 +1,7 @@
 {
 	id: 261,
 	filename: "storage",
-	order_index: 7,
+	order_index: 6,
 	title: "Storage",
 	icon: "minecraft:barrel",
 	default_quest_shape: "",
@@ -206,8 +206,8 @@
 					Count: true,
 					tag: {
 						TokenEnchantments: [{
-							lvl: 1,
-							id: "cyclic:beheading"
+							lvl: 1s,
+							id: "minecraft:looting"
 						}]
 					}
 				}

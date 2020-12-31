@@ -542,7 +542,7 @@
 						tag: {
 							TokenEnchantments: [{
 								lvl: 1s,
-								id: "cyclic:multishot"
+								id: "minecraft:power"
 							}]
 						}
 					}
@@ -1246,18 +1246,12 @@
 				type: "item",
 				item: "silentgear:salvager"
 			}],
-			rewards: [
-				{
-					id: 1281,
-					type: "item",
-					item: "simplefarming:lasagna",
-					count: 8
-				},
-				{
-					id: 1298,
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: 1281,
+				type: "item",
+				item: "simplefarming:lasagna",
+				count: 8
+			}]
 		},
 		{
 			x: 0.5d,
@@ -2103,11 +2097,10 @@
 					tag: {
 						TokenEnchantments: [{
 							lvl: 1s,
-							id: "cyclic:quickshot"
+							id: "minecraft:punch"
 						}]
 					}
-				},
-				count: 3
+				}
 			}]
 		},
 		{
@@ -2581,7 +2574,17 @@
 			}],
 			rewards: [{
 				id: 1842,
-				type: "item"
+				type: "item",
+				item: {
+					id: "silentgems:enchantment_token",
+					Count: true,
+					tag: {
+						TokenEnchantments: [{
+							lvl: 1s,
+							id: "apotheosis:berserk"
+						}]
+					}
+				}
 			}]
 		},
 		{
