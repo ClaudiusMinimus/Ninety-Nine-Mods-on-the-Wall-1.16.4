@@ -1,6 +1,6 @@
 # Change Log
 
-## Version 1.2.0
+## Version 1.3.3
 - Mods Added
     - Global Xp 1.16.3-v1.4.15
     - Grapple Hooks-1.2.2-32
