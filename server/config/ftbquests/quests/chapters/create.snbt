@@ -371,6 +371,7 @@
 		{
 			x: 0.0d,
 			y: -5.5d,
+			description: ["The Spout is for refilling your fluid items. Can also be automated."],
 			dependencies: [I;1997],
 			id: 1991,
 			tasks: [{
