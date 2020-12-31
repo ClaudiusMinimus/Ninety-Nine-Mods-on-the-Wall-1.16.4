@@ -93,6 +93,7 @@ modlist.html
 # Do not ignore these files
 !minecraft/config/friendlyfire-common.toml
 !minecraft/config/forge-client.toml
+!minecraft/config/forge-common.toml
 !minecraft/config/ftbchunks-client.toml
 !minecraft/config/ftbultimine-common.toml
 !minecraft/config/gobber-general.toml
