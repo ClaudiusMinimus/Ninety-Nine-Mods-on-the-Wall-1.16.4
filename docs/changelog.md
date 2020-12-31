@@ -35,6 +35,7 @@
     - Updated quests
     - Added recipes for ores to work better with Create 
     - Added some QOL recipes
+    - Added the 1st edition of the book 99 Mods on the Wall reference guide
 
 ## Version 1.1.3
 - Added Create washing recipes for Silver, Azure Silver, and Crimson Iron
