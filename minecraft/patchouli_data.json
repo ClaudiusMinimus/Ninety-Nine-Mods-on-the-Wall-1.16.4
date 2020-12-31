@@ -1,0 +1,20 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "patchouli:99mtw": {
+      "viewedEntries": [
+        "patchouli:ig_commands",
+        "patchouli:recipes",
+        "patchouli:create"
+      ],
+      "bookmarks": [],
+      "history": [
+        "patchouli:recipes",
+        "patchouli:ig_commands",
+        "patchouli:create"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}

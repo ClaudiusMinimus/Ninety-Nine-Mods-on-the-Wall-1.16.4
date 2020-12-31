@@ -46,6 +46,17 @@
 							Damage: 0
 						}
 					}
+				},
+				{
+					id: 2003,
+					type: "item",
+					item: {
+						id: "patchouli:guide_book",
+						Count: true,
+						tag: {
+							"patchouli:book": "patchouli:99mtw"
+						}
+					}
 				}
 			]
 		},

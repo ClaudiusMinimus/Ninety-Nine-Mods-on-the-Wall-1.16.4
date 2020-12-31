@@ -210,7 +210,7 @@
 #Dragon Egg With Every Kill
 [dragon_egg_kill]
 	#Enable Dragon Egg drops on every kill [true / false]
-	enableDragonEggEveryKill = false
+	enableDragonEggEveryKill = true
 
 #Gobber Nether Ore Generation
 [gobber2_ore_nether]

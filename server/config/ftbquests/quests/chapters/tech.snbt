@@ -1,7 +1,7 @@
 {
 	id: 228,
 	filename: "tech",
-	order_index: 8,
+	order_index: 7,
 	title: "Powah!",
 	default_quest_shape: "",
 	quests: [
@@ -267,9 +267,15 @@
 				item: "powah:thermo_generator_blazing"
 			}],
 			rewards: [{
-				id: 1317,
+				id: 1978,
 				type: "item",
-				item: "xreliquary:alkahestry_altar"
+				item: {
+					id: "constructionwand:infinity_wand",
+					Count: true,
+					tag: {
+						wand_options: {}
+					}
+				}
 			}]
 		},
 		{
