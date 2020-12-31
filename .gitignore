@@ -105,6 +105,7 @@ modlist.html
 !server/config/auto_restart.toml
 !server/config/forge-client.toml
 !server/config/gobber-general.toml
+!server/config/randompatches.toml
 !server/config/shutdowner-common.toml
 !minecraft/config/gobber-general.toml
 !server/config/quark-common.toml
