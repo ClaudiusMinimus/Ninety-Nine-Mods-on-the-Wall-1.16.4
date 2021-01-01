@@ -1,7 +1,7 @@
 {
 	version: 9,
-	last_id: 2003,
-	title: "Suvival in Chaos",
+	last_id: 2023,
+	title: "99 Mods on the Wall",
 	default_reward_team: false,
 	default_consume_items: false,
 	default_autoclaim_rewards: "disabled",
