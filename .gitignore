@@ -36,7 +36,8 @@ server/world*
 
 # Ignore these files
 builds/*(copy).zip
-builds/sic-server*.zip
+build/*server.zip
+builds/server*.zip
 minecraft/resourcepacks/Quark Programmer Art.zip
 minecraft/XaeroWaypoints*
 minecraft/.vote2020_marker
@@ -111,4 +112,3 @@ modlist.html
 !server/config/quark-common.toml
 !server/server.properties
 !mmc-pack.json
-build/99mtw-1.16.4-1.3.3-server.zip
