@@ -98,6 +98,8 @@ modlist.html
 !minecraft/config/ftbchunks-client.toml
 !minecraft/config/ftbultimine-common.toml
 !minecraft/config/gobber-general.toml
+!minecraft/config/iceandfire-client.toml
+!minecraft/config/iceandfire-common.toml
 !minecraft/config/quark-common.toml
 !minecraft/config/randompatches.toml
 !minecraft/config/theoneprobe-client.toml
