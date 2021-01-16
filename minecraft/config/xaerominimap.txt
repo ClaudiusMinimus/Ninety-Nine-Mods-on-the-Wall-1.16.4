@@ -1,5 +1,5 @@
 #CONFIG ONLY OPTIONS
-ignoreUpdate:272
+ignoreUpdate:274
 updateNotification:true
 settingsButton:false
 allowWrongWorldTeleportation:false
@@ -37,7 +37,10 @@ otherTeamColor:-1
 tamedMobsColor:-1
 mapSafeMode:false
 minimapOpacity:100.0
-waypointsScale:1.0
+waypointsIngameScale:1.0
+waypointsDistanceScale:1.0
+waypointsNameScale:0.8
+waypointsClampDepth:0.0
 antiAliasing:true
 blockColours:0
 lighting:true
