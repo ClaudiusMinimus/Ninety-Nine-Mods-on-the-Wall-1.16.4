@@ -112,3 +112,4 @@ modlist.html
 !server/server.properties
 !mmc-pack.json
 build/99mtw-1.16.4-1.3.3-server.zip
+*.tgz
