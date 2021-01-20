@@ -2351,7 +2351,7 @@
 				item: "gobber2:gobber2_ingot_nether"
 			}],
 			rewards: [{
-				id: 1923,
+				id: 2062,
 				type: "item",
 				item: {
 					id: "minecraft:potion",
@@ -2519,7 +2519,7 @@
 				}
 			}],
 			rewards: [{
-				id: 1926,
+				id: 2063,
 				type: "item",
 				item: "apotheosis:heart_seashelf",
 				count: 4
@@ -2604,7 +2604,7 @@
 				}
 			}],
 			rewards: [{
-				id: 1922,
+				id: 2064,
 				type: "item",
 				item: {
 					id: "minecraft:potion",
@@ -2701,7 +2701,7 @@
 				item: "gobber2:gobber2_ingot_end"
 			}],
 			rewards: [{
-				id: 1924,
+				id: 2065,
 				type: "item",
 				item: {
 					id: "silentgems:enchantment_token",
@@ -3054,7 +3054,7 @@
 				item: "gobber2:gobber2_ring_swiftness"
 			}],
 			rewards: [{
-				id: 1927,
+				id: 2066,
 				type: "item",
 				item: "silentgems:transmutation_altar"
 			}]
@@ -3070,7 +3070,7 @@
 				item: "gobber2:gobber2_ring_ascent"
 			}],
 			rewards: [{
-				id: 1925,
+				id: 2067,
 				type: "item",
 				item: {
 					id: "forbidden_arcanus:slimec_pickaxe",

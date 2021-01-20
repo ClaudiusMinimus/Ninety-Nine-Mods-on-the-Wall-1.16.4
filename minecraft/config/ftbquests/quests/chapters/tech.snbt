@@ -1,7 +1,7 @@
 {
 	id: 228,
 	filename: "tech",
-	order_index: 7,
+	order_index: 8,
 	title: "Powah!",
 	default_quest_shape: "",
 	quests: [
@@ -267,7 +267,7 @@
 				item: "powah:thermo_generator_blazing"
 			}],
 			rewards: [{
-				id: 1978,
+				id: 2055,
 				type: "item",
 				item: {
 					id: "constructionwand:infinity_wand",
@@ -471,7 +471,7 @@
 					count: 8
 				},
 				{
-					id: 1928,
+					id: 2056,
 					type: "item",
 					item: "rats:auto_curdler"
 				}
@@ -612,7 +612,7 @@
 				item: "powah:energy_cable_spirited"
 			}],
 			rewards: [{
-				id: 1933,
+				id: 2057,
 				type: "item",
 				item: {
 					id: "usefulbackpacks:backpack_large",
@@ -636,7 +636,7 @@
 				item: "powah:energy_cable_nitro"
 			}],
 			rewards: [{
-				id: 1932,
+				id: 2058,
 				type: "item",
 				item: {
 					id: "quark:ancient_tome",
@@ -975,7 +975,7 @@
 				item: "powah:energizing_rod_niotic"
 			}],
 			rewards: [{
-				id: 1929,
+				id: 2059,
 				type: "item",
 				item: "xreliquary:rib_bone",
 				count: 4
@@ -992,7 +992,7 @@
 				item: "powah:energizing_rod_spirited"
 			}],
 			rewards: [{
-				id: 1930,
+				id: 2060,
 				type: "item",
 				item: "enderstorage:ender_chest"
 			}]
@@ -1008,7 +1008,7 @@
 				item: "powah:energizing_rod_nitro"
 			}],
 			rewards: [{
-				id: 1931,
+				id: 2061,
 				type: "item",
 				item: {
 					id: "silentgems:enchantment_token",
