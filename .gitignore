@@ -111,8 +111,10 @@ modlist.html
 !server/config/iceandfire-common.toml
 !server/config/randompatches.toml
 !server/config/shutdowner-common.toml
+!server/config/waystones-*.toml
 !minecraft/config/gobber-general.toml
 !server/config/quark-common.toml
+!server/config/starterkit
 !server/server.properties
 !mmc-pack.json
 server/1.16.5.json
