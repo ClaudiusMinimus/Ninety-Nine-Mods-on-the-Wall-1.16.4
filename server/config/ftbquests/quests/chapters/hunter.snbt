@@ -1,7 +1,7 @@
 {
 	id: 60,
 	filename: "hunter",
-	order_index: 8,
+	order_index: 9,
 	title: "Hunter",
 	icon: {
 		id: "minecraft:crossbow",
@@ -598,7 +598,7 @@
 			rewards: [{
 				id: 532,
 				type: "item",
-				item: "minecraft:chicken_spawn_egg",
+				item: "minecraft:horse_spawn_egg",
 				count: 4
 			}]
 		},

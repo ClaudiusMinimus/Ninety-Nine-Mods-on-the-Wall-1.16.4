@@ -115,3 +115,4 @@ modlist.html
 !server/config/quark-common.toml
 !server/server.properties
 !mmc-pack.json
+server/1.16.5.json
