@@ -1,5 +1,56 @@
 # Change Log
 
+## Version 1.5.0
+- Mods Added
+  - Clumps-6.0.0.13
+  - Cyclic-1.16.4-1.1.1
+  - iceandfire-2.1.5-1.16.4
+  - ImmersiveEngineering-1.16.4-4.1.2-129
+  - ImmersivePetroleum-1.16.4-3.1.0-2
+- Mods Updated
+  - architectury-1.3.83-forge
+  - Bookshelf-1.16.4-9.3.25
+  - Ceramics-1.16.5-1.6.1
+  - Controlling-7.0.0.11
+  - easy_piglins-1.16.4-1.0.5
+  - easy_villagers-1.16.4-1.1.28
+  - EasySteel-1.16.5-1.2.15
+  - elevatorid-1.16.5-1.7.11
+  - engineersdecor-1.16.4-1.1.6
+  - extremeSoundMuffler-3.6_Forge-1.16.4
+  - fancymenu_1.7.0_MC_1.16.2-1.16.5
+  - FastFurnace-1.16.4-4.4.0
+  - FastWorkbench-1.16.4-4.5.0
+  - ftb-chunks-1604.2.2.60
+  - ftb-essentials-1604.1.0.13
+  - ftb-gui-library-1604.2.0.29-forge
+  - Gobber2-Forge-1.16.5-2.3.46
+  - konkrete_1.1.2_MC_1.16.2-1.16.5
+  - kubejs-1604.3.4.144-forge
+  - LargeFluidTank-16.1.0
+  - Mantle-1.16.5-1.6.74
+  - mining_dimension-1.16.4-1.0.3
+  - mobcatcher-3.1
+  - moreoverlays-1.18.13-mc1.16.5
+  - Placebo-1.16.4-4.4.1
+  - Powah-1.16.4-2.3.9
+  - Quark-r2.4-295
+  - rats-7.1.0-1.16.5
+  - ScalableCatsForce-2.13.4-build-2-with-library
+  - SilentGear-1.16.3-2.5.2+207
+  - solcarrot-1.16.3-1.9.9
+  - Toast-Control-1.16.4-4.3.1
+  - torchmaster-2.3.5-alpha
+  - Wither-Skeleton-Tweaks-1.16.4-5.3.0
+  - Xaeros_Minimap_21.1.0_Forge_1.16.5
+  - XaerosWorldMap_1.11.9_Forge_1.16.5
+- Mods Removed
+  - None
+- Other Changes
+  - Forge updated to 36.0.1
+  - Added Rats quest
+  - Updated a few quests
+
 ## Version 1.4.2
 - Mods Added
   - Dungeon Crawl 1.16.3-2.2.4
