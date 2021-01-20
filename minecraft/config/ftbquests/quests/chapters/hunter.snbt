@@ -598,7 +598,7 @@
 			rewards: [{
 				id: 532,
 				type: "item",
-				item: "minecraft:chicken_spawn_egg",
+				item: "minecraft:horse_spawn_egg",
 				count: 4
 			}]
 		},

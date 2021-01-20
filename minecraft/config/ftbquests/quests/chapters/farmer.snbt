@@ -904,11 +904,18 @@
 				type: "checkmark",
 				title: "All Your Veggies"
 			}],
-			rewards: [{
-				id: 1692,
-				type: "item",
-				item: "gobber2:dragon_star"
-			}]
+			rewards: [
+				{
+					id: 1692,
+					type: "item",
+					item: "gobber2:dragon_star"
+				},
+				{
+					id: 2004,
+					type: "item",
+					item: "cyclic:heart"
+				}
+			]
 		}
 	]
 }

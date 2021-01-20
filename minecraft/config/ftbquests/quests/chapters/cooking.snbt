@@ -429,11 +429,18 @@
 				id: 1508,
 				type: "checkmark"
 			}],
-			rewards: [{
-				id: 1509,
-				type: "item",
-				item: "gobber2:gobber2_ring_farmer"
-			}]
+			rewards: [
+				{
+					id: 1509,
+					type: "item",
+					item: "gobber2:gobber2_ring_farmer"
+				},
+				{
+					id: 2005,
+					type: "item",
+					item: "cyclic:heart"
+				}
+			]
 		}
 	]
 }
