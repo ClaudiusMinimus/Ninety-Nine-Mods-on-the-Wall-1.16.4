@@ -99,8 +99,6 @@ modlist.html
 !minecraft/config/ftbchunks-client.toml
 !minecraft/config/ftbultimine-common.toml
 !minecraft/config/gobber-general.toml
-!minecraft/config/iceandfire-client.toml
-!minecraft/config/iceandfire-common.toml
 !minecraft/config/quark-common.toml
 !minecraft/config/randompatches.toml
 !minecraft/config/theoneprobe-client.toml
@@ -109,6 +107,8 @@ modlist.html
 !server/config/auto_restart.toml
 !server/config/forge-client.toml
 !server/config/gobber-general.toml
+!server/config/iceandfire-client.toml
+!server/config/iceandfire-common.toml
 !server/config/randompatches.toml
 !server/config/shutdowner-common.toml
 !minecraft/config/gobber-general.toml
