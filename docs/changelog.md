@@ -4,6 +4,7 @@
 - Mods Added
   - Clumps-6.0.0.13
   - Cyclic-1.16.4-1.1.1
+  - engineersdecor-1.16.4-1.1.6
   - iceandfire-2.1.5-1.16.4
   - ImmersiveEngineering-1.16.4-4.1.2-129
   - ImmersivePetroleum-1.16.4-3.1.0-2
@@ -16,7 +17,6 @@
   - easy_villagers-1.16.4-1.1.28
   - EasySteel-1.16.5-1.2.15
   - elevatorid-1.16.5-1.7.11
-  - engineersdecor-1.16.4-1.1.6
   - extremeSoundMuffler-3.6_Forge-1.16.4
   - fancymenu_1.7.0_MC_1.16.2-1.16.5
   - FastFurnace-1.16.4-4.4.0
