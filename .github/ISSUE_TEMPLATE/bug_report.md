@@ -20,6 +20,10 @@ assignees: ''
 - A clear and concise description of what the bug is.
 - Please paste a link to this Bug Report in our discord in the sic-support channel. https://discord.com/invite/jXrx4Tu
 
+**Singleplayer or Multiplayer**
+- Singleplayer: y/n
+- Multiplayer: y/n
+
 **To Reproduce**
 Steps to reproduce the behavior:
 1. Go to '...'
