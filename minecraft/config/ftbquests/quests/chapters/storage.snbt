@@ -241,8 +241,7 @@
 			}],
 			rewards: [{
 				id: 1373,
-				type: "item",
-				item: "darkutils:charm_portal"
+				type: "item"
 			}]
 		},
 		{
@@ -843,6 +842,7 @@
 			x: 0.0d,
 			y: 4.5d,
 			shape: "diamond",
+			description: ["Make sure you have some power. You will want to have started Immersive Engineering."],
 			size: 1.5d,
 			id: 1154,
 			tasks: [
