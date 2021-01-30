@@ -1,4 +1,18 @@
 # Change Log
+## Version 1.6.4
+- Mods Added: wip
+- Mods Updated: wip
+- Mods Removed: wip
+- Other Changes:
+  - wip
+
+## Version 1.5.1
+- Mods Added: None
+- Mods Updated: None
+- Mods Removed: None
+- Other Changes
+  - Added rewards to create questline
+  - Rewrote Rats questline
 
 ## Version 1.5.0
 - Mods Added
