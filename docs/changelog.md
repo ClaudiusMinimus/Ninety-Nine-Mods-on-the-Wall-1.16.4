@@ -1,4 +1,75 @@
 # Change Log
+## Version 1.6.4
+- Mods Added:
+  - BetterDefaultBiomes-1.16.4+-Alpha2.5.3
+  - byg-1.1.9
+  - crashutilities-3.8.1
+  - ftb-teams-1604.1.0.15-forge
+  - JAMD-1.1.6-beta+mc-1.16.5
+  - kubejs-create-1604.1.0.4
+  - kubejs-immersive-engineering-1604.1.0.12
+  - nomowanderer_MC1.16.4_1.1
+  - woodcutter-1.3-1.16.3
+- Mods Updated: 
+  - architectury-1.5.104-forge
+  - blame-1.16.4-1.9.2
+  - branders-spawnermod-1.16.4-1.7.10
+  - CodeChickenLib-1.16.4-3.5.1.408-universal
+  - collective-1.16.5-1.53
+  - Controlling-7.0.0.12
+  - CraftingCraft_1.16.3-9.2.0
+  - Cyclic-1.16.5-1.1.4
+  - easy_piglins-1.16.5-1.0.0
+  - easy_villagers-1.16.5-1.0.4
+  - elevatorid-1.16.5-1.7.12
+  - EnderStorage-1.16.4-2.7.1.166-universal
+  - ftb-chunks-1604.2.2.61
+  - ftb-gui-library-1605.2.1.37-forge
+  - ftb-ranks-1604.1.1.10
+  - ImmersiveEngineering-1.16.5-4.2.0-130
+  - invtweaks-1.16.4-1.0.1
+  - item-filters-1605.2.3.27-forge
+  - kubejs-1605.3.5-build.156-forge
+  - LargeFluidTank-16.1.1
+  - Mantle-1.16.5-1.6.79
+  - mcw-bridges-1.0.5-mc1.16.5-4
+  - mcw-doors-1.0.2-mc1.16.5
+  - mcw-roofs-2.0.1-mc1.16.5-4
+  - mcw-trapdors-1.0.1-mc1.16.5
+  - mobcatcher-3.2
+  - OpenLoader-1.16.5-9.0.1
+  - Quark-r2.4-300
+  - refinedstorageaddons-0.7.2
+  - rhino-1.7.13-build.12
+  - ServerTabInfo-1.16.4-1.3.3
+  - SilentGear-1.16.3-2.5.4+212
+  - SilentLib-1.16.3-4.9.1+64
+  - starterkit_1.16.5-2.1
+  - StorageDrawers-1.16.3-8.2.2
+  - supplementaries-1.16.5-0.9.23c
+  - tellme-forge-1.16.4-0.9.1
+  - torchmaster-2.3.6
+  - u_team_core-1.16.4-3.1.17.192
+  - useful_backpacks-1.16.4-1.11.6.87
+  - Xaeros_Minimap_21.1.1_Forge_1.16.5
+  - XaerosWorldMap_1.11.10_Forge_1.16.5
+- Mods Removed: 
+  - Dark Utilities (Create is able to make mob grinders, so redunant)
+  - Ice and Fire (Promoted server player issues and took away from Create)
+  - Advanced Mining Dimension (replaced with JAMD)
+  - Powah (power is now supplied by Immersive Engineering and fits bette with Create)
+- Other Changes:
+  - Forge 36.0.10
+  - Removed Powah quests
+  - Added Immersive Engineering quests (more to come)
+
+## Version 1.5.1
+- Mods Added: None
+- Mods Updated: None
+- Mods Removed: None
+- Other Changes
+  - Added rewards to create questline
+  - Rewrote Rats questline
 
 ## Version 1.5.0
 - Mods Added

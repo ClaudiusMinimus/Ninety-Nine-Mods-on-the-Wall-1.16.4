@@ -46,8 +46,7 @@
 			],
 			rewards: [{
 				id: 190,
-				type: "item",
-				item: "comforts:sleeping_bag_blue"
+				type: "item"
 			}]
 		},
 		{

@@ -1,0 +1,391 @@
+{
+	id: 2183,
+	filename: "immersive_engineering",
+	order_index: 7,
+	title: "Immersive Engineering",
+	icon: {
+		id: "immersiveengineering:hammer",
+		Count: true,
+		tag: {
+			Damage: 0
+		}
+	},
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: -0.5d,
+			shape: "diamond",
+			size: 1.5d,
+			id: 2184,
+			tasks: [{
+				id: 2185,
+				type: "item",
+				item: "immersiveengineering:hemp_fiber",
+				count: 10L
+			}],
+			rewards: [{
+				id: 2242,
+				type: "item",
+				item: "immersiveengineering:manual"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -2.0d,
+			dependencies: [I;2184],
+			id: 2186,
+			tasks: [{
+				id: 2187,
+				type: "item",
+				item: {
+					id: "immersiveengineering:hammer",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2203,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						Parent: {
+							Size: 23,
+							Items: []
+						}
+					},
+					id: "immersiveengineering:toolbox",
+					Count: true
+				}
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -3.5d,
+			dependencies: [I;2186],
+			id: 2188,
+			tasks: [{
+				id: 2189,
+				type: "item",
+				item: "immersiveengineering:cokebrick",
+				count: 27L
+			}],
+			rewards: [{
+				id: 2238,
+				type: "item",
+				item: "immersiveengineering:creosote_bucket"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -3.5d,
+			dependencies: [I;2188],
+			id: 2190,
+			tasks: [{
+				id: 2191,
+				type: "item",
+				item: "immersiveengineering:treated_wood_horizontal",
+				count: 24L
+			}],
+			rewards: [{
+				id: 2245,
+				type: "item",
+				item: "immersiveengineering:crate"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -0.5d,
+			dependencies: [I;2184],
+			id: 2192,
+			tasks: [{
+				id: 2193,
+				type: "item",
+				item: "immersiveengineering:dynamo"
+			}],
+			rewards: [
+				{
+					id: 2208,
+					type: "item",
+					item: "immersiveengineering:connector_lv",
+					count: 4
+				},
+				{
+					id: 2209,
+					type: "item",
+					item: "immersiveengineering:connector_lv_relay",
+					count: 4
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: 1.0d,
+			dependencies: [I;2184],
+			id: 2198,
+			tasks: [{
+				id: 2199,
+				type: "item",
+				item: "immersiveengineering:wirecoil_copper",
+				count: 8L
+			}],
+			rewards: [{
+				id: 2202,
+				type: "item",
+				item: {
+					id: "immersiveengineering:wirecutter",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 2.5d,
+			dependencies: [I;2198],
+			id: 2200,
+			tasks: [{
+				id: 2201,
+				type: "item",
+				item: "immersiveengineering:wirecoil_copper_ins",
+				count: 8L
+			}],
+			rewards: [{
+				id: 2204,
+				type: "item",
+				item: "immersiveengineering:connector_lv",
+				count: 4
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -0.5d,
+			dependencies: [I;2192],
+			id: 2206,
+			tasks: [{
+				id: 2207,
+				type: "item",
+				item: "immersiveengineering:capacitor_lv",
+				count: 2L
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 1.0d,
+			dependencies: [I;2198],
+			id: 2210,
+			tasks: [{
+				id: 2211,
+				type: "item",
+				item: {
+					id: "immersiveengineering:wirecoil_electrum",
+					Count: 8b
+				},
+				count: 8L
+			}],
+			rewards: [{
+				id: 2212,
+				type: "item",
+				item: "immersiveengineering:connector_mv",
+				count: 4
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 2.5d,
+			dependencies: [I;2210],
+			id: 2213,
+			tasks: [{
+				id: 2214,
+				type: "item",
+				item: "immersiveengineering:wirecoil_electrum_ins",
+				count: 8L
+			}],
+			rewards: [{
+				id: 2215,
+				type: "item",
+				item: "immersiveengineering:connector_mv_relay",
+				count: 4
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 1.0d,
+			dependencies: [I;2210],
+			id: 2216,
+			tasks: [{
+				id: 2217,
+				type: "item",
+				item: "immersiveengineering:wirecoil_steel",
+				count: 8L
+			}],
+			rewards: [
+				{
+					id: 2218,
+					type: "item",
+					item: "immersiveengineering:connector_hv",
+					count: 4
+				},
+				{
+					id: 2219,
+					type: "item",
+					item: "immersiveengineering:connector_hv_relay",
+					count: 4
+				}
+			]
+		},
+		{
+			x: 4.5d,
+			y: -0.5d,
+			dependencies: [I;2206],
+			id: 2220,
+			tasks: [{
+				id: 2221,
+				type: "item",
+				item: "immersiveengineering:capacitor_mv",
+				count: 2L
+			}]
+		},
+		{
+			x: 6.0d,
+			y: -0.5d,
+			dependencies: [I;2220],
+			id: 2222,
+			tasks: [{
+				id: 2223,
+				type: "item",
+				item: "immersiveengineering:capacitor_hv",
+				count: 2L
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -2.0d,
+			dependencies: [I;
+				2190,
+				2192
+			],
+			id: 2224,
+			tasks: [{
+				id: 2225,
+				type: "item",
+				item: "immersiveengineering:watermill",
+				count: 3L
+			}],
+			rewards: [{
+				id: 2239,
+				type: "item",
+				item: "immersiveengineering:treated_wood_horizontal",
+				count: 24
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -2.0d,
+			dependencies: [I;
+				2190,
+				2192
+			],
+			id: 2226,
+			tasks: [{
+				id: 2227,
+				type: "item",
+				item: "immersiveengineering:windmill"
+			}],
+			rewards: [{
+				id: 2230,
+				type: "item",
+				item: "immersiveengineering:windmill_sail",
+				count: 4
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 2.5d,
+			dependencies: [I;2216],
+			id: 2228,
+			tasks: [{
+				id: 2229,
+				type: "item",
+				item: "immersiveengineering:transformer_hv"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: -4.5d,
+			dependencies: [I;2188],
+			id: 2231,
+			tasks: [{
+				id: 2232,
+				type: "item",
+				item: "immersiveengineering:blastbrick",
+				count: 27L
+			}],
+			rewards: [{
+				id: 2240,
+				type: "item",
+				item: "immersiveengineering:coal_coke",
+				count: 4
+			}]
+		},
+		{
+			x: -1.5d,
+			y: -2.5d,
+			dependencies: [I;2188],
+			id: 2233,
+			tasks: [{
+				id: 2234,
+				type: "item",
+				item: "immersiveengineering:coal_coke",
+				count: 16L
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -3.5d,
+			dependencies: [I;
+				2231,
+				2233
+			],
+			id: 2235,
+			tasks: [{
+				id: 2236,
+				type: "item",
+				item: "immersiveengineering:ingot_steel",
+				count: 16L
+			}],
+			rewards: [{
+				id: 2241,
+				type: "item",
+				item: "immersiveengineering:ingot_steel",
+				count: 8
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -2.0d,
+			dependencies: [I;2206],
+			id: 2243,
+			tasks: [{
+				id: 2244,
+				type: "item",
+				item: "immersivepetroleum:gas_generator"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 4.0d,
+			dependencies: [I;2213],
+			id: 2246,
+			tasks: [{
+				id: 2247,
+				type: "item",
+				item: "immersiveengineering:transformer"
+			}]
+		}
+	]
+}

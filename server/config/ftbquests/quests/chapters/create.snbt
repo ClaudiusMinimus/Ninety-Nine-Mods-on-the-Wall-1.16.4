@@ -47,6 +47,11 @@
 				type: "item",
 				item: "create:andesite_alloy",
 				count: 8L
+			}],
+			rewards: [{
+				id: 2159,
+				type: "item",
+				item: "create:zinc_block"
 			}]
 		},
 		{
@@ -59,6 +64,11 @@
 				type: "item",
 				item: "create:cogwheel",
 				count: 8L
+			}],
+			rewards: [{
+				id: 2143,
+				type: "item",
+				item: "cyclic:apple_chocolate"
 			}]
 		},
 		{
@@ -83,6 +93,12 @@
 				type: "item",
 				item: "create:shaft",
 				count: 8L
+			}],
+			rewards: [{
+				id: 2161,
+				type: "item",
+				item: "create:shaft",
+				count: 8
 			}]
 		},
 		{
@@ -99,6 +115,11 @@
 				id: 1944,
 				type: "item",
 				item: "create:mechanical_press"
+			}],
+			rewards: [{
+				id: 2150,
+				type: "item",
+				item: "create:adjustable_pulse_repeater"
 			}]
 		},
 		{
@@ -123,6 +144,12 @@
 				type: "item",
 				item: "create:belt_connector",
 				count: 8L
+			}],
+			rewards: [{
+				id: 2144,
+				type: "item",
+				item: "simplefarming:pulled_pork_sandwich",
+				count: 8
 			}]
 		},
 		{
@@ -134,6 +161,17 @@
 				id: 1950,
 				type: "item",
 				item: "create:goggles"
+			}],
+			rewards: [{
+				id: 2156,
+				type: "item",
+				item: {
+					id: "cyclic:glowing_helmet",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		},
 		{
@@ -151,6 +189,11 @@
 				id: 1952,
 				type: "item",
 				item: "create:wrench"
+			}],
+			rewards: [{
+				id: 2154,
+				type: "item",
+				item: "cyclic:apple_chocolate"
 			}]
 		},
 		{
@@ -163,6 +206,11 @@
 				type: "item",
 				item: "create:iron_sheet",
 				count: 64L
+			}],
+			rewards: [{
+				id: 2149,
+				type: "item",
+				item: "create:nozzle"
 			}]
 		},
 		{
@@ -174,6 +222,11 @@
 				id: 1956,
 				type: "item",
 				item: "create:copper_sheet"
+			}],
+			rewards: [{
+				id: 2147,
+				type: "item",
+				item: "create:adjustable_repeater"
 			}]
 		},
 		{
@@ -185,6 +238,11 @@
 				id: 1958,
 				type: "item",
 				item: "create:brass_sheet"
+			}],
+			rewards: [{
+				id: 2142,
+				type: "item",
+				item: "create:brass_block"
 			}]
 		},
 		{
@@ -196,6 +254,11 @@
 				id: 1960,
 				type: "item",
 				item: "create:golden_sheet"
+			}],
+			rewards: [{
+				id: 2151,
+				type: "item",
+				item: "cyclic:apple_emerald"
 			}]
 		},
 		{
@@ -207,6 +270,11 @@
 				id: 1962,
 				type: "item",
 				item: "create:lapis_sheet"
+			}],
+			rewards: [{
+				id: 2146,
+				type: "item",
+				item: "cyclic:heart"
 			}]
 		},
 		{
@@ -258,6 +326,12 @@
 				type: "item",
 				item: "create:white_sail",
 				count: 8L
+			}],
+			rewards: [{
+				id: 2145,
+				type: "item",
+				item: "create:white_sail",
+				count: 8
 			}]
 		},
 		{
@@ -270,6 +344,11 @@
 				id: 1971,
 				type: "item",
 				item: "create:windmill_bearing"
+			}],
+			rewards: [{
+				id: 2155,
+				type: "item",
+				item: "cyclic:apple_emerald"
 			}]
 		},
 		{
@@ -283,11 +362,19 @@
 				type: "item",
 				item: "create:radial_chassis"
 			}],
-			rewards: [{
-				id: 1974,
-				type: "item",
-				item: "minecraft:slime_ball"
-			}]
+			rewards: [
+				{
+					id: 1974,
+					type: "item",
+					item: "minecraft:slime_ball"
+				},
+				{
+					id: 2160,
+					type: "item",
+					item: "create:redstone_link",
+					count: 2
+				}
+			]
 		},
 		{
 			x: -3.0d,
@@ -305,6 +392,11 @@
 				id: 1977,
 				type: "item",
 				item: "create:encased_fan"
+			}],
+			rewards: [{
+				id: 2148,
+				type: "item",
+				item: "create:honey_bucket"
 			}]
 		},
 		{
@@ -317,6 +409,12 @@
 				id: 1980,
 				type: "item",
 				item: "create:millstone"
+			}],
+			rewards: [{
+				id: 2141,
+				type: "item",
+				item: "create:wooden_bracket",
+				count: 4
 			}]
 		},
 		{
@@ -330,6 +428,11 @@
 				type: "item",
 				item: "create:fluid_pipe",
 				count: 8L
+			}],
+			rewards: [{
+				id: 2140,
+				type: "item",
+				item: "create:cuckoo_clock"
 			}]
 		},
 		{
@@ -342,6 +445,15 @@
 				id: 1984,
 				type: "item",
 				item: "create:mechanical_pump"
+			}],
+			rewards: [{
+				id: 2139,
+				type: "item",
+				item: {
+					id: "cyclic:glove_climb",
+					Count: true,
+					tag: {}
+				}
 			}]
 		},
 		{
@@ -354,7 +466,19 @@
 				id: 1986,
 				type: "item",
 				item: "create:fluid_valve"
-			}]
+			}],
+			rewards: [
+				{
+					id: 2135,
+					type: "item",
+					item: "create:green_valve_handle"
+				},
+				{
+					id: 2136,
+					type: "item",
+					item: "create:red_valve_handle"
+				}
+			]
 		},
 		{
 			x: 1.5d,
@@ -378,6 +502,11 @@
 				id: 1992,
 				type: "item",
 				item: "create:spout"
+			}],
+			rewards: [{
+				id: 2132,
+				type: "item",
+				item: "create:item_drain"
 			}]
 		},
 		{
@@ -388,6 +517,11 @@
 			id: 1993,
 			tasks: [{
 				id: 1994,
+				type: "item",
+				item: "create:mechanical_saw"
+			}],
+			rewards: [{
+				id: 2153,
 				type: "item",
 				item: "create:mechanical_saw"
 			}]
@@ -402,6 +536,12 @@
 				id: 1996,
 				type: "item",
 				item: "create:mechanical_drill"
+			}],
+			rewards: [{
+				id: 2152,
+				type: "item",
+				item: "create:cogwheel",
+				count: 4
 			}]
 		},
 		{
@@ -415,6 +555,12 @@
 				type: "item",
 				item: "create:fluid_tank",
 				count: 4L
+			}],
+			rewards: [{
+				id: 2137,
+				type: "item",
+				item: "create:fluid_tank",
+				count: 4
 			}]
 		},
 		{
@@ -427,6 +573,12 @@
 				id: 2000,
 				type: "item",
 				item: "create:gearbox"
+			}],
+			rewards: [{
+				id: 2157,
+				type: "item",
+				item: "create:cogwheel",
+				count: 4
 			}]
 		},
 		{
@@ -439,6 +591,28 @@
 				id: 2002,
 				type: "item",
 				item: "create:vertical_gearbox"
+			}],
+			rewards: [{
+				id: 2158,
+				type: "item",
+				item: "create:cogwheel",
+				count: 4
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -4.0d,
+			dependencies: [I;1981],
+			id: 2133,
+			tasks: [{
+				id: 2134,
+				type: "item",
+				item: "create:hose_pulley"
+			}],
+			rewards: [{
+				id: 2138,
+				type: "item",
+				item: "create:hand_crank"
 			}]
 		}
 	]
