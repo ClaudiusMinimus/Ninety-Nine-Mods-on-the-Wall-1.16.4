@@ -1,7 +1,7 @@
 {
 	id: 2183,
 	filename: "immersive_engineering",
-	order_index: 9,
+	order_index: 7,
 	title: "Immersive Engineering",
 	icon: {
 		id: "immersiveengineering:hammer",
