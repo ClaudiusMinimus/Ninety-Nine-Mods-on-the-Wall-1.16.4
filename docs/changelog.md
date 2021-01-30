@@ -9,6 +9,7 @@
   - kubejs-create-1604.1.0.4
   - kubejs-immersive-engineering-1604.1.0.12
   - nomowanderer_MC1.16.4_1.1
+  - supplementaries-1.16.5-0.9.23c
   - woodcutter-1.3-1.16.3
 - Mods Updated: 
   - architectury-1.5.104-forge
@@ -46,7 +47,6 @@
   - SilentLib-1.16.3-4.9.1+64
   - starterkit_1.16.5-2.1
   - StorageDrawers-1.16.3-8.2.2
-  - supplementaries-1.16.5-0.9.23c
   - tellme-forge-1.16.4-0.9.1
   - torchmaster-2.3.6
   - u_team_core-1.16.4-3.1.17.192
