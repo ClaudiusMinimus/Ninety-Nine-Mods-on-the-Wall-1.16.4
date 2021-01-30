@@ -15,7 +15,7 @@
 		#Set false to disable enchantment
 		beheading = true
 		#Set false to disable enchantment
-		curse = true
+		curse = false #this is the gloom enchantment
 		#Set false to disable enchantment
 		disarm = true
 		#Set false to disable enchantment
