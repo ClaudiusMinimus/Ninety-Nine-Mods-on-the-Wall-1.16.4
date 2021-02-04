@@ -1,4 +1,44 @@
 # Change Log
+## Version 1.7.1
+- Mods Added:
+  - ForeverAChild-1.16.3-1.0.0
+  - mcw-furniture-2.0.1-mc1.16.5
+  - morered-1.16.4-2.0.1.3
+  - windowlogging-mc1.16.3_v0.0.2
+- Mods Updated:
+  - alexsmobs-1.5.0
+  - architectury-1.5.105-forge
+  - Bookshelf-1.16.5-10.0.1
+  - collective-1.16.5-1.55
+  - controllable-0.10.2-1.16.3
+  - Cucumber-1.16.4-4.1.6
+  - curios-forge-1.16.5-4.0.4.0
+  - Cyclic-1.16.5-1.1.5
+  - fancymenu_1.7.1_MC_1.16.2-1.16.5
+  - ftb-chunks-1604.2.2.62
+  - globalxp-1.16.5-v1.5
+  - ImmersiveEngineering-1.16.5-4.2.1-131
+  - jei-1.16.4-7.6.1.66
+  - konkrete_1.1.3_MC_1.16.2-1.16.5
+  - kubejs-1605.3.6-build.160-forge
+  - LargeFluidTank-16.1.3
+  - Lollipop-1.16.4-3.2.5
+  - nomowanderer_MC1.16.5_1.0
+  - pamhc2foodcore-1.16.3-1.0.2
+  - PickleTweaks-1.16.4-5.2.0
+  - polymorph-forge-1.16.5-0.24
+  - Quark-r2.4-303
+  - randompatches-2.3.0-forge
+  - rats-7.1.1-1.16.5
+  - rhino-1.7.13-build.14
+  - SilentGear-1.16.3-2.5.5+213
+  - starterkit_1.16.5-2.2
+  - Xaeros_Minimap_21.2.0.2_Forge_1.16.5
+  - XaerosWorldMap_1.11.11.2_Forge_1.16.5
+- Mods Removed: None
+- Other Changes:
+  - Updated Forge to 36.0.14
+  - Updated quests
 ## Version 1.6.4
 - Mods Added:
   - BetterDefaultBiomes-1.16.4+-Alpha2.5.3
