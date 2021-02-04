@@ -46,7 +46,14 @@
 			],
 			rewards: [{
 				id: 190,
-				type: "item"
+				type: "item",
+				item: {
+					id: "cyclic:sleeping_mat",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		},
 		{
