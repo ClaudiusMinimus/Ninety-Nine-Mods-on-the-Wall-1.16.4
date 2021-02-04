@@ -47,7 +47,13 @@
 			rewards: [{
 				id: 190,
 				type: "item",
-				item: "comforts:sleeping_bag_blue"
+				item: {
+					id: "cyclic:sleeping_mat",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		},
 		{

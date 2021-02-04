@@ -81,6 +81,11 @@
 				type: "item",
 				item: "create:large_cogwheel",
 				count: 2L
+			}],
+			rewards: [{
+				id: 2248,
+				type: "item",
+				item: "minecraft:lava_bucket"
 			}]
 		},
 		{
@@ -153,8 +158,8 @@
 			}]
 		},
 		{
-			x: 1.5d,
-			y: 6.0d,
+			x: 3.0d,
+			y: 9.0d,
 			dependencies: [I;1959],
 			id: 1949,
 			tasks: [{
@@ -352,10 +357,10 @@
 			}]
 		},
 		{
-			x: 4.5d,
+			x: 3.0d,
 			y: 6.0d,
 			description: ["You need to put slime on the four contact surfaces for a windmill to rotate. Double click the slime to attach to all four sides at once."],
-			dependencies: [I;1970],
+			dependencies: [I;2249],
 			id: 1972,
 			tasks: [{
 				id: 1973,
@@ -510,7 +515,7 @@
 			}]
 		},
 		{
-			x: -2.0d,
+			x: -1.5d,
 			y: 6.0d,
 			description: ["The Mechanical Saw can be used for cutting trees or for stonecutter recipes. With the Saw in hand, press the Shift key for more information."],
 			dependencies: [I;1945],
@@ -527,7 +532,7 @@
 			}]
 		},
 		{
-			x: -2.0d,
+			x: -1.5d,
 			y: 4.5d,
 			description: ["The Mechanical Drill can be used for mining, but in early game can be used as part of a stationary cobble generator"],
 			dependencies: [I;1945],
@@ -564,7 +569,7 @@
 			}]
 		},
 		{
-			x: -2.0d,
+			x: -1.5d,
 			y: 3.0d,
 			description: ["The Gearbox allows for changing direction horizontally."],
 			dependencies: [I;1945],
@@ -613,6 +618,87 @@
 				id: 2138,
 				type: "item",
 				item: "create:hand_crank"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 6.0d,
+			dependencies: [I;1945],
+			id: 2249,
+			tasks: [{
+				id: 2250,
+				type: "item",
+				item: "create:mechanical_bearing"
+			}],
+			rewards: [{
+				id: 2253,
+				type: "item",
+				item: "supplementaries:clock_block"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 6.0d,
+			dependencies: [I;1972],
+			id: 2251,
+			tasks: [{
+				id: 2252,
+				type: "item",
+				item: "create:linear_chassis",
+				count: 3L
+			}],
+			rewards: [
+				{
+					id: 2254,
+					type: "item",
+					item: "immersiveengineering:crate",
+					count: 2
+				},
+				{
+					id: 2259,
+					type: "item",
+					item: {
+						id: "create:super_glue",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: 10.5d,
+			dependencies: [I;1957],
+			id: 2255,
+			tasks: [{
+				id: 2256,
+				type: "item",
+				item: "create:deployer"
+			}],
+			rewards: [{
+				id: 2260,
+				type: "item",
+				item: "create:deployer"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 10.5d,
+			dependencies: [I;1957],
+			id: 2257,
+			tasks: [{
+				id: 2258,
+				type: "item",
+				item: "create:mechanical_crafter",
+				count: 9L
+			}],
+			rewards: [{
+				id: 2261,
+				type: "item",
+				item: "create:mechanical_crafter",
+				count: 3
 			}]
 		}
 	]

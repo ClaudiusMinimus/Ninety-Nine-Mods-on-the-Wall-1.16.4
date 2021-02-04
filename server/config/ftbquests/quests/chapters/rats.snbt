@@ -1,7 +1,7 @@
 {
 	id: 2069,
 	filename: "rats",
-	order_index: 7,
+	order_index: 8,
 	title: "Rats",
 	icon: "rats:marbled_cheese_rat_head",
 	default_quest_shape: "",

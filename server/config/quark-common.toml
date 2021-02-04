@@ -114,6 +114,7 @@
 	"Burn Vines" = true
 	"Quilted Wool" = true
 	"Compressed Blocks" = true
+	Stools = true
 	Thatch = true
 	"Variant Chests" = false
 	"Variant Ladders" = false
@@ -140,6 +141,7 @@
 	"More Potted Plants" = true
 	Grate = true
 	"Variant Bookshelves" = true
+	Hedges = true
 
 	[building.rope]
 		"Enable Dispenser Behavior" = true
@@ -205,6 +207,7 @@
 		#
 		#This also comes with a utility recipe for Red Nether Bricks
 		"Enable Blue Nether Bricks" = true
+		"Enable Blackstone Variant Bricks" = true
 		"Enable Charred Nether Bricks" = true
 		"Enable Snow Bricks" = true
 		#
@@ -239,15 +242,18 @@
 	"Easy Transfering" = true
 
 	[management.inventory_sorting]
-		"Enable Chests" = true
-		"Enable Player Inventory In Chests" = true
-		"Enable Player Inventory" = true
-
-	[management.item_sharing]
-		"Render Items In Chat" = true
+		#
+		#Play a click when sorting inventories using keybindings
+		"Satisfying Click" = false
+		"Enable Chests" = false
+		"Enable Player Inventory In Chests" = false
+		"Enable Player Inventory" = false
 
 	[management.easy_transfering]
 		"Enable Shift Lock" = true
+
+	[management.item_sharing]
+		"Render Items In Chat" = true
 
 [tools]
 	Pickarang = true
@@ -272,6 +278,12 @@
 		"Cloud Level Bottom" = 127
 
 	[tools.ancient_tomes]
+		#
+		#Set to 0 to not generate in Underwater Ruins
+		"Underwater Ruin Weight" = 0
+		#
+		#Set to 0 to not generate in Woodland Mansions
+		"Woodland Mansion Weight" = 15
 		"Valid Enchantments" = ["minecraft:feather_falling", "minecraft:thorns", "minecraft:sharpness", "minecraft:smite", "minecraft:bane_of_arthropods", "minecraft:knockback", "minecraft:fire_aspect", "minecraft:looting", "minecraft:sweeping", "minecraft:efficiency", "minecraft:unbreaking", "minecraft:fortune", "minecraft:power", "minecraft:punch", "minecraft:luck_of_the_sea", "minecraft:lure", "minecraft:loyalty", "minecraft:riptide", "minecraft:impaling", "minecraft:piercing"]
 		#
 		#Set to 0 to not generate in Dungeons
@@ -282,21 +294,15 @@
 		#Set to 0 to not generate in Stronghold Libraries
 		"Library Weight" = 30
 		#
-		#Set to 0 to not generate in Monster Boxes
-		"Monster Box Weight" = 5
-		"Merge Cost" = 35
-		#
-		#Set to 0 to not generate in Bastions
-		"Bastion Weight" = 25
-		#
-		#Set to 0 to not generate in Woodland Mansions
-		"Woodland Mansion Weight" = 15
-		#
 		#Set to 0 to not generate in Nether Fortresses
 		"Nether Fortress Weight" = 0
 		#
-		#Set to 0 to not generate in Underwater Ruins
-		"Underwater Ruin Weight" = 0
+		#Set to 0 to not generate in Monster Boxes
+		"Monster Box Weight" = 5
+		#
+		#Set to 0 to not generate in Bastions
+		"Bastion Weight" = 25
+		"Merge Cost" = 35
 
 	[tools.pathfinder_maps]
 		#
@@ -320,8 +326,8 @@
 
 	[tools.seed_pouch]
 		"Show All Variants In Creative" = true
-		"Max Items" = 640
 		"Shift Range" = 3
+		"Max Items" = 640
 
 	[tools.color_runes]
 		"Jungle Temple Weight" = 8
@@ -385,6 +391,7 @@
 	"Snow Golem Player Heads" = true
 	"Glass Shard" = true
 	"Campfires Boost Elytra" = true
+	"Lava Bucket As Trash" = true
 
 	[tweaks.sign_editing]
 		"Requires Empty Hand" = false
@@ -1723,6 +1730,8 @@
 	Stonelings = true
 	Foxhound = true
 	Toretoise = true
+	Forgotten = true
+	Wraith = true
 
 	[mobs.stonelings]
 		"Cautious Stonelings" = true
@@ -1861,6 +1870,35 @@
 				"Biome Categories" = ["swamp"]
 				"Is Blacklist" = false
 
+	[mobs.forgotten]
+		#
+		#1 in this many Skeletons that spawn under the threshold are replaced with Forgotten.
+		"Forgotten Spawn Rate" = 0.05
+		"Max Height For Spawn" = 20
+
+	[mobs.wraith]
+		#
+		#List of sound sets to use with wraiths.
+		#Three sounds must be provided per entry, separated by | (in the format idle|hurt|death). Leave blank for no sound (i.e. if a mob has no ambient noise)
+		"Wraith Sounds" = ["entity.sheep.ambient|entity.sheep.hurt|entity.sheep.death", "entity.cow.ambient|entity.cow.hurt|entity.cow.death", "entity.pig.ambient|entity.pig.hurt|entity.pig.death", "entity.chicken.ambient|entity.chicken.hurt|entity.chicken.death", "entity.horse.ambient|entity.horse.hurt|entity.horse.death", "entity.cat.ambient|entity.cat.hurt|entity.cat.death", "entity.wolf.ambient|entity.wolf.hurt|entity.wolf.death", "entity.villager.ambient|entity.villager.hurt|entity.villager.death", "entity.polar_bear.ambient|entity.polar_bear.hurt|entity.polar_bear.death", "entity.zombie.ambient|entity.zombie.hurt|entity.zombie.death", "entity.skeleton.ambient|entity.skeleton.hurt|entity.skeleton.death", "entity.spider.ambient|entity.spider.hurt|entity.spider.death", "|entity.creeper.hurt|entity.creeper.death", "entity.endermen.ambient|entity.endermen.hurt|entity.endermen.death", "entity.zombie_pig.ambient|entity.zombie_pig.hurt|entity.zombie_pig.death", "entity.witch.ambient|entity.witch.hurt|entity.witch.death", "entity.blaze.ambient|entity.blaze.hurt|entity.blaze.death", "entity.llama.ambient|entity.llama.hurt|entity.llama.death", "|quark:entity.stoneling.cry|quark:entity.stoneling.die", "quark:entity.frog.idle|quark:entity.frog.hurt|quark:entity.frog.die"]
+
+		[mobs.wraith.spawn_config]
+			"Max Cost" = 0.7
+			"Spawn Cost" = 0.15
+			#
+			#Allowed values: (0,)
+			"Spawn Weight" = 8
+			#
+			#Allowed values: [1,)
+			"Min Group Size" = 1
+			#
+			#Allowed values: [1,)
+			"Max Group Size" = 3
+
+			[mobs.wraith.spawn_config.biomes]
+				Biomes = ["minecraft:soul_sand_valley"]
+				"Is Blacklist" = false
+
 [client]
 	"Greener Grass" = true
 	"Variant Animal Textures" = true
@@ -1896,8 +1934,6 @@
 	[client.improved_tooltips]
 		"Shulker Box Require Shift" = false
 		"Shulker Box Use Colors" = true
-		"Shulker Tooltips" = true
-		"Map Require Shift" = false
 		"Attribute Tooltips" = true
 		"Enchanting Tooltips" = true
 		#
@@ -1910,6 +1946,9 @@
 		#So to display a carrot on a stick on a mending book, for example, you use:
 		#minecraft:mending=minecraft:carrot_on_a_stick
 		"Enchanting Additional Stacks" = []
+		"Food Compression Threshold" = 4
+		"Shulker Tooltips" = true
+		"Map Require Shift" = false
 		"Food Tooltips" = true
 		"Show Saturation" = true
 		"Map Tooltips" = true
@@ -2038,10 +2077,10 @@
 
 [experimental]
 	"Adjustable Chat" = false
-	"Custom Underground Biome" = false
-	"Game Nerfs" = false
 	"Narrator Readout" = false
 	"Overlay Shader" = false
+	"Custom Underground Biome" = false
+	"Game Nerfs" = false
 
 	[experimental.adjustable_chat]
 		"Horizontal Shift" = 0
@@ -2061,17 +2100,17 @@
 		#https://www.curseforge.com/minecraft/mc-mods/unmending
 		"Nerf Mending" = true
 		#
-		#Resets all villager discounts when zombified to prevent reducing prices to ridiculous levels
-		"Nerf Villager Discount" = true
-		#
 		#Makes Iron Golems not drop Iron Ingots
 		"Disable Iron Farms" = true
+		#
+		#Makes Sheep not drop Wool when killed
+		"Disable Wool Drops" = true
 		#
 		#Makes Boats not glide on ice
 		"Disable Ice Roads" = true
 		#
-		#Makes Sheep not drop Wool when killed
-		"Disable Wool Drops" = true
+		#Resets all villager discounts when zombified to prevent reducing prices to ridiculous levels
+		"Nerf Villager Discount" = true
 
 	[experimental.overlay_shader]
 		#

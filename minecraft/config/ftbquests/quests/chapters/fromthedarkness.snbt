@@ -172,7 +172,7 @@
 			x: 0.0d,
 			y: 3.0d,
 			description: ["Let's go get some iron!"],
-			dependencies: [I;33],
+			dependencies: [I;199],
 			id: 30,
 			tasks: [{
 				id: 31,
@@ -207,8 +207,8 @@
 		},
 		{
 			x: 0.0d,
-			y: 1.5d,
-			dependencies: [I;5],
+			y: 6.0d,
+			dependencies: [I;1480],
 			id: 33,
 			tasks: [{
 				id: 34,
@@ -313,22 +313,16 @@
 				item: "minecraft:scaffolding",
 				count: 18L
 			}],
-			rewards: [
-				{
-					id: 198,
-					type: "xp",
-					xp: 50
-				},
-				{
-					id: 566,
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: 198,
+				type: "xp",
+				xp: 50
+			}]
 		},
 		{
-			x: -1.0d,
-			y: 2.5d,
-			dependencies: [I;33],
+			x: 0.0d,
+			y: 1.5d,
+			dependencies: [I;5],
 			id: 199,
 			tasks: [{
 				id: 200,
@@ -344,8 +338,8 @@
 			}]
 		},
 		{
-			x: -2.0d,
-			y: 3.5d,
+			x: -1.0d,
+			y: 2.5d,
 			dependencies: [I;199],
 			id: 201,
 			tasks: [{
@@ -357,13 +351,16 @@
 			rewards: [{
 				id: 226,
 				type: "item",
-				item: "minecraft:phantom_membrane",
-				count: 6
+				item: {
+					id: "immersiveengineering:lantern",
+					Count: 4b
+				},
+				count: 4
 			}]
 		},
 		{
-			x: -3.0d,
-			y: 4.5d,
+			x: -2.0d,
+			y: 3.5d,
 			dependencies: [I;
 				199,
 				201
