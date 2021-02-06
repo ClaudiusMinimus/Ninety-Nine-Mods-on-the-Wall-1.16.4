@@ -1,4 +1,11 @@
 # Change Log
+## Version 1.7.2
+- Mods Added: none
+- Mods Updated: none
+- Mods Removed: none
+- Other Changes:
+ - Added Create crushing recipes for Tungsten, Titanium, Crimson Iron, and Azure Silver
+ - Added several quests to the Create quest line. Still need to add rewards and more descriptions.
 ## Version 1.7.1
 - Mods Added:
   - ForeverAChild-1.16.3-1.0.0

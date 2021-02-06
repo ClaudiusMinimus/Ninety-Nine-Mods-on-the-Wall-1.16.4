@@ -112,7 +112,7 @@
 			description: [
 				"The Mechanical Press is a workhorse which you will use a lot. To use, you will need to activate with a Redstone signal, like a lever or button.",
 				"",
-				"To use, just an iron, brass, copper, gold, or lapis ingot under the press."
+				"To use, just drop an iron, brass, copper, gold, or lapis ingot under the press."
 			],
 			dependencies: [I;1945],
 			id: 1943,
@@ -202,8 +202,9 @@
 			}]
 		},
 		{
-			x: -1.5d,
-			y: 7.5d,
+			x: -3.5d,
+			y: 7.0d,
+			description: ["Iron Sheets are another common item needed for making machines. You will need lots of these."],
 			dependencies: [I;1943],
 			id: 1953,
 			tasks: [{
@@ -219,7 +220,7 @@
 			}]
 		},
 		{
-			x: -1.5d,
+			x: 0.0d,
 			y: 9.0d,
 			dependencies: [I;1943],
 			id: 1955,
@@ -235,9 +236,9 @@
 			}]
 		},
 		{
-			x: 0.0d,
-			y: 9.0d,
-			dependencies: [I;1943],
+			x: -1.5d,
+			y: 10.5d,
+			dependencies: [I;2267],
 			id: 1957,
 			tasks: [{
 				id: 1958,
@@ -382,8 +383,8 @@
 			]
 		},
 		{
-			x: -3.0d,
-			y: 7.5d,
+			x: -5.0d,
+			y: 6.0d,
 			description: [
 				"Encased Fans work great for Bulk Smelting, Try setting up an automated washing system using one or more of the following: ",
 				"",
@@ -515,15 +516,16 @@
 			}]
 		},
 		{
-			x: -1.5d,
-			y: 6.0d,
+			x: -4.0d,
+			y: 8.5d,
 			description: ["The Mechanical Saw can be used for cutting trees or for stonecutter recipes. With the Saw in hand, press the Shift key for more information."],
-			dependencies: [I;1945],
+			dependencies: [I;1953],
 			id: 1993,
 			tasks: [{
 				id: 1994,
 				type: "item",
-				item: "create:mechanical_saw"
+				item: "create:mechanical_saw",
+				count: 2L
 			}],
 			rewards: [{
 				id: 2153,
@@ -668,8 +670,8 @@
 			]
 		},
 		{
-			x: 0.0d,
-			y: 10.5d,
+			x: -1.5d,
+			y: 12.0d,
 			dependencies: [I;1957],
 			id: 2255,
 			tasks: [{
@@ -684,9 +686,9 @@
 			}]
 		},
 		{
-			x: -1.5d,
+			x: 1.5d,
 			y: 10.5d,
-			dependencies: [I;1957],
+			dependencies: [I;2269],
 			id: 2257,
 			tasks: [{
 				id: 2258,
@@ -699,6 +701,181 @@
 				type: "item",
 				item: "create:mechanical_crafter",
 				count: 3
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 8.0d,
+			dependencies: [I;1953],
+			id: 2262,
+			tasks: [
+				{
+					id: 2263,
+					type: "item",
+					item: "create:mechanical_mixer"
+				},
+				{
+					id: 2264,
+					type: "item",
+					item: "create:basin"
+				}
+			]
+		},
+		{
+			x: -5.0d,
+			y: 7.5d,
+			dependencies: [I;1953],
+			id: 2265,
+			tasks: [{
+				id: 2266,
+				type: "item",
+				item: "create:mechanical_harvester",
+				count: 2L
+			}],
+			rewards: [{
+				id: 2292,
+				type: "item",
+				item: "create:mechanical_harvester"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 9.0d,
+			dependencies: [I;
+				2262,
+				1943
+			],
+			id: 2267,
+			tasks: [{
+				id: 2268,
+				type: "item",
+				item: "create:brass_ingot"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 10.5d,
+			dependencies: [I;1957],
+			id: 2269,
+			tasks: [{
+				id: 2270,
+				type: "item",
+				item: "create:brass_casing",
+				count: 4L
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 12.0d,
+			dependencies: [I;
+				2257,
+				2280
+			],
+			id: 2271,
+			tasks: [{
+				id: 2272,
+				type: "item",
+				item: "create:rotation_speed_controller"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 14.0d,
+			dependencies: [I;2257],
+			id: 2273,
+			tasks: [{
+				id: 2274,
+				type: "item",
+				item: "create:sequenced_gearshift"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 13.0d,
+			dependencies: [I;2257],
+			id: 2275,
+			tasks: [{
+				id: 2276,
+				type: "item",
+				item: "create:mechanical_arm"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 13.5d,
+			dependencies: [I;2257],
+			id: 2277,
+			tasks: [
+				{
+					id: 2278,
+					type: "item",
+					item: "create:furnace_engine"
+				},
+				{
+					id: 2279,
+					type: "item",
+					item: "create:flywheel"
+				}
+			]
+		},
+		{
+			x: 3.0d,
+			y: 10.5d,
+			dependencies: [I;
+				2257,
+				1961
+			],
+			id: 2280,
+			tasks: [{
+				id: 2281,
+				type: "item",
+				item: "create:integrated_circuit"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 12.0d,
+			dependencies: [I;2269],
+			id: 2284,
+			tasks: [{
+				id: 2285,
+				type: "item",
+				item: "create:portable_storage_interface"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 10.0d,
+			dependencies: [I;2267],
+			id: 2286,
+			tasks: [{
+				id: 2287,
+				type: "item",
+				item: "create:brass_funnel"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 6.0d,
+			dependencies: [I;1945],
+			id: 2288,
+			tasks: [{
+				id: 2289,
+				type: "item",
+				item: "create:andesite_funnel"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 5.5d,
+			description: ["Chutes are used to transport items to and from storage containers. Can interact with Funnels and Fans."],
+			dependencies: [I;1953],
+			id: 2290,
+			tasks: [{
+				id: 2291,
+				type: "item",
+				item: "create:chute",
+				count: 4L
 			}]
 		}
 	]
