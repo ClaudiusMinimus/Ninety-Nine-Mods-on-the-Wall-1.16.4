@@ -15,6 +15,7 @@ labels: ''
 assignees: ''
 
 ---
+## Please Fill in ALL Applicable Sections ##
 
 **Describe the bug**
 - A clear and concise description of what the bug is.
