@@ -409,11 +409,18 @@
 				type: "item",
 				item: "simplefarming:ginger"
 			}],
-			rewards: [{
-				id: "0000000000000682",
-				type: "xp",
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "0000000000000682",
+					type: "xp",
+					xp: 100
+				},
+				{
+					id: "68071312D64BA457",
+					type: "item",
+					item: "xreliquary:fertile_lily_pad"
+				}
+			]
 		},
 		{
 			x: 1.0d,

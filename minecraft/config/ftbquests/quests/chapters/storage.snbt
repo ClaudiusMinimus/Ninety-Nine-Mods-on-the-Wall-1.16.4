@@ -18,11 +18,23 @@
 				type: "item",
 				item: "minecraft:barrel"
 			}],
-			rewards: [{
-				id: "000000000000022C",
-				type: "item",
-				item: "minecraft:hopper"
-			}]
+			rewards: [
+				{
+					id: "000000000000022C",
+					type: "item",
+					item: "cyclic:item_pipe",
+					count: 8
+				},
+				{
+					id: "232CD3412EB250C3",
+					type: "item",
+					item: {
+						id: "cyclic:cable_wrench",
+						Count: 1b,
+						tag: {}
+					}
+				}
+			]
 		},
 		{
 			x: 1.0d,

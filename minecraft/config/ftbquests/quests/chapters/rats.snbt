@@ -391,11 +391,24 @@
 				type: "item",
 				item: "rats:auto_curdler"
 			}],
-			rewards: [{
-				id: "0000000000000843",
-				type: "item",
-				item: "rats:token_fragment"
-			}]
+			rewards: [
+				{
+					id: "0000000000000843",
+					type: "item",
+					item: "rats:token_fragment"
+				},
+				{
+					id: "747498A6F8884C3A",
+					type: "item",
+					item: {
+						id: "constructionwand:infinity_wand",
+						Count: 1b,
+						tag: {
+							wand_options: {}
+						}
+					}
+				}
+			]
 		},
 		{
 			x: 1.0d,
