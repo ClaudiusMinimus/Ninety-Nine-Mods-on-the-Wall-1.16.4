@@ -27,11 +27,12 @@ server/config/*
 server/crash-reports/*
 server/config/defaultoptions/*
 server/dumps/*
-server/libraries/*
+server/libraries*/*
+server/journeymap/*
 server/local/*
 server/logs/*
-server/mods
 server/mods/*
+server/openloader/.cache
 server/world/*
 server/world*
 
