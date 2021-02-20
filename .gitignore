@@ -9,6 +9,7 @@ minecraft/crash-reports/*
 minecraft/ct_dumps/*
 minecraft/dumps/*
 minecraft/ESM/*
+minecraft/journeymap/*
 minecraft/local/*
 minecraft/logs/*
 minecraft/mods*/*
@@ -38,6 +39,7 @@ server/world*
 builds/*(copy).zip
 build/*server.zip
 builds/server*.zip
+build/99mtw-1.16.5-*.zip
 minecraft/resourcepacks/Quark Programmer Art.zip
 minecraft/XaeroWaypoints*
 minecraft/.vote2020_marker
@@ -46,6 +48,7 @@ minecraft/instance.json
 minecraft/instance.cfg
 minecraft/ops.json
 minecraft/options.txt
+minecraft/openloader/.cache
 minecraft/optionsof.txt
 minecraft/optionsshaders.txt
 minecraft/realms_persistence.json
@@ -61,6 +64,7 @@ server/maessentials/homes/*
 server/auto_restart/restart
 server/whitelist.json
 server/minecraft_server*.jar
+server/1.16.5.json
 server/server.json
 server/mods_0.1.tar.gz
 server/banned-ips.json
@@ -93,6 +97,7 @@ modlist.html
 !server/config/ftbquests
 
 # Do not ignore these files
+!minecraft/config/alexsmobs.toml
 !minecraft/config/cyclic.toml
 !minecraft/config/friendlyfire-common.toml
 !minecraft/config/forge-client.toml
@@ -119,4 +124,3 @@ modlist.html
 !server/config/starterkit
 !server/server.properties
 !mmc-pack.json
-server/1.16.5.json
