@@ -72,8 +72,7 @@ server/banned-ips.json
 server/banned-players.json
 server/1.16.4.json
 server/eula.txt
-server/forge.jar
-server/forge*.jar
+server/forge*.*
 server/ops.json
 server/usernamecache.json
 server/*.tar.xz
