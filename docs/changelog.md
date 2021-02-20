@@ -1,4 +1,60 @@
 # Change Log
+## Version 1.8.1
+- Mods Added: none
+  - buildersaddition-1.16.4-20210214a.jar
+  - createaddition-1.16.4-20210207a.jar
+  - fairylights-4.0.4-1.16.4.jar
+  - journeymap-1.16.5-5.7.1b3.jar (replaces Xaeros maps)
+  - valhelsia_core-16.0.3.jar (required library)
+- Mods Updated: 
+  - alexsmobs-1.5.1.jar
+  - architectury-1.7.117-forge.jar
+  - byg-1.1.10.jar
+  - Ceramics-1.16.5-1.6.1.jar
+  - citadel-1.6.1.jar
+  - cloth-config-4.11.14-forge.jar
+  - Clumps-6.0.0.17.jar
+  - collective-1.16.5-1.66.jar
+  - Controlling-7.0.0.13.jar
+  - Cyclic-1.16.5-1.1.6.jar
+  - EasySteel-1.16.5-1.2.18.jar
+  - engineersdecor-1.16.4-1.1.8-b2.jar
+  - extremeSoundMuffler-3.7_Forge-1.16.5.jar
+  - forbidden_arcanus-16.2.0-beta-1.jar (new negative system added)
+  - ftb-gui-library-1605.2.1.39-forge.jar
+  - ftb-quests-1605.2.0-build.28-forge.jar
+  - ftb-ranks-1604.1.1.11.jar
+  - ftb-ultimine-1605.2.0-build.18-forge.jar
+  - Gobber2-Forge-1.16.5-2.3.48.jar
+  - item-filters-1605.2.4-build.29-forge.jar
+  - JAMD-1.1.8-beta+mc-1.16.5.jar
+  - jei-1.16.4-7.6.1.71.jar
+  - kubejs-1605.3.6-build.169-forge.jar
+  - LargeFluidTank-16.1.5.jar
+  - Lollipop-1.16.4-3.2.6.jar
+  - mcw-windows-1.0.3-mc1.16.5.jar
+  - MouseTweaks-2.14-mc1.16.2.jar
+  - Notes-1.16.5-1.2.3.jar
+  - OpenLoader-1.16.5-9.0.3.jar
+  - Patchouli-1.16.4-50.jar
+  - Quark-r2.4-305.jar
+  - randompatches-2.4.0-forge.jar
+  - refinedstorage-1.9.12.jar
+  - repurposed_structures-1.16.5-2.4.1.jar
+  - SilentGear-1.16.3-2.6.2+220.jar
+  - SilentGems-1.16.3-3.7.10+113.jar
+  - SimpleStorageNetwork-1.16.5-1.3.2.jar
+  - supplementaries-1.16.5-0.9.27.jar
+  - trashcans-1.0.8-mc1.16.4.jar
+- Mods Removed:
+  - Controllable (was causing keybind issues. If you want to use this then you need to download and install it.)
+  - Xaeros Minimap (If you have bookmarks you want saved, you will need to download and install it)
+  - Xaeros World Map
+- Other Changes:
+  - Updated Forge to 36.0.42
+  - Quark variant chests and ladders are now available
+  - Alex's Mobs - Cockroaches have been disabled
+
 ## Version 1.7.2
 - Mods Added: none
 - Mods Updated: none

@@ -116,8 +116,8 @@
 	"Compressed Blocks" = true
 	Stools = true
 	Thatch = true
-	"Variant Chests" = false
-	"Variant Ladders" = false
+	"Variant Chests" = true
+	"Variant Ladders" = true
 	"Vertical Slabs" = true
 	Shingles = true
 	"Nether Brick Fence Gate" = true
@@ -194,6 +194,9 @@
 		#
 		#Allowed values: [0,)
 		"Stick Block Fuel Time" = 900
+		#
+		#Allowed values: [0,)
+		"Bamboo Bundle Fuel Time" = 500
 
 	[building.variant_chests]
 		"Replace Worldgen Chests" = true
@@ -1970,6 +1973,7 @@
 	"Matrix Enchanting" = false
 	Magnets = true
 	Pipes = true
+	Crate = false
 
 	[oddities.totem_of_holding]
 		#
@@ -2074,6 +2078,9 @@
 		#
 		#How long it takes for an item to cross a pipe. Bigger = slower.
 		"Pipe Speed" = 5
+
+	[oddities.crate]
+		"Max Items" = 640
 
 [experimental]
 	"Adjustable Chat" = false
