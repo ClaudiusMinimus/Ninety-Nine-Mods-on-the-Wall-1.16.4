@@ -1,4 +1,4 @@
-Thank you for downloading Survival in Chaos server!
+Thank you for downloading 99 Mods on the Wall server!
 
 1. To install forge, read "How To Install Servers" by  Kreezxil at: 
 https://kreezcraft.com/info__trashed/servers/how-to-install-servers/

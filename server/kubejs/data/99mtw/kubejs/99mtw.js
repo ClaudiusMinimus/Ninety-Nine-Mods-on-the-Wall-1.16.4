@@ -38,7 +38,7 @@ events.listen('recipes', function (event) {
     // Add shapeless recipe for sugarcane
     event.shapeless(item.of('minecraft:sugar_cane', 1), ['minecraft:sugar', 'minecraft:stick'])
 
-    // Add shapeless recipe for Survival in Chaos book
+    // Add shapeless recipe for 99 Mods on the Wall book
     event.shapeless(item.of('patchouli:guide_book', { 'patchouli:book': 'patchouli:99mtw' }), ['minecraft:book', 'minecraft:dirt'])
 
     // Add shapeless recipe for making sticks from logs
