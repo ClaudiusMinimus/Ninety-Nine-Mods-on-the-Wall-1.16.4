@@ -1,18 +1,22 @@
 {
   "bookGuiScale": 0,
-  "clickedVisualize": false,
+  "clickedVisualize": true,
   "bookData": {
     "patchouli:99mtw": {
       "viewedEntries": [
         "patchouli:ig_commands",
         "patchouli:recipes",
-        "patchouli:create"
+        "patchouli:create",
+        "patchouli:silent_gems_supercharging",
+        "patchouli:grapple_hook_recipes"
       ],
       "bookmarks": [],
       "history": [
+        "patchouli:create",
+        "patchouli:grapple_hook_recipes",
+        "patchouli:silent_gems_supercharging",
         "patchouli:recipes",
-        "patchouli:ig_commands",
-        "patchouli:create"
+        "patchouli:ig_commands"
       ],
       "completedManualQuests": []
     }
