@@ -1,12 +1,13 @@
 # Change Log
-## Version 1.9.0
+## Version 1.9.1
 - Mods Added: 
   - Angel Ring (so players can fly with other OP armor)
 - Mods Updated:
   - alexsmobs-1.6.0
-  - architectury-1.8.122-forge
-  - collective-1.16.5-1.67
+  - architectury-1.8.126-forge
+  - collective-1.16.5-1.68
   - Cucumber-1.16.4-4.1.8
+  - Cyclic-1.16.5-1.1.7
   - fairylights-4.0.5-1.16.5
   - ftb-gui-library-1605.2.1.40-forge
   - ftb-quests-1605.2.0-build.32-forge
@@ -17,9 +18,10 @@
   - Morpheus-1.16.5-4.2.70
   - PickleTweaks-1.16.4-5.2.1
   - Quark-r2.4-307
-  - randompatches-2.4.4-forge.jar
+  - randompatches-2.4.4-forge
   - repurposed_structures-1.16.5-2.4.3
-  - SilentGear-1.16.3-2.6.5+225 
+  - SilentGear-1.16.3-2.6.5+225
+  - supplementaries-1.16.5-0.10.0a
 - Mods Removed: none
 - Other Changes:
   - Updated Forge to 36.0.43
