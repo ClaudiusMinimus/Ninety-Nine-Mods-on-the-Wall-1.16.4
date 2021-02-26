@@ -26,6 +26,7 @@ server/backups/*
 server/config/*
 server/config_*/*
 server/crash-reports/*
+server/defaultconfigs_*/*
 server/config/defaultoptions/*
 server/dumps/*
 server/kubejs_*/*
