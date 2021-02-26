@@ -13,9 +13,11 @@
 			y: 0.0d,
 			shape: "diamond",
 			description: [
-				"Hobbits really are amazing creatures. Well now it is time to dig like a hobbit and get safe. Dig 10 dirt blocks, so you can make a temp shelter. We will provide a door.",
+				"Hobbit or not, you may need to act like one to survive. Dig, dig, dig!",
 				"",
-				"Be sure to read 99 Mods on the Wall"
+				"Dig out 10 dirt blocks to create a safe hidey hole for the night and we'll toss ya a door for free.",
+				"",
+				"Tip: Be sure to read 99 Mods on the Wall"
 			],
 			dependency_requirement: "one_completed",
 			size: 1.5d,
@@ -62,12 +64,13 @@
 			]
 		},
 		{
-			title: "Don't Punch a Tree",
+			title: "Don't Punch Trees...",
 			x: 1.5d,
 			y: 0.0d,
 			description: [
-				"Use you axe and save your knuckles",
-				"Now chop down 16 logs."
+				"Yes, you're in a survival game and we all know that usually means punching trees. But come on, that doesn't feel good, right? ",
+				"",
+				"Put your axe to good use by chopping down 16 logs."
 			],
 			dependencies: ["0000000000000005"],
 			id: "000000000000000D",
@@ -93,6 +96,13 @@
 		{
 			x: 3.0d,
 			y: 0.0d,
+			description: [
+				"Make your life easier by creating a Crafting Station. ",
+				"",
+				"Craft with it just like you would with the Crafting Table, but it'll also hold your recipe/ingredients in place.",
+				"",
+				"Nice, right?"
+			],
 			dependencies: ["000000000000000D"],
 			id: "0000000000000010",
 			tasks: [{
@@ -118,6 +128,11 @@
 			title: "Any Minecraft Bed",
 			x: 3.0d,
 			y: -1.5d,
+			description: [
+				"You won't make it far in this land without getting some proper rest from time to time. ",
+				"",
+				"Build any Minecraft bed to come home to after a day of adventuring."
+			],
 			dependencies: ["0000000000000010"],
 			id: "0000000000000014",
 			tasks: [{
@@ -154,7 +169,7 @@
 			title: "Don't Throw it Out!",
 			x: 3.0d,
 			y: 1.5d,
-			description: ["Make a Composter so you can recycle a lot of your plant based organic leftovers."],
+			description: ["Build a composter so all those extra saplings and other plant matter don't go to waste!"],
 			dependencies: ["0000000000000010"],
 			id: "000000000000001B",
 			tasks: [{
@@ -172,7 +187,7 @@
 		{
 			x: 0.0d,
 			y: 3.0d,
-			description: ["Let's go get some iron!"],
+			description: ["Now you're getting started! Let's go a step further. Find and mine up 12 Iron Ore."],
 			dependencies: ["00000000000000C7"],
 			id: "000000000000001E",
 			tasks: [{
@@ -235,9 +250,9 @@
 			x: 4.5d,
 			y: 0.0d,
 			description: [
-				"There is nothing quite like cooking over an open campfire, as long as it isn't me.",
+				"There's nothing quite like a warm meal from cooking over a campfire.",
 				"",
-				"Make a campfire and enjoy the meats!"
+				"Get yourself a fire going and use this meat to get started."
 			],
 			dependencies: ["0000000000000010"],
 			id: "0000000000000025",
@@ -323,6 +338,11 @@
 		{
 			x: 0.0d,
 			y: 1.5d,
+			description: [
+				"Cobblestone can be much more useful than dirt.",
+				"",
+				"Gather 64 Cobblestone and we'll give ya your first bridge made from... well, cobblestone!"
+			],
 			dependencies: ["0000000000000005"],
 			id: "00000000000000C7",
 			tasks: [{
@@ -383,6 +403,11 @@
 		{
 			x: 4.5d,
 			y: -1.5d,
+			description: [
+				"Crafting on the go without having to plop down a Crafting Table all the time?",
+				"",
+				"Sure! Just use on of these handy Portable Crafting paddles."
+			],
 			dependencies: ["0000000000000010"],
 			id: "000000000000051F",
 			tasks: [{
@@ -400,6 +425,11 @@
 		{
 			x: 0.0d,
 			y: 4.5d,
+			description: [
+				"Now that you have some iron, smelt it down into some bars. ",
+				"",
+				"But wait! Use the Crack Hammer to bang that ore down into Crushed Iron Ore before blasting it in the furnace to double it."
+			],
 			dependencies: ["000000000000001E"],
 			id: "00000000000005C8",
 			tasks: [{
