@@ -3276,6 +3276,7 @@
 		{
 			x: -1.5d,
 			y: -6.0d,
+			description: ["To set up the Supercharger, check out the book 99 Mods on the Wall."],
 			dependencies: ["0000000000000642"],
 			id: "3E783F5CA2912D15",
 			tasks: [{
@@ -3287,12 +3288,19 @@
 				id: "7BC82A710926383A",
 				type: "item",
 				item: "silentgems:sapphire_block",
-				count: 4
+				count: 2
 			}]
 		},
 		{
 			x: 0.0d,
 			y: -6.0d,
+			description: [
+				"You need 4 x Chaos Iron blocks to make a level 1 Supercharger.",
+				"",
+				"You also need 4 x Silent's Gems gem blocks of any type.",
+				"",
+				"To set up the level 1 Supercharger, check out the book 99 Mods on the Wall."
+			],
 			dependencies: ["3E783F5CA2912D15"],
 			id: "48988C21BB89EAC1",
 			tasks: [{
@@ -3301,16 +3309,29 @@
 				item: "silentgems:chaos_iron_block",
 				count: 4L
 			}],
-			rewards: [{
-				id: "26EE6B1E322276AB",
-				type: "item",
-				item: "silentgems:charging_agent",
-				count: 4
-			}]
+			rewards: [
+				{
+					id: "26EE6B1E322276AB",
+					type: "item",
+					item: "silentgems:charging_agent",
+					count: 4
+				},
+				{
+					id: "70D852BA6C9B022E",
+					type: "item",
+					item: "silentgems:sapphire_block",
+					count: 2
+				}
+			]
 		},
 		{
 			x: 1.5d,
 			y: -6.0d,
+			description: [
+				"You need 4 x Enriched Choas Crystal blocks, plus the blocks from level 1 for the level 2Supercharger.",
+				"",
+				"To set up the level 2 Supercharger, check out the book 99 Mods on the Wall."
+			],
 			dependencies: ["48988C21BB89EAC1"],
 			id: "2BF3A75965440671",
 			tasks: [{
@@ -3329,6 +3350,11 @@
 		{
 			x: 3.0d,
 			y: -6.0d,
+			description: [
+				"You need 8 x Ender Crystal blocks, plus the blocks from level 2  for the level 3 Supercharger.",
+				"",
+				"To set up the level 3 Supercharger, check out the book 99 Mods on the Wall."
+			],
 			dependencies: ["2BF3A75965440671"],
 			id: "300D7FD78B8F7DE5",
 			tasks: [{
