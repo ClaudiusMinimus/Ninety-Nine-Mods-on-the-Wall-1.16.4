@@ -39,6 +39,12 @@ customization {
 }
 
 customization {
+  identifier = %id=400322%
+  action = setbuttondescription
+  description = The official server is now whitelisted.&nTo play, you will need to join our discord&n(see discord button on this page) and apply&nto be whitelisted.
+}
+
+customization {
   identifier = %id=604382%
   orientation = top-left
   x = 123
@@ -239,7 +245,7 @@ customization {
   action = addtext
   y = -13
   scale = 1.0
-  value = 99 Mods on the Wall v.1.16.5-1.8.1
+  value = 99 Mods on the Wall v.1.16.5-1.9.0
 }
 
 customization {
