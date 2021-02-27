@@ -1,4 +1,35 @@
 # Change Log
+## Version 1.9.1
+- Mods Added: 
+  - Angel Ring (so players can fly with other OP armor)
+- Mods Updated:
+  - alexsmobs-1.6.0
+  - architectury-1.8.126-forge
+  - collective-1.16.5-1.68
+  - Cucumber-1.16.4-4.1.8
+  - Cyclic-1.16.5-1.1.7
+  - fairylights-4.0.5-1.16.5
+  - ftb-gui-library-1605.2.1.40-forge
+  - ftb-quests-1605.2.0-build.32-forge
+  - ftb-ultimine-1605.2.0-build.22-forge
+  - JAMD-1.1.9-beta+mc-1.16.5
+  - kubejs-1605.3.6-build.170-forge
+  - Lollipop-1.16.4-3.2.7
+  - Morpheus-1.16.5-4.2.70
+  - PickleTweaks-1.16.4-5.2.1
+  - Quark-r2.4-307
+  - randompatches-2.4.4-forge
+  - repurposed_structures-1.16.5-2.4.3
+  - SilentGear-1.16.3-2.6.5+225
+  - supplementaries-1.16.5-0.10.0a
+- Mods Removed: none
+- Other Changes:
+  - Updated Forge to 36.0.43
+  - Added/updated some quests
+  - Updated the text for early game quests (Thank you Malania aka kindrez)
+  - Added entries for book 99 Mods on the Wall
+  - Added recipes for Immersive Engineering treated wood and dragon breath made with Create Spout
+
 ## Version 1.8.1
 - Mods Added: none
   - buildersaddition-1.16.4-20210214a.jar

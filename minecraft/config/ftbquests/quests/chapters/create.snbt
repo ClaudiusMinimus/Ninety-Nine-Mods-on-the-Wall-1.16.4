@@ -804,6 +804,11 @@
 		{
 			x: 2.5d,
 			y: 13.5d,
+			description: [
+				"Do you feel the power! With the Furnace Engine, you can crank out a lot of POWER!",
+				"",
+				"To run this engine, you can use a regular furnace with fuel and items to burn or you can use the Induction Heater, which will heat your furnace and power the engine. The catch? You need lots of RF power! An Immersive Engineering waterwheel using the MV cable should get you going."
+			],
 			dependencies: ["00000000000008D1"],
 			id: "00000000000008E5",
 			tasks: [
@@ -817,7 +822,12 @@
 					type: "item",
 					item: "create:flywheel"
 				}
-			]
+			],
+			rewards: [{
+				id: "646EAEE5B8734DE2",
+				type: "item",
+				item: "createaddition:heater"
+			}]
 		},
 		{
 			x: 3.0d,

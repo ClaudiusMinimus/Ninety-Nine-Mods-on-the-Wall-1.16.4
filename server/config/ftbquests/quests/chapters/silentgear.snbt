@@ -1204,11 +1204,6 @@
 							}]
 						}
 					}
-				},
-				{
-					id: "00000000000000AE",
-					type: "item",
-					item: "minecraft:red_wool"
 				}
 			]
 		},
@@ -2108,6 +2103,7 @@
 			x: -7.5d,
 			y: -3.0d,
 			shape: "diamond",
+			description: ["Gobber is one way of gearing up in 99 Mods on the Wall. Always try to keep an eye out for this while you're out mining."],
 			hide: false,
 			size: 1.5d,
 			id: "000000000000069E",
@@ -2125,6 +2121,11 @@
 		{
 			x: -7.5d,
 			y: -4.5d,
+			description: [
+				"Found some Gobber ore? Sure you can smelt it down, but what about growing your own supply of this rare ore?",
+				"",
+				"Craft some seeds and plant them to get Gobber Globettes (and more seeds)!"
+			],
 			dependencies: ["000000000000069E"],
 			id: "00000000000006A0",
 			tasks: [{
@@ -3268,6 +3269,133 @@
 							lvl: 3s,
 							id: "apotheosis:capturing"
 						}]
+					}
+				}
+			}]
+		},
+		{
+			x: -1.5d,
+			y: -6.0d,
+			description: ["To set up the Supercharger, check out the book 99 Mods on the Wall."],
+			dependencies: ["0000000000000642"],
+			id: "3E783F5CA2912D15",
+			tasks: [{
+				id: "540264F0A9169846",
+				type: "item",
+				item: "silentgems:supercharger"
+			}],
+			rewards: [{
+				id: "7BC82A710926383A",
+				type: "item",
+				item: "silentgems:sapphire_block",
+				count: 2
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -6.0d,
+			description: [
+				"You need 4 x Chaos Iron blocks to make a level 1 Supercharger.",
+				"",
+				"You also need 4 x Silent's Gems gem blocks of any type.",
+				"",
+				"To set up the level 1 Supercharger, check out the book 99 Mods on the Wall."
+			],
+			dependencies: ["3E783F5CA2912D15"],
+			id: "48988C21BB89EAC1",
+			tasks: [{
+				id: "52821C858EA23A18",
+				type: "item",
+				item: "silentgems:chaos_iron_block",
+				count: 4L
+			}],
+			rewards: [
+				{
+					id: "26EE6B1E322276AB",
+					type: "item",
+					item: "silentgems:charging_agent",
+					count: 4
+				},
+				{
+					id: "70D852BA6C9B022E",
+					type: "item",
+					item: "silentgems:sapphire_block",
+					count: 2
+				}
+			]
+		},
+		{
+			x: 1.5d,
+			y: -6.0d,
+			description: [
+				"You need 4 x Enriched Choas Crystal blocks, plus the blocks from level 1 for the level 2Supercharger.",
+				"",
+				"To set up the level 2 Supercharger, check out the book 99 Mods on the Wall."
+			],
+			dependencies: ["48988C21BB89EAC1"],
+			id: "2BF3A75965440671",
+			tasks: [{
+				id: "1D1F030710B307DE",
+				type: "item",
+				item: "silentgems:enriched_chaos_crystal_block",
+				count: 4L
+			}],
+			rewards: [{
+				id: "49C3D0F51C877717",
+				type: "item",
+				item: "silentgems:super_charging_agent",
+				count: 4
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -6.0d,
+			description: [
+				"You need 8 x Ender Crystal blocks, plus the blocks from level 2  for the level 3 Supercharger.",
+				"",
+				"To set up the level 3 Supercharger, check out the book 99 Mods on the Wall."
+			],
+			dependencies: ["2BF3A75965440671"],
+			id: "300D7FD78B8F7DE5",
+			tasks: [{
+				id: "7986ED23286D3978",
+				type: "item",
+				item: "silentgems:ender_crystal_block",
+				count: 8L
+			}],
+			rewards: [{
+				id: "607316218899F77B",
+				type: "item",
+				item: "silentgems:ultra_charging_agent",
+				count: 4
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -4.5d,
+			dependencies: ["00000000000000AB"],
+			id: "59B44F1F04783190",
+			tasks: [{
+				id: "6407E55FF8FFF59D",
+				type: "item",
+				item: {
+					id: "silentgems:sapphire_teleporter",
+					Count: 2b
+				},
+				count: 2L
+			}],
+			rewards: [{
+				id: "1C55F6937CE33D66",
+				type: "item",
+				item: {
+					id: "silentgems:teleporter_linker",
+					Count: 1b,
+					tag: {
+						posX: 155,
+						posY: 4,
+						dim: "minecraft:overworld",
+						posZ: 49,
+						Linked: 0b
 					}
 				}
 			}]
