@@ -94,11 +94,17 @@ server/minecraft_server.1.15.2.jar
 modlist.html
 
 # Do not ignore these directories
+!minecraft/config/betterdefaultbiomes
 !minecraft/config/defaultoptions
 !minecraft/config/fancymenu
 !minecraft/config/ftbquests
 !minecraft/config/starterkit
+!server/config/betterdefaultbiomes
 !server/config/ftbquests
+
+# Still ignore this directory
+minecraft/config/betterdefaultbiomes/food
+server/config/betterdefaultbiomes/food
 
 # Do not ignore these files
 !minecraft/config/alexsmobs.toml
@@ -113,6 +119,7 @@ modlist.html
 !minecraft/config/randompatches.toml
 !minecraft/config/theoneprobe-client.toml
 !minecraft/config/waystones-*.toml
+!minecraft/config/betterdefaultbiomes/betterdefaultbiomes.toml
 !server/config/alexsmobs.toml
 !server/config/auto_restart.toml
 !server/config/cyclic.toml
@@ -123,5 +130,6 @@ modlist.html
 !server/config/quark-common.toml
 !server/config/starterkit
 !server/config/waystones-*.toml
+!server/config/betterdefaultbiomes/betterdefaultbiomes.toml
 !server/server.properties
 !mmc-pack.json
