@@ -8,18 +8,11 @@ assignees: ''
 ---
 
 ---
-name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
-assignees: ''
-
----
 ## Please Fill in ALL Applicable Sections ##
 
 **Describe the bug**
 - A clear and concise description of what the bug is.
-- Please paste a link to this Bug Report in our discord in the sic-support channel. https://discord.com/invite/jXrx4Tu
+- Please paste a link to this Bug Report in our discord in the 99-support channel. https://discord.com/invite/jXrx4Tu
 
 **Singleplayer or Multiplayer**
 - Singleplayer: y/n
