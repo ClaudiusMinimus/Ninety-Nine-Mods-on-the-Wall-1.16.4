@@ -1,4 +1,11 @@
 # Change Log
+## Version 1.10.0
+- Mods Added: Advanced Mining Dimension (JAMD would not run)
+- Mods Updated:
+- Mods Removed: JAMD - would not run
+- Other Changes:
+  - Updated to Forge 36.1.0
+  
 ## Version 1.9.1
 - Mods Added: 
   - Angel Ring (so players can fly with other OP armor)
