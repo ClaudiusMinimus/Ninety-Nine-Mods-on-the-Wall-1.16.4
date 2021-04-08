@@ -31,7 +31,7 @@ S:loadinganimationcolor = '#ffffffff';
 B:showanimationloadingstatus = 'true';
 S:gameintroanimation = '';
 S:customgameintroskiptext = '';
-B:loadingscreendarkmode = 'false';
+B:loadingscreendarkmode = 'true';
 
 
 ##[general]
@@ -53,9 +53,9 @@ I:defaultguiscale = '-1';
 ##[minecraftwindow]
 
 [A minecraft restart is required after changing this value.]
-S:customwindowtitle = '';
+S:customwindowtitle = '99 Mods on the Wall';
 [A minecraft restart is required after changing this value.]
-B:customwindowicon = 'false';
+B:customwindowicon = 'true';
 
 
 ##[layouteditor]
@@ -73,4 +73,4 @@ B:showloadingscreenpercent = 'true';
 
 ##[ui]
 
-F:uiscale = '1.0';
+F:uiscale = '2.0';
