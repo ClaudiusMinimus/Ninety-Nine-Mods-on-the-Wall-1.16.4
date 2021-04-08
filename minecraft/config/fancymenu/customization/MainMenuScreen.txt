@@ -41,7 +41,7 @@ customization {
 customization {
   identifier = %id=400322%
   action = setbuttondescription
-  description = The official server will soon be whitelisted.&nTo play, you will need to join our discord&n(see discord button on this page) and apply&nto be whitelisted.
+  description = %playername%, please join us on the%n%official server, which is listed on the%n%Multiplayer page.%n%%n%If you would like to have your%n%server listed, please contact%n%us on our discord
 }
 
 customization {
@@ -70,6 +70,12 @@ customization {
   action = setbuttontexture
   backgroundhovered = config/fancymenu/images/buttons/rollover/accessability.png
   backgroundnormal = config/fancymenu/images/buttons/accessability.png
+}
+
+customization {
+  identifier = %id=604382%
+  action = setbuttondescription
+  description = Accesibility
 }
 
 customization {
@@ -157,6 +163,12 @@ customization {
 }
 
 customization {
+  identifier = %id=376382%
+  action = setbuttondescription
+  description = Languages
+}
+
+customization {
   identifier = %id=400298%
   orientation = top-left
   x = 50
@@ -225,13 +237,14 @@ customization {
 customization {
   orientation = top-left
   buttonaction = openlink
+  backgroundhovered = config/fancymenu/images/buttons/rollover/discord.png
+  description = %playername%, please come join our discord%n%server. We have a great community and%n%look forward YOU being a part of it!
+  label = 
   x = 50
   width = 130
+  actionid = d11a34fc-33ee-4894-a8f7-4c22ad681c1e1617897330587
   action = addbutton
   y = 115
-  backgroundhovered = config/fancymenu/images/buttons/rollover/discord.png
-  description = Please come join our discord server&ncommunity for fun and support!
-  label = 
   backgroundnormal = config/fancymenu/images/buttons/discord.png
   value = https://discord.gg/jXrx4Tu
   height = 20
@@ -240,23 +253,25 @@ customization {
 customization {
   orientation = bottom-left
   shadow = true
-  centered = false
   x = 5
   action = addtext
+  actionid = 2c0b2d31-c5e2-4bff-8870-b212fc956d111617896866104
   y = -13
   scale = 1.0
-  value = 99 Mods on the Wall v.1.16.5-1.9.1
+  alignment = left
+  value = 99 Mods on the Wall v.1.16.5-1.10.0
 }
 
 customization {
   orientation = top-left
   buttonaction = openlink
   backgroundhovered = config/fancymenu/images/buttons/rollover/server.png
-  description = Use code 'minimus' for 25% off 1st month
+  description = Use code 'minimus' for 25% off Your 1st month!
   label = 
   hoverlabel = 
   x = 50
   width = 130
+  actionid = f313945e-5128-4acf-9611-b762b338b72e1617897330595
   action = addbutton
   y = 190
   backgroundnormal = config/fancymenu/images/buttons/server.png

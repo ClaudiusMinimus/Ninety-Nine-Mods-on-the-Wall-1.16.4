@@ -229,7 +229,7 @@
 			tasks: [{
 				id: "0000000000000022",
 				type: "item",
-				item: "jamd:mine_portal_block"
+				item: "mining_dimension:teleporter"
 			}],
 			rewards: [
 				{
