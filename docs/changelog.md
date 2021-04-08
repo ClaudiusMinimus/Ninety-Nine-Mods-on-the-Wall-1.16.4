@@ -1,10 +1,69 @@
 # Change Log
 ## Version 1.10.0
-- Mods Added: Advanced Mining Dimension (JAMD would not run)
+- Mods Added: 
+  - mining_dimension-1.16.5-1.0.4 Advanced Mining Dimension (JAMD would not run)
 - Mods Updated:
+  - alexsmobs-1.9.0
+  - architectury-1.10.139-forge
+  - Bookshelf-1.16.5-10.0.7
+  - buildersaddition-1.16.5-20210407a
+  - byg-1.1.14
+  - Ceramics-1.16.5-1.6.2
+  - citadel-1.6.2
+  - cloth-config-4.11.19-forge
+  - collective-1.16.5-2.25
+  - constructionwand-1.16.5-2.1
+  - CookingForBlockheads_1.16.5-9.3.1
+  - create-mc1.16.5_v0.3.1a
+  - createaddition-1.16.5-20210404a
+  - Cucumber-1.16.4-4.1.9
+  - curios-forge-1.16.5-4.0.5.0
+  - Cyclic-1.16.5-1.2.3
+  - dankstorage-3.16
+  - Disenchanting-forge-1.16.5-1.6.0
+  - easy_piglins-1.16.5-1.0.1
+  - easy_villagers-1.16.5-1.0.7
+  - EasySteel-1.16.5-1.2.19
+  - elevatorid-1.16.5-1.7.13
+  - engineersdecor-1.16.4-1.1.11
+  - FarmingForBlockheads_1.16.3-7.3.0
+  - FastWorkbench-1.16.4-4.5.1
+  - forbidden_arcanus-16.2.0-beta-3
+  - ftb-chunks-1605.2.3-build.75
+  - ftb-gui-library-1605.2.1.41-forge
+  - ftb-quests-1605.2.1-build.39-forge
+  - ftb-teams-1604.1.0.16-forge
+  - ftb-ultimine-1605.2.0-build.25-forge
+  - globalxp-1.16.5-v1.7.1
+  - Gobber2-Forge-1.16.5-2.3.49
+  - ImmersiveEngineering-1.16.5-4.2.4-134
+  - ImmersivePetroleum-1.16.5-3.2.0-3
+  - item-filters-1605.2.4-build.30-forge
+  - jei-1.16.5-7.6.1.75
+  - journeymap-1.16.5-5.7.1
+  - kubejs-1605.3.6-build.178-forge
+  - LargeFluidTank-16.1.6
+  - Lollipop-1.16.5-3.2.9
+  - morered-1.16.5-2.1.0.2
+  - PickleTweaks-1.16.4-5.2.2
+  - Quark-r2.4-310
+  - repurposed_structures-1.16.5-2.6.3-forge
+  - silent-gear-1.16.3-2.6.18
+  - silent-lib-1.16.3-4.9.6
+  - SilentGems-1.16.3-3.7.14
+  - SimpleStorageNetwork-1.16.5-1.3.5
+  - solcarrot-1.16.3-1.9.10
+  - starterkit_1.16.5-2.4
+  - supplementaries-1.16.5-0.11.0b
+  - u_team_core-1.16.5-3.2.0.194
+  - useful_backpacks-1.16.5-1.12.0.88
+  - valhelsia_core-16.0.6
+  - Waystones_1.16.5-7.4.0
+  - windowlogging-mc1.16.3_v0.0.4
 - Mods Removed: JAMD - would not run
 - Other Changes:
   - Updated to Forge 36.1.0
+  - Minor quest change
   
 ## Version 1.9.1
 - Mods Added: 
