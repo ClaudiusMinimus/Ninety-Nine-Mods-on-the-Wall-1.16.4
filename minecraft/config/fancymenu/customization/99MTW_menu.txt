@@ -6,23 +6,23 @@ customization-meta {
 }
 
 customization {
-  path = config/fancymenu/images/background.png
+  path = config/fancymenu/images/menu/background.png
   action = texturizebackground
 }
 
 customization {
   identifier = %id=400322%
   orientation = top-left
-  x = 50
+  x = 75
   action = movebutton
-  y = 40
+  y = 75
 }
 
 customization {
   identifier = %id=400322%
-  width = 130
+  width = 104
   action = resizebutton
-  height = 20
+  height = 24
 }
 
 customization {
@@ -34,8 +34,8 @@ customization {
 customization {
   identifier = %id=400322%
   action = setbuttontexture
-  backgroundhovered = config/fancymenu/images/buttons/rollover/multiplayer.png
-  backgroundnormal = config/fancymenu/images/buttons/multiplayer.png
+  backgroundhovered = config/fancymenu/images/menu/buttons/multiplayerhover.png
+  backgroundnormal = config/fancymenu/images/menu/buttons/multiplayer.png
 }
 
 customization {
@@ -47,16 +47,16 @@ customization {
 customization {
   identifier = %id=604382%
   orientation = top-left
-  x = 123
+  x = 75
   action = movebutton
-  y = 165
+  y = 132
 }
 
 customization {
   identifier = %id=604382%
-  width = 37
+  width = 51
   action = resizebutton
-  height = 20
+  height = 24
 }
 
 customization {
@@ -68,8 +68,8 @@ customization {
 customization {
   identifier = %id=604382%
   action = setbuttontexture
-  backgroundhovered = config/fancymenu/images/buttons/rollover/accessability.png
-  backgroundnormal = config/fancymenu/images/buttons/accessability.png
+  backgroundhovered = config/fancymenu/images/menu/buttons/accessibilityhover.png
+  backgroundnormal = config/fancymenu/images/menu/buttons/accessibility.png
 }
 
 customization {
@@ -81,16 +81,16 @@ customization {
 customization {
   identifier = %id=400382%
   orientation = top-left
-  x = 50
+  x = 75
   action = movebutton
-  y = 90
+  y = 104
 }
 
 customization {
   identifier = %id=400382%
-  width = 130
+  width = 51
   action = resizebutton
-  height = 20
+  height = 24
 }
 
 customization {
@@ -102,23 +102,29 @@ customization {
 customization {
   identifier = %id=400382%
   action = setbuttontexture
-  backgroundhovered = config/fancymenu/images/buttons/rollover/options.png
-  backgroundnormal = config/fancymenu/images/buttons/options.png
+  backgroundhovered = config/fancymenu/images/menu/buttons/optionshover.png
+  backgroundnormal = config/fancymenu/images/menu/buttons/options.png
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttondescription
+  description = Options
 }
 
 customization {
   identifier = %id=502382%
   orientation = top-left
-  x = 50
+  x = 128
   action = movebutton
-  y = 140
+  y = 161
 }
 
 customization {
   identifier = %id=502382%
-  width = 130
+  width = 51
   action = resizebutton
-  height = 20
+  height = 24
 }
 
 customization {
@@ -130,8 +136,14 @@ customization {
 customization {
   identifier = %id=502382%
   action = setbuttontexture
-  backgroundhovered = config/fancymenu/images/buttons/rollover/quit.png
-  backgroundnormal = config/fancymenu/images/buttons/quit.png
+  backgroundhovered = config/fancymenu/images/menu/buttons/quithover.png
+  backgroundnormal = config/fancymenu/images/menu/buttons/quit.png
+}
+
+customization {
+  identifier = %id=502382%
+  action = setbuttondescription
+  description = Quit
 }
 
 customization {
@@ -139,14 +151,14 @@ customization {
   orientation = top-left
   x = 75
   action = movebutton
-  y = 165
+  y = 161
 }
 
 customization {
   identifier = %id=376382%
-  width = 43
+  width = 51
   action = resizebutton
-  height = 20
+  height = 24
 }
 
 customization {
@@ -158,8 +170,8 @@ customization {
 customization {
   identifier = %id=376382%
   action = setbuttontexture
-  backgroundhovered = config/fancymenu/images/buttons/rollover/abc.png
-  backgroundnormal = config/fancymenu/images/buttons/abc.png
+  backgroundhovered = config/fancymenu/images/menu/buttons/langugehover.png
+  backgroundnormal = config/fancymenu/images/menu/buttons/languge.png
 }
 
 customization {
@@ -171,16 +183,16 @@ customization {
 customization {
   identifier = %id=400298%
   orientation = top-left
-  x = 50
+  x = 75
   action = movebutton
-  y = 15
+  y = 46
 }
 
 customization {
   identifier = %id=400298%
-  width = 130
+  width = 104
   action = resizebutton
-  height = 20
+  height = 24
 }
 
 customization {
@@ -192,23 +204,23 @@ customization {
 customization {
   identifier = %id=400298%
   action = setbuttontexture
-  backgroundhovered = config/fancymenu/images/buttons/rollover/singleplayer.png
-  backgroundnormal = config/fancymenu/images/buttons/singleplayer.png
+  backgroundhovered = config/fancymenu/images/menu/buttons/singleplayerhover.png
+  backgroundnormal = config/fancymenu/images/menu/buttons/singleplayer.png
 }
 
 customization {
   identifier = %id=400346%
   orientation = top-left
-  x = 50
+  x = 128
   action = movebutton
-  y = 65
+  y = 104
 }
 
 customization {
   identifier = %id=400346%
-  width = 130
+  width = 51
   action = resizebutton
-  height = 20
+  height = 24
 }
 
 customization {
@@ -220,13 +232,14 @@ customization {
 customization {
   identifier = %id=400346%
   action = setbuttontexture
-  backgroundhovered = config/fancymenu/images/buttons/rollover/mods.png
-  backgroundnormal = config/fancymenu/images/buttons/mods.png
+  backgroundhovered = config/fancymenu/images/menu/buttons/modshover.png
+  backgroundnormal = config/fancymenu/images/menu/buttons/mods.png
 }
 
 customization {
-  identifier = %id=376346%
-  action = hidebutton
+  identifier = %id=400346%
+  action = setbuttondescription
+  description = Mods
 }
 
 customization {
@@ -235,19 +248,19 @@ customization {
 }
 
 customization {
-  orientation = top-left
+  orientation = top-right
   buttonaction = openlink
-  backgroundhovered = config/fancymenu/images/buttons/rollover/discord.png
+  backgroundhovered = config/fancymenu/images/menu/socials/discordhover.png
   description = %playername%, please come join our discord%n%server. We have a great community and%n%look forward YOU being a part of it!
   label = 
-  x = 50
-  width = 130
-  actionid = d11a34fc-33ee-4894-a8f7-4c22ad681c1e1617897330587
+  x = -39
+  width = 14
+  actionid = 3ac25917-1226-4662-9a26-d6d7863d66de1618621095286
   action = addbutton
-  y = 115
-  backgroundnormal = config/fancymenu/images/buttons/discord.png
+  y = 15
+  backgroundnormal = config/fancymenu/images/menu/socials/discord.png
   value = https://discord.gg/jXrx4Tu
-  height = 20
+  height = 11
 }
 
 customization {
@@ -259,23 +272,55 @@ customization {
   y = -13
   scale = 1.0
   alignment = left
-  value = 99 Mods on the Wall v.1.16.5-1.10.0
+  value = 99 Mods on the Wall v.1.16.5-1.11.0
 }
 
 customization {
   orientation = top-left
   buttonaction = openlink
-  backgroundhovered = config/fancymenu/images/buttons/rollover/server.png
-  description = Use code 'minimus' for 25% off Your 1st month!
+  backgroundhovered = config/fancymenu/images/menu/buttons/server.png
+  description = Need a server to play with friends?%n%%n%Use code the 'minimus' for 25% Off%n%your 1st month, and enjoy playing%n%with your friends!
   label = 
   hoverlabel = 
-  x = 50
-  width = 130
-  actionid = f313945e-5128-4acf-9611-b762b338b72e1617897330595
+  x = 75
+  width = 104
+  actionid = 33ed36ef-5510-4899-9400-3289928955001618621095287
   action = addbutton
   y = 190
-  backgroundnormal = config/fancymenu/images/buttons/server.png
+  backgroundnormal = config/fancymenu/images/menu/buttons/serverhover.png
   value = 
-  height = 20
+  height = 24
+}
+
+customization {
+  orientation = top-left
+  buttonaction = openlink
+  backgroundhovered = config/fancymenu/images/menu/buttons/supporthover.png
+  description = If you need help with a bug, please%n%use this issue tracker.%n%%n%If you need help with anything else,%n%please use our discord. The invite%n%link is in the upper-right corner.
+  label = 
+  x = 128
+  width = 51
+  actionid = 6cbb6458-1431-4156-b9f3-c6569178f55d1618621095288
+  action = addbutton
+  y = 132
+  backgroundnormal = config/fancymenu/images/menu/buttons/support.png
+  value = https://github.com/ClaudiusMinimus/Ninety-Nine-Mods-on-the-Wall-1.16.4/issues
+  height = 24
+}
+
+customization {
+  orientation = top-right
+  buttonaction = openlink
+  backgroundhovered = config/fancymenu/images/menu/socials/curseforgehover.png
+  description = 99 Mods on the Wall on Curseforge
+  label = 
+  x = -63
+  width = 18
+  actionid = c3965efe-a7de-4713-974b-f8c931115b8e1618621095288
+  action = addbutton
+  y = 16
+  backgroundnormal = config/fancymenu/images/menu/socials/curseforge.png
+  value = https://www.curseforge.com/minecraft/modpacks/ninety-nine-mods-on-the-wall
+  height = 10
 }
 
