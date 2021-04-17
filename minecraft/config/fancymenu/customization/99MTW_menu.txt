@@ -255,7 +255,7 @@ customization {
   label = 
   x = -39
   width = 14
-  actionid = 3ac25917-1226-4662-9a26-d6d7863d66de1618621095286
+  actionid = 885c2812-e2e4-4191-90fb-7ba18fa7ee2c1618632094822
   action = addbutton
   y = 15
   backgroundnormal = config/fancymenu/images/menu/socials/discord.png
@@ -272,7 +272,7 @@ customization {
   y = -13
   scale = 1.0
   alignment = left
-  value = 99 Mods on the Wall v.1.16.5-1.11.0
+  value = 99 Mods on the Wall v.1.16.5-1.12.0
 }
 
 customization {
@@ -284,7 +284,7 @@ customization {
   hoverlabel = 
   x = 75
   width = 104
-  actionid = 33ed36ef-5510-4899-9400-3289928955001618621095287
+  actionid = ce582804-ff5f-436b-87c2-9385bf28fc131618632094828
   action = addbutton
   y = 190
   backgroundnormal = config/fancymenu/images/menu/buttons/serverhover.png
@@ -300,7 +300,7 @@ customization {
   label = 
   x = 128
   width = 51
-  actionid = 6cbb6458-1431-4156-b9f3-c6569178f55d1618621095288
+  actionid = f9f17078-9d6c-4916-b28d-7a1a2e4034551618632094830
   action = addbutton
   y = 132
   backgroundnormal = config/fancymenu/images/menu/buttons/support.png
@@ -316,11 +316,16 @@ customization {
   label = 
   x = -63
   width = 18
-  actionid = c3965efe-a7de-4713-974b-f8c931115b8e1618621095288
+  actionid = 32bbbbad-50e8-4ee6-873f-858a0bdd26221618632094832
   action = addbutton
   y = 16
   backgroundnormal = config/fancymenu/images/menu/socials/curseforge.png
   value = https://www.curseforge.com/minecraft/modpacks/ninety-nine-mods-on-the-wall
   height = 10
+}
+
+customization {
+  identifier = %id=376346%
+  action = hidebutton
 }
 
