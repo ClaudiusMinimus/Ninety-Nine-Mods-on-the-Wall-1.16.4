@@ -1,5 +1,16 @@
 # Change Log
 
+## Version 1.13.0
+
+- Mods Added:
+  - FTB Backup
+- Mods Updated:
+  - OpenLoader-1.16.5-9.0.2 (downgrade)
+- Mods Removed:
+  - Grapple Hooks (causing servers to lockup. It may be added back if it is updated)
+- Other Changes:
+  - Removed references to Grapple Hooks in the 99 Mods book
+
 ## Version 1.12.0
 
 - Mods Added: none
