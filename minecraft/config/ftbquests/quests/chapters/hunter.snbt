@@ -895,8 +895,7 @@
 			rewards: [{
 				id: "0000000000000583",
 				type: "item",
-				item: "gobber2:gobber2_ring_repair",
-				count: 4
+				item: "gobber2:gobber2_ring_repair"
 			}]
 		}
 	]
