@@ -1966,9 +1966,9 @@
 				}
 			}],
 			rewards: [{
-				id: "000000000000064D",
-				type: "item",
-				item: "rats:rat_breeding_lantern"
+				id: "3A0E6C33B6A9ECED",
+				type: "xp",
+				xp: 50
 			}]
 		},
 		{
@@ -1982,10 +1982,9 @@
 				item: "silentgear:material_grader"
 			}],
 			rewards: [{
-				id: "000000000000064C",
+				id: "54C1FF152705ADAF",
 				type: "item",
-				item: "rats:rat_upgrade_basic",
-				count: 2
+				item: "mcwfurnitures:spruce_dresser"
 			}]
 		},
 		{
@@ -2687,9 +2686,17 @@
 				}
 			}],
 			rewards: [{
-				id: "0000000000000731",
+				id: "75ACF91C17E9B8F9",
 				type: "item",
-				item: "rats:rat_upgrade_speed"
+				item: {
+					id: "usefulbackpacks:backpack_large",
+					Count: 1b,
+					tag: {
+						display: {
+							color: 16351261
+						}
+					}
+				}
 			}]
 		},
 		{

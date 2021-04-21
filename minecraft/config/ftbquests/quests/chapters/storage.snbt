@@ -131,7 +131,7 @@
 			rewards: [{
 				id: "000000000000022A",
 				type: "item",
-				item: "rats:rat_burger",
+				item: "simplefarming:fish_sandwich",
 				count: 8
 			}]
 		},
@@ -360,15 +360,9 @@
 				item: "fluidtank:tank_iron"
 			}],
 			rewards: [{
-				id: "00000000000004E9",
+				id: "5365DF201EEE33BD",
 				type: "item",
-				item: {
-					id: "rats:black_death_mask",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				}
+				item: "torchmaster:megatorch"
 			}]
 		},
 		{
@@ -750,9 +744,13 @@
 				item: "storagedrawers:diamond_storage_upgrade"
 			}],
 			rewards: [{
-				id: "00000000000004F2",
+				id: "21D400C54FCCF288",
 				type: "item",
-				item: "rats:rat_upgrade_armor"
+				item: {
+					id: "cyclic:lever_remote",
+					Count: 1b,
+					tag: {}
+				}
 			}]
 		},
 		{
@@ -766,10 +764,9 @@
 				item: "storagedrawers:emerald_storage_upgrade"
 			}],
 			rewards: [{
-				id: "00000000000004F3",
+				id: "35988B2EE6298DC3",
 				type: "item",
-				item: "rats:token_piece",
-				count: 4
+				item: "immersiveengineering:ethanol_bucket"
 			}]
 		},
 		{
@@ -1329,9 +1326,9 @@
 				item: "refinedstorage:crafting_monitor"
 			}],
 			rewards: [{
-				id: "0000000000000652",
+				id: "54C815BFD9C1EDB4",
 				type: "item",
-				item: "rats:cauldron_cheese"
+				item: "cyclic:heart"
 			}]
 		},
 		{
@@ -1435,9 +1432,9 @@
 				item: "refinedstorage:network_receiver"
 			}],
 			rewards: [{
-				id: "00000000000004DF",
+				id: "18770BBA52782EC8",
 				type: "item",
-				item: "rats:plague_stew",
+				item: "silentgear:tyrian_steel_ingot",
 				count: 4
 			}]
 		},
@@ -1509,9 +1506,9 @@
 				item: "metalbarrels:silver_to_gold"
 			}],
 			rewards: [{
-				id: "00000000000005F6",
+				id: "75879BE802C93473",
 				type: "item",
-				item: "rats:rat_upgrade_basic"
+				item: "silentgems:soul_shell"
 			}]
 		},
 		{
