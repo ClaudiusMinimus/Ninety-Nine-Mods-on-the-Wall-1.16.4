@@ -443,35 +443,6 @@
 				type: "item",
 				item: "minecraft:iron_block"
 			}]
-		},
-		{
-			x: 4.5d,
-			y: 1.5d,
-			description: ["Have you ever wanted to capture a mod? With this device you can catch many!"],
-			dependencies: ["0000000000000010"],
-			id: "0000000000000743",
-			tasks: [
-				{
-					id: "0000000000000744",
-					type: "item",
-					item: {
-						id: "mobcatcher:net_launcher",
-						Count: 1b,
-						tag: {}
-					}
-				},
-				{
-					id: "0000000000000745",
-					type: "item",
-					item: "mobcatcher:net"
-				}
-			],
-			rewards: [{
-				id: "0000000000000746",
-				type: "item",
-				item: "mobcatcher:net",
-				count: 4
-			}]
 		}
 	]
 }
