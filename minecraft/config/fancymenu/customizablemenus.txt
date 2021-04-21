@@ -3,3 +3,12 @@ type = customizablemenus
 net.minecraft.client.gui.screen.MainMenuScreen {
 }
 
+net.minecraft.client.gui.screen.MultiplayerScreen {
+}
+
+net.minecraft.client.gui.screen.CreateWorldScreen {
+}
+
+net.minecraft.client.gui.screen.WorldSelectionScreen {
+}
+
