@@ -110,6 +110,7 @@ server/config/betterdefaultbiomes/food
 # Do not ignore these files
 !minecraft/config/alexsmobs.toml
 !minecraft/config/cyclic.toml
+!minecraft/config/easy_steel-general.toml
 !minecraft/config/friendlyfire-common.toml
 !minecraft/config/forge-client.toml
 !minecraft/config/forge-common.toml
@@ -124,6 +125,7 @@ server/config/betterdefaultbiomes/food
 !server/config/alexsmobs.toml
 !server/config/auto_restart.toml
 !server/config/cyclic.toml
+!server/config/easy_steel-general.toml
 !server/config/forge-client.toml
 !server/config/forge-common.toml
 !server/config/gobber-general.toml
