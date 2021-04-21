@@ -3,13 +3,39 @@
 ## Version 1.14.0
 
 - Mods Added:
+  - CustomStartingGear-1.16.4-2.0.2.1-universal
 - Mods Updated:
-- Mods Removed:
-  - Rats
-  - Ratlantis
-  - BYG
-  - Better Biomes
+  - alexsmobs-1.9.1
+  - Apotheosis-1.16.4-4.5.1
+  - Controlling-7.0.0.15
+  - createaddition-1.16.5-20210419b
+  - engineersdecor-1.16.4-1.1.13-b1
+  - jei-1.16.5-7.6.4.87
+  - kubejs-1605.3.7-build.185-forge
+  - mdecore-1.16.4-16.1.0
+  - OpenLoader-1.16.5-9.0.3
+  - Placebo-1.16.4-4.4.2
+  - Quark-r2.4-311
+  - repurposed_structures-1.16.5-2.6.5-forge
+  - rhino-1.7.13-build.23
+  - supplementaries-1.16.5-0.12.1
+  - torchmaster-2.3.7
+  - valhelsia_core-16.0.6
+- Mods Removed: (these mods were removed for performance, stability and redundancy reasons)
+  - Better Default Biomes (Improve server performance)
+  - BYG (Improve server performance)
+  - Collective (dependant of Starter Kit)
+  - Disenchant (anvil)
+  - Mob Catcher (plenty of other methods to capture)
+  - No More Wander (redunant)
+  - Notes (not really needed by most players. Can be added by player)
+  - Rats (causing singleplayer and server worlds to freeze)
+  - Ratlantis (part of Rats)
+  - Starter Kit (Custom Starting Gear easier to use)
+  - Toast Control (can be added by player if needed)
 - Other Changes:
+  - Removed Rats quests and all references to Rats
+  - Minor GUI update
 
 ## Version 1.13.0
 
