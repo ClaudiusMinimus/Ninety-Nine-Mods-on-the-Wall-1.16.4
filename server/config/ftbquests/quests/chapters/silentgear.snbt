@@ -3015,7 +3015,7 @@
 			rewards: [{
 				id: "000000000000072B",
 				type: "item",
-				item: "mobcatcher:net",
+				item: "forbidden_arcanus:quantum_catcher",
 				count: 4
 			}]
 		},

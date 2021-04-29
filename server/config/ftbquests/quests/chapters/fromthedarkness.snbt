@@ -443,6 +443,241 @@
 				type: "item",
 				item: "minecraft:iron_block"
 			}]
+		},
+		{
+			x: 0.0d,
+			y: -1.5d,
+			description: [
+				"These handy little grappling hooks are great when you need to go up, down, or to the next plateau. Be sure to be careful, because you will take fall damage if you hit the ground hard without protection.",
+				"",
+				"Your reward for making a Wooden Hook is a Stone Hook and Feather Falling I Enchantment Token. Place your boots and the token in your crafting grid. Tokens can be stacked."
+			],
+			dependencies: ["0000000000000005"],
+			id: "57B20ABE256F9B8D",
+			tasks: [{
+				id: "6E7E5586777B9CF4",
+				type: "item",
+				item: {
+					id: "grapple_hooks:hook_wooden",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "26A3E86A43AC74A1",
+					type: "item",
+					item: {
+						id: "grapple_hooks:hook_stone",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "49331C959C57ED94",
+					type: "item",
+					item: {
+						id: "silentgems:enchantment_token",
+						Count: 1b,
+						tag: {
+							TokenEnchantments: [{
+								lvl: 1s,
+								id: "minecraft:feather_falling"
+							}]
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: -3.0d,
+			description: ["To craft an Iron Hook, surround a Stone Hook with iron ingots in a crafting grid. The JEI reciped is currently broken."],
+			dependencies: ["57B20ABE256F9B8D"],
+			id: "7730568373855B2F",
+			tasks: [{
+				id: "727CC2A42B78C886",
+				type: "item",
+				item: {
+					id: "grapple_hooks:hook_iron",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "479043B4A9000DED",
+					type: "item",
+					item: {
+						id: "silentgems:enchantment_token",
+						Count: 1b,
+						tag: {
+							TokenEnchantments: [{
+								lvl: 1s,
+								id: "minecraft:feather_falling"
+							}]
+						}
+					}
+				},
+				{
+					id: "0AB8EF964631314C",
+					type: "item",
+					item: {
+						id: "silentgems:enchantment_token",
+						Count: 1b,
+						tag: {
+							TokenEnchantments: [{
+								lvl: 1s,
+								id: "grapple_hooks:rope_distance"
+							}]
+						}
+					}
+				},
+				{
+					id: "3F341119899E66D8",
+					type: "item",
+					item: {
+						id: "silentgems:enchantment_token",
+						Count: 1b,
+						tag: {
+							TokenEnchantments: [{
+								lvl: 1s,
+								id: "grapple_hooks:pull_speed"
+							}]
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: -4.5d,
+			description: ["To craft a Golden Hook, surround an Iron Hook with gold ingots in a crafting grid. The JEI reciped is currently broken."],
+			dependencies: ["7730568373855B2F"],
+			id: "194223802F0F7FC9",
+			tasks: [{
+				id: "54B212BB710AC7DF",
+				type: "item",
+				item: {
+					id: "grapple_hooks:hook_golden",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "5040DAAA4A4F9105",
+					type: "item",
+					item: {
+						id: "silentgems:enchantment_token",
+						Count: 1b,
+						tag: {
+							TokenEnchantments: [{
+								lvl: 1s,
+								id: "minecraft:feather_falling"
+							}]
+						}
+					}
+				},
+				{
+					id: "3DE01271652C3F11",
+					type: "item",
+					item: {
+						id: "silentgems:enchantment_token",
+						Count: 1b,
+						tag: {
+							TokenEnchantments: [{
+								lvl: 1s,
+								id: "grapple_hooks:rope_distance"
+							}]
+						}
+					}
+				},
+				{
+					id: "764A6CA6B15F9F3B",
+					type: "item",
+					item: {
+						id: "silentgems:enchantment_token",
+						Count: 1b,
+						tag: {
+							TokenEnchantments: [{
+								lvl: 1s,
+								id: "grapple_hooks:pull_speed"
+							}]
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: -6.0d,
+			description: ["To craft a Diamond Hook, surround a Golden Hook with diamonds in a crafting grid. The JEI reciped is currently broken."],
+			dependencies: ["194223802F0F7FC9"],
+			id: "16417AD7DCB4698D",
+			tasks: [{
+				id: "30800069C72A0D84",
+				type: "item",
+				item: {
+					id: "grapple_hooks:hook_diamond",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "6039A4177FC3090D",
+					type: "item",
+					item: {
+						id: "silentgems:enchantment_token",
+						Count: 1b,
+						tag: {
+							TokenEnchantments: [{
+								lvl: 1s,
+								id: "minecraft:feather_falling"
+							}]
+						}
+					}
+				},
+				{
+					id: "44CE5D50EAD22900",
+					type: "item",
+					item: {
+						id: "silentgems:enchantment_token",
+						Count: 1b,
+						tag: {
+							TokenEnchantments: [{
+								lvl: 1s,
+								id: "grapple_hooks:rope_distance"
+							}]
+						}
+					}
+				},
+				{
+					id: "644A5D9F89BE4B9B",
+					type: "item",
+					item: {
+						id: "silentgems:enchantment_token",
+						Count: 1b,
+						tag: {
+							TokenEnchantments: [{
+								lvl: 1s,
+								id: "grapple_hooks:pull_speed"
+							}]
+						}
+					}
+				}
+			]
 		}
 	]
 }
