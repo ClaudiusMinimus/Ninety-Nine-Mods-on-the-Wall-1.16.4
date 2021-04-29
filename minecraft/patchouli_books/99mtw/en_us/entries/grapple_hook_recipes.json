@@ -1,0 +1,36 @@
+{
+    "name": "Grapple Hook Recipes",
+    "icon": "grapple_hooks:hook_diamond",
+    "category": "game_tips",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Here are some useful recipes. More to come if needed."
+        },
+        {
+            "type": "image",
+            "title": "Iron Hook Recipe",
+            "images": [
+                "99mtw:iron_hook_recipe.png", 
+                "99mtw:iron_hook.png"
+            ]
+        },
+        {
+            "type": "image",
+            "title": "Gold Hook Recipe",
+            "images": [
+                "99mtw:gold_hook_recipe.png", 
+                "99mtw:gold_hook.png"
+            ]
+        },
+        {
+            "type": "image",
+            "title": "Diamond Hook Recipe",
+            "images": [
+                "99mtw:diamond_hook_recipe.png", 
+                "99mtw:diamond_hook.png"
+            ]
+        }
+    ]
+}
