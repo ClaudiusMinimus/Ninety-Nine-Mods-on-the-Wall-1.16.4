@@ -13,10 +13,10 @@
       "bookmarks": [],
       "history": [
         "patchouli:create",
+        "patchouli:ig_commands",
         "patchouli:grapple_hook_recipes",
         "patchouli:silent_gems_supercharging",
-        "patchouli:recipes",
-        "patchouli:ig_commands"
+        "patchouli:recipes"
       ],
       "completedManualQuests": []
     }
