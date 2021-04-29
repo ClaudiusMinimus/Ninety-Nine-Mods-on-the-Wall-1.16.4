@@ -255,7 +255,7 @@ customization {
   label = 
   x = -39
   width = 14
-  actionid = 885c2812-e2e4-4191-90fb-7ba18fa7ee2c1618632094822
+  actionid = 76ab141b-a642-4680-b866-7d8a091c77901619715200890
   action = addbutton
   y = 15
   backgroundnormal = config/fancymenu/images/menu/socials/discord.png
@@ -272,7 +272,7 @@ customization {
   y = -13
   scale = 1.0
   alignment = left
-  value = 99 Mods on the Wall v.1.16.5-1.14.0
+  value = 99 Mods on the Wall v.1.16.5-1.15.0
 }
 
 customization {
@@ -284,7 +284,7 @@ customization {
   hoverlabel = 
   x = 75
   width = 104
-  actionid = ce582804-ff5f-436b-87c2-9385bf28fc131618632094828
+  actionid = 34fea4fa-e47f-4059-ae56-37b82f2031471619715200901
   action = addbutton
   y = 190
   backgroundnormal = config/fancymenu/images/menu/buttons/serverhover.png
@@ -300,7 +300,7 @@ customization {
   label = 
   x = 128
   width = 51
-  actionid = f9f17078-9d6c-4916-b28d-7a1a2e4034551618632094830
+  actionid = d93e9a04-3bd7-4d71-84c7-691a25095b4c1619715200904
   action = addbutton
   y = 132
   backgroundnormal = config/fancymenu/images/menu/buttons/support.png
@@ -316,7 +316,7 @@ customization {
   label = 
   x = -63
   width = 18
-  actionid = 32bbbbad-50e8-4ee6-873f-858a0bdd26221618632094832
+  actionid = d4ed296f-8f95-4190-a854-644c5e81c9711619715200906
   action = addbutton
   y = 16
   backgroundnormal = config/fancymenu/images/menu/socials/curseforge.png
