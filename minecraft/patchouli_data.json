@@ -12,11 +12,45 @@
       ],
       "bookmarks": [],
       "history": [
+        "patchouli:silent_gems_supercharging",
         "patchouli:create",
         "patchouli:ig_commands",
         "patchouli:grapple_hook_recipes",
-        "patchouli:silent_gems_supercharging",
         "patchouli:recipes"
+      ],
+      "completedManualQuests": []
+    },
+    "patchouli:silentsgems": {
+      "viewedEntries": [
+        "patchouli:discord",
+        "patchouli:chaso_gems",
+        "patchouli:soul_urns",
+        "patchouli:enchantments",
+        "patchouli:teleporters",
+        "patchouli:other_useful_items",
+        "patchouli:glow_roses",
+        "patchouli:chaos",
+        "patchouli:key_features",
+        "patchouli:token_enchanter",
+        "patchouli:gems",
+        "patchouli:gear_souls",
+        "patchouli:silent_gems_supercharging"
+      ],
+      "bookmarks": [],
+      "history": [
+        "patchouli:silent_gems_supercharging",
+        "patchouli:gear_souls",
+        "patchouli:gems",
+        "patchouli:token_enchanter",
+        "patchouli:key_features",
+        "patchouli:chaos",
+        "patchouli:glow_roses",
+        "patchouli:other_useful_items",
+        "patchouli:teleporters",
+        "patchouli:enchantments",
+        "patchouli:discord",
+        "patchouli:soul_urns",
+        "patchouli:chaso_gems"
       ],
       "completedManualQuests": []
     }
