@@ -254,7 +254,8 @@
 			}],
 			rewards: [{
 				id: "000000000000055D",
-				type: "item"
+				type: "item",
+				item: "minecraft:diamond"
 			}]
 		},
 		{

@@ -19,9 +19,9 @@
 				item: "cookingforblockheads:recipe_book"
 			}],
 			rewards: [{
-				id: "0000000000000551",
-				type: "item",
-				item: "gobber2:gobber2_ring_farmer"
+				id: "4A5CDD8D011155D2",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
