@@ -2,6 +2,30 @@
 
 *Always backup your worlds!*
 
+## Version 1.17.0
+
+2021-07-10
+
+- Mods Added:
+  - MutantBeasts-1.16.4-1.1.3
+  - selene-1.16.5-1.4 (new dependant for supplementaries)
+- Mods Updated:
+  - architectury-1.19.27-forge
+  - Cyclic-1.16.5-1.3.1
+  - easy_villagers-1.16.5-1.0.11
+  - EasySteel-Forge-1.16.5-1.2.21
+  - Gobber2-Forge-1.16.5-2.3.51
+  - ImmersiveEngineering-1.16.5-5.0.2-137
+  - item-filters-forge-1605.2.5-build.9
+  - mcw-bridges-1.0.6-mc1.16.5
+  - Patchouli-1.16.4-53.1
+  - repurposed_structures-1.16.5-2.7.8-forge
+  - silent-gear-1.16.5-2.6.29
+  - supplementaries-1.16.5-0.14.4d
+- Mods Removed: none
+- Other Changes:
+  - Added tumblr icon to main menu pointing to [CM's World](https://cms-world.tumblr.com/)
+
 ## Version 1.16.1
 
 2021-07-01
