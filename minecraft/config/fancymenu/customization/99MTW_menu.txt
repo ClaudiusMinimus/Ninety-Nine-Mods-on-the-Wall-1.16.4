@@ -2,7 +2,10 @@ type = menu
 
 customization-meta {
   identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
   renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
 }
 
 customization {
@@ -255,7 +258,7 @@ customization {
   label = 
   x = -39
   width = 14
-  actionid = 76ab141b-a642-4680-b866-7d8a091c77901619715200890
+  actionid = d5734cd6-7e0b-4fb2-95e4-8d09166608471625928812481
   action = addbutton
   y = 15
   backgroundnormal = config/fancymenu/images/menu/socials/discord.png
@@ -284,7 +287,7 @@ customization {
   hoverlabel = 
   x = 75
   width = 104
-  actionid = 34fea4fa-e47f-4059-ae56-37b82f2031471619715200901
+  actionid = dbbdb38f-ad13-4e3b-802d-8507db2416e41625928812493
   action = addbutton
   y = 190
   backgroundnormal = config/fancymenu/images/menu/buttons/serverhover.png
@@ -300,7 +303,7 @@ customization {
   label = 
   x = 128
   width = 51
-  actionid = d93e9a04-3bd7-4d71-84c7-691a25095b4c1619715200904
+  actionid = c51c8e5c-6a41-4a0b-b4d1-80e527f49b1d1625928812500
   action = addbutton
   y = 132
   backgroundnormal = config/fancymenu/images/menu/buttons/support.png
@@ -316,7 +319,7 @@ customization {
   label = 
   x = -63
   width = 18
-  actionid = d4ed296f-8f95-4190-a854-644c5e81c9711619715200906
+  actionid = 94865ba9-2307-42a9-9514-66d1cc733c7f1625928812505
   action = addbutton
   y = 16
   backgroundnormal = config/fancymenu/images/menu/socials/curseforge.png
@@ -327,5 +330,20 @@ customization {
 customization {
   identifier = %id=376346%
   action = hidebutton
+}
+
+customization {
+  orientation = top-right
+  buttonaction = openlink
+  x = -19
+  width = 9
+  actionid = a8047d5b-cabd-4df9-893d-634ff35c0f4d1625928826625
+  action = addbutton
+  y = 15
+  backgroundhovered = config/fancymenu/images/menu/socials/tumblrhover.png
+  label = 
+  backgroundnormal = config/fancymenu/images/menu/socials/tumblr.png
+  value = https://cms-world.tumblr.com/
+  height = 11
 }
 
