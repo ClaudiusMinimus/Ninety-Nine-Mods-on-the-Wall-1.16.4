@@ -1,932 +1,933 @@
 {
-	id: "00000000000000AF",
-	group: "",
-	order_index: 3,
-	filename: "farmer",
-	title: "Let's Get Farming",
-	icon: "simplefarming:scarecrow",
-	default_quest_shape: "",
+	id: "00000000000000AF"
+	group: ""
+	order_index: 3
+	filename: "farmer"
+	title: "Let's Get Farming"
+	icon: "simplefarming:scarecrow"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 4.0d,
-			y: -1.5d,
-			shape: "diamond",
-			description: ["Breaking grass is always fun. Now get to it! Break some grass. Get some seeds. Grow some wheat!"],
-			size: 1.5d,
-			id: "00000000000000B0",
+			x: 4.0d
+			y: -1.5d
+			shape: "diamond"
+			description: ["Breaking grass is always fun. Now get to it! Break some grass. Get some seeds. Grow some wheat!"]
+			size: 1.5d
+			id: "00000000000000B0"
 			tasks: [{
-				id: "00000000000000B1",
-				type: "item",
-				item: "minecraft:wheat",
+				id: "00000000000000B1"
+				type: "item"
+				item: "minecraft:wheat"
 				count: 12L
-			}],
+			}]
 			rewards: [{
-				id: "00000000000005E8",
-				type: "item",
+				id: "00000000000005E8"
+				type: "item"
 				item: "xreliquary:fertile_lily_pad"
 			}]
-		},
+		}
 		{
-			x: 4.0d,
-			y: 0.0d,
-			description: ["Fluffy Puff seeds are a wonderful resource"],
-			dependencies: ["00000000000000B0"],
-			id: "00000000000000B3",
+			x: 4.0d
+			y: 0.0d
+			description: ["Fluffy Puff seeds are a wonderful resource"]
+			dependencies: ["00000000000000B0"]
+			id: "00000000000000B3"
 			tasks: [
 				{
-					id: "00000000000000B4",
-					type: "item",
-					item: "silentgems:fluffy_puff",
+					id: "00000000000000B4"
+					type: "item"
+					item: "silentgems:fluffy_puff"
 					count: 20L
-				},
+				}
 				{
-					id: "00000000000000B5",
-					type: "item",
+					id: "00000000000000B5"
+					type: "item"
 					item: "silentgems:fluffy_puff_seeds"
 				}
-			],
+			]
 			rewards: [{
-				id: "00000000000000BE",
-				type: "item",
+				id: "00000000000000BE"
+				type: "item"
 				item: {
-					id: "cyclic:sleeping_mat",
-					Count: 1b,
+					id: "cyclic:sleeping_mat"
+					Count: 1b
 					tag: {
 						Damage: 0
 					}
 				}
 			}]
-		},
+		}
 		{
-			x: 5.5d,
-			y: 0.0d,
-			dependencies: ["00000000000000B3"],
-			id: "00000000000000B6",
+			x: 5.5d
+			y: 0.0d
+			dependencies: ["00000000000000B3"]
+			id: "00000000000000B6"
 			tasks: [{
-				id: "00000000000000B7",
-				type: "item",
-				item: "minecraft:string",
+				id: "00000000000000B7"
+				type: "item"
+				item: "minecraft:string"
 				count: 24L
-			}],
+			}]
 			rewards: [{
-				id: "00000000000000BF",
-				type: "xp",
+				id: "00000000000000BF"
+				type: "xp"
 				xp: 25
 			}]
-		},
+		}
 		{
-			x: 7.0d,
-			y: 0.0d,
-			dependencies: ["00000000000000B6"],
-			id: "00000000000000B8",
+			x: 7.0d
+			y: 0.0d
+			dependencies: ["00000000000000B6"]
+			id: "00000000000000B8"
 			tasks: [{
-				id: "00000000000000B9",
-				type: "item",
-				item: "minecraft:white_wool",
+				id: "00000000000000B9"
+				type: "item"
+				item: "minecraft:white_wool"
 				count: 12L
-			}],
+			}]
 			rewards: [
 				{
-					id: "00000000000000C0",
-					type: "xp",
+					id: "00000000000000C0"
+					type: "xp"
 					xp: 25
-				},
+				}
 				{
-					id: "0000000000000519",
-					type: "item",
+					id: "0000000000000519"
+					type: "item"
 					item: "minecraft:villager_spawn_egg"
 				}
 			]
-		},
+		}
 		{
-			x: 5.5d,
-			y: -1.5d,
-			dependencies: ["00000000000000B3"],
-			id: "00000000000000BA",
+			x: 5.5d
+			y: -1.5d
+			dependencies: ["00000000000000B3"]
+			id: "00000000000000BA"
 			tasks: [{
-				id: "00000000000000BB",
-				type: "item",
-				item: "minecraft:feather",
+				id: "00000000000000BB"
+				type: "item"
+				item: "minecraft:feather"
 				count: 10L
-			}],
+			}]
 			rewards: [
 				{
-					id: "00000000000000BC",
-					type: "item",
-					item: "minecraft:flint",
+					id: "00000000000000BC"
+					type: "item"
+					item: "minecraft:flint"
 					count: 10
-				},
+				}
 				{
-					id: "00000000000000BD",
-					type: "xp",
+					id: "00000000000000BD"
+					type: "xp"
 					xp: 25
 				}
 			]
-		},
+		}
 		{
-			x: 0.0d,
-			y: 1.5d,
-			id: "0000000000000315",
+			x: 0.0d
+			y: 1.5d
+			id: "0000000000000315"
 			tasks: [{
-				id: "0000000000000316",
-				type: "item",
+				id: "0000000000000316"
+				type: "item"
 				item: "simplefarming:pear"
-			}],
+			}]
 			rewards: [{
-				id: "0000000000000671",
-				type: "xp",
+				id: "0000000000000671"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			x: 1.0d,
-			y: 1.5d,
-			id: "0000000000000317",
+			x: 1.0d
+			y: 1.5d
+			id: "0000000000000317"
 			tasks: [{
-				id: "0000000000000318",
-				type: "item",
+				id: "0000000000000318"
+				type: "item"
 				item: "simplefarming:orange"
-			}],
+			}]
 			rewards: [{
-				id: "0000000000000672",
-				type: "xp",
+				id: "0000000000000672"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			x: 2.0d,
-			y: 1.5d,
-			id: "0000000000000319",
+			x: 2.0d
+			y: 1.5d
+			id: "0000000000000319"
 			tasks: [{
-				id: "000000000000031A",
-				type: "item",
+				id: "000000000000031A"
+				type: "item"
 				item: "simplefarming:mango"
-			}],
+			}]
 			rewards: [{
-				id: "0000000000000673",
-				type: "xp",
+				id: "0000000000000673"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			x: 3.0d,
-			y: 1.5d,
-			id: "000000000000031B",
+			x: 3.0d
+			y: 1.5d
+			id: "000000000000031B"
 			tasks: [{
-				id: "000000000000031C",
-				type: "item",
+				id: "000000000000031C"
+				type: "item"
 				item: "simplefarming:grapes"
-			}],
+			}]
 			rewards: [{
-				id: "0000000000000674",
-				type: "xp",
+				id: "0000000000000674"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			x: 4.0d,
-			y: 1.5d,
-			id: "000000000000031D",
+			x: 4.0d
+			y: 1.5d
+			id: "000000000000031D"
 			tasks: [{
-				id: "000000000000031E",
-				type: "item",
+				id: "000000000000031E"
+				type: "item"
 				item: "simplefarming:cherries"
-			}],
+			}]
 			rewards: [{
-				id: "0000000000000675",
-				type: "xp",
+				id: "0000000000000675"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			x: 5.0d,
-			y: 1.5d,
-			id: "000000000000031F",
+			x: 5.0d
+			y: 1.5d
+			id: "000000000000031F"
 			tasks: [{
-				id: "0000000000000320",
-				type: "item",
+				id: "0000000000000320"
+				type: "item"
 				item: "simplefarming:banana"
-			}],
+			}]
 			rewards: [{
-				id: "0000000000000676",
-				type: "xp",
+				id: "0000000000000676"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			x: 6.0d,
-			y: 1.5d,
-			id: "0000000000000321",
+			x: 6.0d
+			y: 1.5d
+			id: "0000000000000321"
 			tasks: [{
-				id: "0000000000000322",
-				type: "item",
+				id: "0000000000000322"
+				type: "item"
 				item: "simplefarming:apricot"
-			}],
+			}]
 			rewards: [{
-				id: "0000000000000677",
-				type: "xp",
+				id: "0000000000000677"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			x: 7.0d,
-			y: 1.5d,
-			id: "0000000000000323",
+			x: 7.0d
+			y: 1.5d
+			id: "0000000000000323"
 			tasks: [{
-				id: "0000000000000324",
-				type: "item",
+				id: "0000000000000324"
+				type: "item"
 				item: "simplefarming:sorghum"
-			}],
+			}]
 			rewards: [{
-				id: "0000000000000678",
-				type: "xp",
+				id: "0000000000000678"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			x: 8.0d,
-			y: 1.5d,
-			id: "0000000000000325",
+			x: 8.0d
+			y: 1.5d
+			id: "0000000000000325"
 			tasks: [{
-				id: "0000000000000326",
-				type: "item",
+				id: "0000000000000326"
+				type: "item"
 				item: "simplefarming:corn"
-			}],
+			}]
 			rewards: [{
-				id: "0000000000000679",
-				type: "xp",
+				id: "0000000000000679"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			x: 0.0d,
-			y: 2.5d,
-			id: "0000000000000327",
+			x: 0.0d
+			y: 2.5d
+			id: "0000000000000327"
 			tasks: [{
-				id: "0000000000000328",
-				type: "item",
+				id: "0000000000000328"
+				type: "item"
 				item: "simplefarming:radish"
-			}],
+			}]
 			rewards: [{
-				id: "000000000000067A",
-				type: "xp",
+				id: "000000000000067A"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			x: 1.0d,
-			y: 2.5d,
-			id: "0000000000000329",
+			x: 1.0d
+			y: 2.5d
+			id: "0000000000000329"
 			tasks: [{
-				id: "000000000000032A",
-				type: "item",
+				id: "000000000000032A"
+				type: "item"
 				item: "simplefarming:strawberries"
-			}],
+			}]
 			rewards: [{
-				id: "000000000000067B",
-				type: "xp",
+				id: "000000000000067B"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			x: 2.0d,
-			y: 2.5d,
-			id: "000000000000032B",
+			x: 2.0d
+			y: 2.5d
+			id: "000000000000032B"
 			tasks: [{
-				id: "000000000000032C",
-				type: "item",
+				id: "000000000000032C"
+				type: "item"
 				item: "simplefarming:raspberries"
-			}],
+			}]
 			rewards: [{
-				id: "0000000000000515",
-				type: "item",
+				id: "0000000000000515"
+				type: "item"
 				item: "minecraft:zombie_horse_spawn_egg"
 			}]
-		},
+		}
 		{
-			x: 3.0d,
-			y: 2.5d,
-			id: "000000000000032D",
+			x: 3.0d
+			y: 2.5d
+			id: "000000000000032D"
 			tasks: [{
-				id: "000000000000032E",
-				type: "item",
+				id: "000000000000032E"
+				type: "item"
 				item: "simplefarming:cactus_fruit"
-			}],
+			}]
 			rewards: [{
-				id: "000000000000067C",
-				type: "xp",
+				id: "000000000000067C"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			x: 4.0d,
-			y: 2.5d,
-			id: "000000000000032F",
+			x: 4.0d
+			y: 2.5d
+			id: "000000000000032F"
 			tasks: [{
-				id: "0000000000000330",
-				type: "item",
+				id: "0000000000000330"
+				type: "item"
 				item: "simplefarming:blueberries"
-			}],
+			}]
 			rewards: [{
-				id: "000000000000067D",
-				type: "xp",
+				id: "000000000000067D"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			x: 5.0d,
-			y: 2.5d,
-			id: "0000000000000331",
+			x: 5.0d
+			y: 2.5d
+			id: "0000000000000331"
 			tasks: [{
-				id: "0000000000000332",
-				type: "item",
+				id: "0000000000000332"
+				type: "item"
 				item: "simplefarming:blackberries"
-			}],
+			}]
 			rewards: [{
-				id: "000000000000067E",
-				type: "xp",
+				id: "000000000000067E"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			x: 6.0d,
-			y: 2.5d,
-			id: "0000000000000333",
+			x: 6.0d
+			y: 2.5d
+			id: "0000000000000333"
 			tasks: [{
-				id: "0000000000000334",
-				type: "item",
+				id: "0000000000000334"
+				type: "item"
 				item: "simplefarming:squash"
-			}],
+			}]
 			rewards: [
 				{
-					id: "000000000000067F",
-					type: "xp",
+					id: "000000000000067F"
+					type: "xp"
 					xp: 100
-				},
+				}
 				{
-					id: "0000000000000680",
-					type: "xp",
+					id: "0000000000000680"
+					type: "xp"
 					xp: 100
 				}
 			]
-		},
+		}
 		{
-			x: 7.0d,
-			y: 2.5d,
-			id: "0000000000000335",
+			x: 7.0d
+			y: 2.5d
+			id: "0000000000000335"
 			tasks: [{
-				id: "0000000000000336",
-				type: "item",
+				id: "0000000000000336"
+				type: "item"
 				item: "simplefarming:soybean"
-			}],
+			}]
 			rewards: [{
-				id: "0000000000000681",
-				type: "xp",
+				id: "0000000000000681"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			x: 8.0d,
-			y: 2.5d,
-			id: "0000000000000337",
+			x: 8.0d
+			y: 2.5d
+			id: "0000000000000337"
 			tasks: [{
-				id: "0000000000000338",
-				type: "item",
+				id: "0000000000000338"
+				type: "item"
 				item: "simplefarming:pepper"
-			}],
+			}]
 			rewards: [{
-				id: "0000000000000516",
-				type: "item",
+				id: "0000000000000516"
+				type: "item"
 				item: "spawnermod:iron_golem_spawn_egg"
 			}]
-		},
+		}
 		{
-			x: 0.0d,
-			y: 3.5d,
-			id: "0000000000000339",
+			x: 0.0d
+			y: 3.5d
+			id: "0000000000000339"
 			tasks: [{
-				id: "000000000000033A",
-				type: "item",
+				id: "000000000000033A"
+				type: "item"
 				item: "simplefarming:ginger"
-			}],
+			}]
 			rewards: [
 				{
-					id: "0000000000000682",
-					type: "xp",
+					id: "0000000000000682"
+					type: "xp"
 					xp: 100
-				},
+				}
 				{
-					id: "68071312D64BA457",
-					type: "item",
+					id: "68071312D64BA457"
+					type: "item"
 					item: "xreliquary:fertile_lily_pad"
 				}
 			]
-		},
+		}
 		{
-			x: 1.0d,
-			y: 3.5d,
-			id: "000000000000033B",
+			x: 1.0d
+			y: 3.5d
+			id: "000000000000033B"
 			tasks: [{
-				id: "000000000000033C",
-				type: "item",
+				id: "000000000000033C"
+				type: "item"
 				item: "simplefarming:habanero"
-			}],
+			}]
 			rewards: [{
-				id: "0000000000000683",
-				type: "xp",
+				id: "0000000000000683"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			x: 2.0d,
-			y: 3.5d,
-			id: "000000000000033D",
+			x: 2.0d
+			y: 3.5d
+			id: "000000000000033D"
 			tasks: [{
-				id: "000000000000033E",
-				type: "item",
+				id: "000000000000033E"
+				type: "item"
 				item: "simplefarming:olives"
-			}],
+			}]
 			rewards: [{
-				id: "0000000000000684",
-				type: "xp",
+				id: "0000000000000684"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			x: 3.0d,
-			y: 3.5d,
-			id: "000000000000033F",
+			x: 3.0d
+			y: 3.5d
+			id: "000000000000033F"
 			tasks: [{
-				id: "0000000000000340",
-				type: "item",
+				id: "0000000000000340"
+				type: "item"
 				item: "simplefarming:honeydew"
-			}],
+			}]
 			rewards: [{
-				id: "0000000000000685",
-				type: "xp",
+				id: "0000000000000685"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			x: 4.0d,
-			y: 3.5d,
-			id: "0000000000000341",
+			x: 4.0d
+			y: 3.5d
+			id: "0000000000000341"
 			tasks: [{
-				id: "0000000000000342",
-				type: "item",
+				id: "0000000000000342"
+				type: "item"
 				item: "simplefarming:cantaloupe"
-			}],
+			}]
 			rewards: [{
-				id: "0000000000000686",
-				type: "xp",
+				id: "0000000000000686"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			x: 5.0d,
-			y: 3.5d,
-			id: "0000000000000343",
+			x: 5.0d
+			y: 3.5d
+			id: "0000000000000343"
 			tasks: [{
-				id: "0000000000000344",
-				type: "item",
+				id: "0000000000000344"
+				type: "item"
 				item: "simplefarming:turnip"
-			}],
+			}]
 			rewards: [{
-				id: "000000000000050C",
-				type: "item",
-				item: "farmingforblockheads:red_fertilizer",
+				id: "000000000000050C"
+				type: "item"
+				item: "farmingforblockheads:red_fertilizer"
 				count: 4
 			}]
-		},
+		}
 		{
-			x: 6.0d,
-			y: 3.5d,
-			id: "0000000000000345",
+			x: 6.0d
+			y: 3.5d
+			id: "0000000000000345"
 			tasks: [{
-				id: "0000000000000346",
-				type: "item",
+				id: "0000000000000346"
+				type: "item"
 				item: "simplefarming:sweet_potato"
-			}],
+			}]
 			rewards: [{
-				id: "0000000000000687",
-				type: "xp",
+				id: "0000000000000687"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			x: 7.0d,
-			y: 3.5d,
-			id: "0000000000000347",
+			x: 7.0d
+			y: 3.5d
+			id: "0000000000000347"
 			tasks: [{
-				id: "0000000000000348",
-				type: "item",
+				id: "0000000000000348"
+				type: "item"
 				item: "simplefarming:spinach"
-			}],
+			}]
 			rewards: [{
-				id: "0000000000000688",
-				type: "xp",
+				id: "0000000000000688"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			x: 8.0d,
-			y: 3.5d,
-			id: "0000000000000349",
+			x: 8.0d
+			y: 3.5d
+			id: "0000000000000349"
 			tasks: [{
-				id: "000000000000034A",
-				type: "item",
+				id: "000000000000034A"
+				type: "item"
 				item: "simplefarming:pea_pod"
-			}],
+			}]
 			rewards: [{
-				id: "0000000000000689",
-				type: "xp",
+				id: "0000000000000689"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			x: 0.0d,
-			y: 4.5d,
-			id: "000000000000034B",
+			x: 0.0d
+			y: 4.5d
+			id: "000000000000034B"
 			tasks: [{
-				id: "000000000000034C",
-				type: "item",
+				id: "000000000000034C"
+				type: "item"
 				item: "simplefarming:lettuce"
-			}],
+			}]
 			rewards: [{
-				id: "000000000000068A",
-				type: "xp",
+				id: "000000000000068A"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			x: 1.0d,
-			y: 4.5d,
-			id: "000000000000034D",
+			x: 1.0d
+			y: 4.5d
+			id: "000000000000034D"
 			tasks: [{
-				id: "000000000000034E",
-				type: "item",
+				id: "000000000000034E"
+				type: "item"
 				item: "simplefarming:onion"
-			}],
+			}]
 			rewards: [{
-				id: "000000000000068B",
-				type: "xp",
+				id: "000000000000068B"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			x: 2.0d,
-			y: 4.5d,
-			id: "000000000000034F",
+			x: 2.0d
+			y: 4.5d
+			id: "000000000000034F"
 			tasks: [{
-				id: "0000000000000350",
-				type: "item",
+				id: "0000000000000350"
+				type: "item"
 				item: "simplefarming:cassava"
-			}],
+			}]
 			rewards: [{
-				id: "000000000000050D",
-				type: "item",
-				item: "farmingforblockheads:yellow_fertilizer",
+				id: "000000000000050D"
+				type: "item"
+				item: "farmingforblockheads:yellow_fertilizer"
 				count: 4
 			}]
-		},
+		}
 		{
-			x: 3.0d,
-			y: 4.5d,
-			id: "0000000000000351",
+			x: 3.0d
+			y: 4.5d
+			id: "0000000000000351"
 			tasks: [{
-				id: "0000000000000352",
-				type: "item",
+				id: "0000000000000352"
+				type: "item"
 				item: "simplefarming:broccoli"
-			}],
+			}]
 			rewards: [{
-				id: "000000000000068C",
-				type: "xp",
+				id: "000000000000068C"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			x: 4.0d,
-			y: 4.5d,
-			id: "0000000000000353",
+			x: 4.0d
+			y: 4.5d
+			id: "0000000000000353"
 			tasks: [{
-				id: "0000000000000354",
-				type: "item",
+				id: "0000000000000354"
+				type: "item"
 				item: "simplefarming:zucchini"
-			}],
+			}]
 			rewards: [{
-				id: "000000000000068D",
-				type: "xp",
+				id: "000000000000068D"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			x: 5.0d,
-			y: 4.5d,
-			id: "0000000000000355",
+			x: 5.0d
+			y: 4.5d
+			id: "0000000000000355"
 			tasks: [{
-				id: "0000000000000356",
-				type: "item",
+				id: "0000000000000356"
+				type: "item"
 				item: "simplefarming:tomato"
-			}],
+			}]
 			rewards: [{
-				id: "000000000000068E",
-				type: "xp",
+				id: "000000000000068E"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			x: 6.0d,
-			y: 4.5d,
-			id: "0000000000000357",
+			x: 6.0d
+			y: 4.5d
+			id: "0000000000000357"
 			tasks: [{
-				id: "0000000000000358",
-				type: "item",
+				id: "0000000000000358"
+				type: "item"
 				item: "simplefarming:eggplant"
-			}],
+			}]
 			rewards: [{
-				id: "000000000000068F",
-				type: "xp",
+				id: "000000000000068F"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			x: 7.0d,
-			y: 4.5d,
-			id: "0000000000000359",
+			x: 7.0d
+			y: 4.5d
+			id: "0000000000000359"
 			tasks: [{
-				id: "000000000000035A",
-				type: "item",
+				id: "000000000000035A"
+				type: "item"
 				item: "simplefarming:cucumber"
-			}],
+			}]
 			rewards: [{
-				id: "0000000000000690",
-				type: "xp",
+				id: "0000000000000690"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			x: 8.0d,
-			y: 4.5d,
-			id: "000000000000035B",
+			x: 8.0d
+			y: 4.5d
+			id: "000000000000035B"
 			tasks: [{
-				id: "000000000000035C",
-				type: "item",
+				id: "000000000000035C"
+				type: "item"
 				item: "simplefarming:plum"
 			}]
-		},
+		}
 		{
-			x: 0.0d,
-			y: 5.5d,
-			id: "000000000000035D",
+			x: 0.0d
+			y: 5.5d
+			id: "000000000000035D"
 			tasks: [{
-				id: "000000000000035E",
-				type: "item",
+				id: "000000000000035E"
+				type: "item"
 				item: "simplefarming:rice"
-			}],
+			}]
 			rewards: [{
-				id: "0000000000000691",
-				type: "xp",
+				id: "0000000000000691"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			x: 1.0d,
-			y: 5.5d,
-			id: "000000000000035F",
+			x: 1.0d
+			y: 5.5d
+			id: "000000000000035F"
 			tasks: [{
-				id: "0000000000000360",
-				type: "item",
+				id: "0000000000000360"
+				type: "item"
 				item: "simplefarming:rye"
-			}],
+			}]
 			rewards: [{
-				id: "0000000000000692",
-				type: "xp",
+				id: "0000000000000692"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			x: 2.0d,
-			y: 5.5d,
-			id: "0000000000000361",
+			x: 2.0d
+			y: 5.5d
+			id: "0000000000000361"
 			tasks: [{
-				id: "0000000000000362",
-				type: "item",
+				id: "0000000000000362"
+				type: "item"
 				item: "simplefarming:oat"
-			}],
+			}]
 			rewards: [{
-				id: "0000000000000693",
-				type: "xp",
+				id: "0000000000000693"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			x: 3.0d,
-			y: 5.5d,
-			id: "0000000000000363",
+			x: 3.0d
+			y: 5.5d
+			id: "0000000000000363"
 			tasks: [{
-				id: "0000000000000364",
-				type: "item",
+				id: "0000000000000364"
+				type: "item"
 				item: "simplefarming:barley"
-			}],
+			}]
 			rewards: [{
-				id: "0000000000000694",
-				type: "xp",
+				id: "0000000000000694"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			x: 4.0d,
-			y: 5.5d,
-			id: "0000000000000365",
+			x: 4.0d
+			y: 5.5d
+			id: "0000000000000365"
 			tasks: [{
-				id: "0000000000000366",
-				type: "item",
+				id: "0000000000000366"
+				type: "item"
 				item: "simplefarming:kenaf_fiber"
-			}],
+			}]
 			rewards: [{
-				id: "0000000000000695",
-				type: "xp",
+				id: "0000000000000695"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			x: 5.0d,
-			y: 5.5d,
-			id: "0000000000000367",
+			x: 5.0d
+			y: 5.5d
+			id: "0000000000000367"
 			tasks: [{
-				id: "0000000000000368",
-				type: "item",
+				id: "0000000000000368"
+				type: "item"
 				item: "simplefarming:cotton"
-			}],
+			}]
 			rewards: [{
-				id: "0000000000000696",
-				type: "xp",
+				id: "0000000000000696"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			x: 6.0d,
-			y: 5.5d,
-			id: "0000000000000369",
+			x: 6.0d
+			y: 5.5d
+			id: "0000000000000369"
 			tasks: [{
-				id: "000000000000036A",
-				type: "item",
+				id: "000000000000036A"
+				type: "item"
 				item: "simplefarming:yam"
-			}],
+			}]
 			rewards: [{
-				id: "0000000000000697",
-				type: "xp",
+				id: "0000000000000697"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			x: 7.0d,
-			y: 5.5d,
-			id: "000000000000036B",
+			x: 7.0d
+			y: 5.5d
+			id: "000000000000036B"
 			tasks: [{
-				id: "000000000000036C",
-				type: "item",
+				id: "000000000000036C"
+				type: "item"
 				item: "simplefarming:peanut"
-			}],
+			}]
 			rewards: [{
-				id: "0000000000000698",
-				type: "xp",
+				id: "0000000000000698"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			x: 8.0d,
-			y: 5.5d,
-			id: "000000000000036D",
+			x: 8.0d
+			y: 5.5d
+			id: "000000000000036D"
 			tasks: [{
-				id: "000000000000036E",
-				type: "item",
+				id: "000000000000036E"
+				type: "item"
 				item: "simplefarming:scarecrow"
-			}],
+			}]
 			rewards: [{
-				id: "0000000000000699",
-				type: "xp",
+				id: "0000000000000699"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			x: 4.0d,
-			y: -3.0d,
-			dependencies: ["00000000000000B0"],
-			id: "000000000000036F",
+			x: 4.0d
+			y: -3.0d
+			dependencies: ["00000000000000B0"]
+			id: "000000000000036F"
 			tasks: [{
-				id: "0000000000000370",
-				type: "item",
+				id: "0000000000000370"
+				type: "item"
 				item: "farmingforblockheads:market"
-			}],
+			}]
 			rewards: [{
-				id: "0000000000000518",
-				type: "item",
+				id: "0000000000000518"
+				type: "item"
 				item: "minecraft:brewing_stand"
 			}]
-		},
+		}
 		{
-			x: 5.0d,
-			y: -2.5d,
-			dependencies: ["00000000000000B0"],
-			id: "0000000000000371",
+			x: 5.0d
+			y: -2.5d
+			dependencies: ["00000000000000B0"]
+			id: "0000000000000371"
 			tasks: [{
-				id: "0000000000000372",
-				type: "item",
-				item: "farmingforblockheads:chicken_nest",
+				id: "0000000000000372"
+				type: "item"
+				item: "farmingforblockheads:chicken_nest"
 				count: 4L
-			}],
+			}]
 			rewards: [{
-				id: "744FC198D10355AC",
-				type: "item",
+				id: "744FC198D10355AC"
+				type: "item"
 				item: "storagedrawers:redstone_upgrade"
 			}]
-		},
+		}
 		{
-			x: 3.0d,
-			y: -2.5d,
-			dependencies: ["00000000000000B0"],
-			id: "0000000000000373",
+			x: 3.0d
+			y: -2.5d
+			dependencies: ["00000000000000B0"]
+			id: "0000000000000373"
 			tasks: [{
-				id: "0000000000000374",
-				type: "item",
-				item: "farmingforblockheads:feeding_trough",
+				id: "0000000000000374"
+				type: "item"
+				item: "farmingforblockheads:feeding_trough"
 				count: 3L
-			}],
+			}]
 			rewards: [{
-				id: "000000000000050B",
-				type: "item",
-				item: "farmingforblockheads:green_fertilizer",
+				id: "000000000000050B"
+				type: "item"
+				item: "farmingforblockheads:green_fertilizer"
 				count: 4
 			}]
-		},
+		}
 		{
-			x: 10.0d,
-			y: 3.5d,
-			shape: "hexagon",
+			x: 10.0d
+			y: 3.5d
+			shape: "hexagon"
 			dependencies: [
-				"0000000000000325",
-				"0000000000000323",
-				"0000000000000321",
-				"000000000000031F",
-				"000000000000031D",
-				"000000000000031B",
-				"0000000000000319",
-				"0000000000000317",
-				"0000000000000315",
-				"0000000000000337",
-				"0000000000000335",
-				"0000000000000333",
-				"0000000000000331",
-				"000000000000032F",
-				"000000000000032D",
-				"000000000000032B",
-				"0000000000000329",
-				"0000000000000327",
-				"0000000000000349",
-				"0000000000000347",
-				"0000000000000345",
-				"0000000000000343",
-				"0000000000000341",
-				"000000000000033F",
-				"000000000000033D",
-				"000000000000033B",
-				"0000000000000339",
-				"000000000000034B",
-				"000000000000034D",
-				"000000000000034F",
-				"0000000000000351",
-				"0000000000000353",
-				"0000000000000355",
-				"0000000000000357",
-				"0000000000000359",
-				"000000000000035B",
-				"000000000000035D",
-				"000000000000035F",
-				"0000000000000361",
-				"0000000000000363",
-				"0000000000000365",
-				"0000000000000367",
-				"0000000000000369",
-				"000000000000036B",
+				"0000000000000325"
+				"0000000000000323"
+				"0000000000000321"
+				"000000000000031F"
+				"000000000000031D"
+				"000000000000031B"
+				"0000000000000319"
+				"0000000000000317"
+				"0000000000000315"
+				"0000000000000337"
+				"0000000000000335"
+				"0000000000000333"
+				"0000000000000331"
+				"000000000000032F"
+				"000000000000032D"
+				"000000000000032B"
+				"0000000000000329"
+				"0000000000000327"
+				"0000000000000349"
+				"0000000000000347"
+				"0000000000000345"
+				"0000000000000343"
+				"0000000000000341"
+				"000000000000033F"
+				"000000000000033D"
+				"000000000000033B"
+				"0000000000000339"
+				"000000000000034B"
+				"000000000000034D"
+				"000000000000034F"
+				"0000000000000351"
+				"0000000000000353"
+				"0000000000000355"
+				"0000000000000357"
+				"0000000000000359"
+				"000000000000035B"
+				"000000000000035D"
+				"000000000000035F"
+				"0000000000000361"
+				"0000000000000363"
+				"0000000000000365"
+				"0000000000000367"
+				"0000000000000369"
+				"000000000000036B"
 				"000000000000036D"
-			],
-			size: 1.5d,
-			id: "000000000000069A",
+			]
+			size: 1.5d
+			id: "000000000000069A"
 			tasks: [{
-				id: "000000000000069D",
-				type: "checkmark",
+				id: "000000000000069D"
+				type: "checkmark"
 				title: "All Your Veggies"
-			}],
+			}]
 			rewards: [
 				{
-					id: "000000000000069C",
-					type: "item",
+					id: "000000000000069C"
+					type: "item"
 					item: "gobber2:dragon_star"
-				},
+				}
 				{
-					id: "00000000000007D4",
-					type: "item",
+					id: "00000000000007D4"
+					type: "item"
 					item: "cyclic:heart"
 				}
 			]
