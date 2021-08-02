@@ -53,6 +53,7 @@
   - valhelsia_core-16.0.9
 - Mods Removed:
   - branders-spawnermod-1.16.5-1.7.11 - conflicted with Apotheosis
+  - Lag Removal - deleted too many entities, blacklist becoming unwieldy
 - Other Changes:
   - Updated Forge to 36.2.0
   - Removed/modified quests relating to Create mod update
