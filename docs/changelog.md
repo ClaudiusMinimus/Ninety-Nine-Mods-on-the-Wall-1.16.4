@@ -2,6 +2,61 @@
 
 *Always backup your worlds!*
 
+## Version 1.18.0
+
+2021-08-02
+
+- Mods Added:
+  - flywheel-1.16-0.2.0 - new dependancy for createplus
+- Mods Updated:
+  - appleskin-forge-mc1.16.x-2.1.0
+  - architectury-1.20.28-forge
+  - Bookshelf-1.16.5-10.2.15
+  - citadel-1.7.2-1.16.5
+  - CodeChickenLib-1.16.5-4.0.2.429-universal
+  - crashutilities-3.12
+  - create-mc1.16.5_v0.3.2c
+  - createaddition-1.16.5-20210801b
+  - createplus-1.16.4_v0.3.2.1
+  - Cyclic-1.16.5-1.3.4
+  - easy_piglins-1.16.5-1.0.2
+  - engineersdecor-1.16.4-1.1.14
+  - fancymenu_2.2.0_MC_1.16.2-1.16.5
+  - forbidden_arcanus-16.2.0-beta-4
+  - ftb-chunks-forge-1605.3.1-build.41
+  - ftb-essentials-1605.1.4-build.13
+  - ftb-library-forge-1605.3.1-build.56
+  - ftb-quests-forge-1605.3.3-build.49
+  - ftb-ranks-1605.1.4-build.9-forge
+  - ftb-teams-forge-1605.2.1-build.20
+  - ftb-ultimine-forge-1605.3.0-build.25
+  - ImmersivePetroleum-1.16.5-3.3.0-5
+  - jei-1.16.5-7.7.1.116
+  - journeymap-1.16.5-5.7.3
+  - kubejs-create-1605.1.2-build.7
+  - kubejs-forge-1605.3.13-build.55
+  - Mantle-1.16.5-1.6.115
+  - moreoverlays-1.18.15-mc1.16.5
+  - PackingTape-1.16.5-0.10.1
+  - polymorph-forge-1.16.5-0.25
+  - Quark-r2.4-316
+  - refinedstorage-1.9.15
+  - refinedstorageaddons-0.7.3
+  - repurposed_structures_forge-3.0.2+1.16.5
+  - selene-1.16.5-1.5
+  - silent-gear-1.16.5-2.6.30
+  - simplefarming-1.16.5-1.3.8
+  - SimpleStorageNetwork-1.16.5-1.4.0
+  - StorageDrawers-1.16.3-8.3.0
+  - supermartijn642corelib-1.0.11a-mc1.16.5
+  - supplementaries-1.16.5-0.14.5
+  - valhelsia_core-16.0.9
+- Mods Removed:
+  - branders-spawnermod-1.16.5-1.7.11 - conflicted with Apotheosis
+- Other Changes:
+  - Updated Forge to 36.2.0
+  - Removed/modified quests relating to Create mod update
+
 ## Version 1.17.0
 
 2021-07-10

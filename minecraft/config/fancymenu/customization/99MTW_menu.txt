@@ -258,7 +258,7 @@ customization {
   label = 
   x = -39
   width = 14
-  actionid = d5734cd6-7e0b-4fb2-95e4-8d09166608471625928812481
+  actionid = cc3942c7-f554-44f5-8126-3124dbca0f0c1627936247603
   action = addbutton
   y = 15
   backgroundnormal = config/fancymenu/images/menu/socials/discord.png
@@ -275,7 +275,7 @@ customization {
   y = -13
   scale = 1.0
   alignment = left
-  value = 99 Mods on the Wall v.1.16.5-1.17.0
+  value = 99 Mods on the Wall v.1.16.5-1.18.0
 }
 
 customization {
@@ -287,7 +287,7 @@ customization {
   hoverlabel = 
   x = 75
   width = 104
-  actionid = dbbdb38f-ad13-4e3b-802d-8507db2416e41625928812493
+  actionid = 754c203a-f595-46dc-b05e-9d2378f1f3361627936247606
   action = addbutton
   y = 190
   backgroundnormal = config/fancymenu/images/menu/buttons/serverhover.png
@@ -303,7 +303,7 @@ customization {
   label = 
   x = 128
   width = 51
-  actionid = c51c8e5c-6a41-4a0b-b4d1-80e527f49b1d1625928812500
+  actionid = 563192c7-fe90-4dbd-ad46-88aaeef214801627936247609
   action = addbutton
   y = 132
   backgroundnormal = config/fancymenu/images/menu/buttons/support.png
@@ -319,7 +319,7 @@ customization {
   label = 
   x = -63
   width = 18
-  actionid = 94865ba9-2307-42a9-9514-66d1cc733c7f1625928812505
+  actionid = 473211a1-3367-4a0f-834a-29969272d56e1627936247611
   action = addbutton
   y = 16
   backgroundnormal = config/fancymenu/images/menu/socials/curseforge.png
@@ -337,7 +337,7 @@ customization {
   buttonaction = openlink
   x = -19
   width = 9
-  actionid = a8047d5b-cabd-4df9-893d-634ff35c0f4d1625928826625
+  actionid = 258f91da-0562-446d-9f82-3c2a8acb34ca1627936247613
   action = addbutton
   y = 15
   backgroundhovered = config/fancymenu/images/menu/socials/tumblrhover.png
@@ -345,5 +345,10 @@ customization {
   backgroundnormal = config/fancymenu/images/menu/socials/tumblr.png
   value = https://cms-world.tumblr.com/
   height = 11
+}
+
+customization {
+  identifier = %id=376322%
+  action = hidebutton
 }
 
