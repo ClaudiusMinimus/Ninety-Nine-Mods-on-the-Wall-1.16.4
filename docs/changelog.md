@@ -4,7 +4,7 @@
 
 ## Version 1.18.0
 
-2021-08-02
+2021-08-03
 
 - Mods Added:
   - flywheel-1.16-0.2.0 - new dependancy for createplus
