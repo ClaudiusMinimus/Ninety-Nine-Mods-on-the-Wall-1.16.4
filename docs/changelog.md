@@ -6,6 +6,15 @@
 
 2021-08-03
 
+**IMPORTANT**
+For existing worlds this update will break your quests.  To fix you will need to open your Minecraft folder and rename the ```.minecraft/saves/[world name]/ftbquests``` to ```.minecraft/saves/[world name]/ftbquests_old```
+This will reset your quests and allow you to start the quests over.
+_You will also need to reclaim all previously claimed chunks._
+
+**Servers**
+*I have already made this change on the official server.*
+To fix on a server rename the ```/[world name]/ftbquests``` to ```/[world name]/ftbquests_old```
+
 - Mods Added:
   - flywheel-1.16-0.2.0 - new dependancy for createplus
 - Mods Updated:
